@@ -18,7 +18,7 @@
     <bool name="enable_res_for_tests">true</bool>
     <bool name="enable_scrollbar_in_candidate_view">true</bool>
     <bool name="enable_simplified_ranking">false</bool>
-    <bool name="firebase_enabled">true</bool>
+    <bool name="firebase_enabled">false</bool>
     <bool name="floating_toolbar_all_caps">true</bool>
     <bool name="handle_mozc_download_dictionary_in_japanese_ime">false</bool>
     <bool name="handwriting_disable_area_until_recognizer_ready">true</bool>
@@ -33,12 +33,12 @@
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
     <bool name="pref_def_value_allow_download_with_battery">true</bool>
     <bool name="pref_def_value_allow_download_with_metered_network">false</bool>
-    <bool name="pref_def_value_allow_get_location">true</bool>
+    <bool name="pref_def_value_allow_get_location">false</bool>
     <bool name="pref_def_value_always_false">false</bool>
     <bool name="pref_def_value_always_true">true</bool>
     <bool name="pref_def_value_auto_capitalization">true</bool>
     <bool name="pref_def_value_auto_space_smart_punctuation">true</bool>
-    <bool name="pref_def_value_block_offensive_words">true</bool>
+    <bool name="pref_def_value_block_offensive_words">false</bool>
     <bool name="pref_def_value_cache_uime_voice_data">false</bool>
     <bool name="pref_def_value_candidate_runtime_debug">false</bool>
     <bool name="pref_def_value_chinese_digits_mixed_input">true</bool>
@@ -51,7 +51,7 @@
     <bool name="pref_def_value_enable_auto_space_zh_tw">true</bool>
     <bool name="pref_def_value_enable_autospace_after_punctuation">false</bool>
     <bool name="pref_def_value_enable_battery_saver_theme_switching">false</bool>
-    <bool name="pref_def_value_enable_conv2query">true</bool>
+    <bool name="pref_def_value_enable_conv2query">false</bool>
     <bool name="pref_def_value_enable_dictionary_update">true</bool>
     <bool name="pref_def_value_enable_double_space_period">true</bool>
     <bool name="pref_def_value_enable_emoji_alt_physical_key">true</bool>
@@ -83,10 +83,10 @@
     <bool name="pref_def_value_enable_spatial_model">true</bool>
     <bool name="pref_def_value_enable_sticker_predictions_while_typing">true</bool>
     <bool name="pref_def_value_enable_sync_user_dictionary">false</bool>
-    <bool name="pref_def_value_enable_user_metrics">true</bool>
-    <bool name="pref_def_value_enable_vibrate_on_keypress">true</bool>
+    <bool name="pref_def_value_enable_user_metrics">false</bool>
+    <bool name="pref_def_value_enable_vibrate_on_keypress">false</bool>
     <bool name="pref_def_value_enable_voice_donation">false</bool>
-    <bool name="pref_def_value_enable_voice_input">true</bool>
+    <bool name="pref_def_value_enable_voice_input">false</bool>
     <bool name="pref_def_value_english_prediction">true</bool>
     <bool name="pref_def_value_export_logs">false</bool>
     <bool name="pref_def_value_float_keyboard_default">false</bool>
@@ -109,7 +109,7 @@
     <bool name="pref_def_value_fuzzy_pinyin_zh_hk">true</bool>
     <bool name="pref_def_value_gesture_preview_trail">true</bool>
     <bool name="pref_def_value_hide_english_keyboard">false</bool>
-    <bool name="pref_def_value_import_user_contacts">true</bool>
+    <bool name="pref_def_value_import_user_contacts">false</bool>
     <bool name="pref_def_value_japanese_use_tri_state_mode">true</bool>
     <bool name="pref_def_value_korean_mend_consonant_conflict">true</bool>
     <bool name="pref_def_value_korean_show_suggestion">true</bool>
