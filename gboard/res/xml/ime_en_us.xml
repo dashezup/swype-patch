@@ -32,6 +32,12 @@
                 </keyboard>
                 <include href="@xml/keyboards_non_prime_latin" />
             </keyboard_group>
+            <keyboard_group variant="sangaline">
+                <keyboard def="@xml/keyboard_fragment_en" type="prime">
+                    <merge def="@xml/keyboard_latin_sangaline" />
+                </keyboard>
+                <include href="@xml/keyboards_non_prime_latin" />
+            </keyboard_group>
         </if>
         <else>
             <keyboard_group layout_theme="@style/KeyboardLayoutTheme.WithNumberRow" variant="qwerty">

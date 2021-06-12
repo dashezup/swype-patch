@@ -1385,7 +1385,9 @@
         <item>dvorak</item>
         <item>@string/variant_dvorak</item>
         <item>pcqwerty</item>
-        <item>@string/variant_pcqwerty</item>
+	<item>@string/variant_pcqwerty</item>
+	<item>sangaline</item>
+	<item>@string/variant_sangaline</item>
     </string-array>
     <string-array name="device_protected_preferences">
         <item>@string/pref_key_enable_sound_on_keypress</item>

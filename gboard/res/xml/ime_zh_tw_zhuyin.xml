@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <framework>
-    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" display_app_completions="true" inline_composing="false" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" language="zh-XD" language_specific_settings="@xml/zh_tw_language_settings" language_tag="zh-Hant-TW-t-i0-bopomofo" secondary_ime_def="@xml/ime_zh_tw_zhuyin_hard" string_id="ime_zh_tw_zhuyin" use_ascii_password_keyboard="true">
+    <ime always_show_suggestions="true" announce_auto_selected_candidate="true" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" display_app_completions="true" inline_composing="false" keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter" language="zh-XD" language_tag="zh-Hant-TW-t-i0-bopomofo" secondary_ime_def="@xml/ime_zh_tw_zhuyin_hard" string_id="ime_zh_tw_zhuyin" use_ascii_password_keyboard="true">
         <keyboard_group layout_theme="@style/KeyboardLayoutTheme.4LetterRows" variant="zhuyin" variant_label="@string/variant_zhuyin">
             <layout_specific_settings resource_id="@xml/zh_tw_zhuyin_pinyin_layout_settings" />
             <keyboard def="@xml/keyboard_fragment_zh_tw_zhuyin" type="prime">
