@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:tag=".content-suggestion-primary-color" android:layout_width="wrap_content" android:layout_height="@dimen/content_suggestion_short_image_height" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/content_suggestion_short_top_margin" android:layout_marginRight="8.0dip" android:layout_marginBottom="@dimen/content_suggestion_short_bottom_margin" android:src="@drawable/ek_mix_separator" android:scaleType="center" android:alpha="0.3" android:importantForAccessibility="no" android:layout_marginHorizontal="8.0dip" />
+</merge>

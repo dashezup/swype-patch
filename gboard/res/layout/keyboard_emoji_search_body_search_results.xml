@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.widget.FixedSizeEmojiListHolder android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" column_count="@integer/emoji_search_body_results_column_count" horizontal_alignment="true" row_count="@integer/emoji_search_body_results_row_count"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clip_item" style="@style/ClipItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/clip_item_content_text" style="@style/ClipItemContentTextWrapper">
+        <FrameLayout android:id="@id/clip_item_icon_wrapper" style="@style/ClipItemIconWrapper">
+            <ImageView android:id="@id/clip_item_icon" style="@style/ClipItemIcon" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/clip_item_icon_wrapper">
+            <ImageView android:id="@id/clip_item_entity_icon" style="@style/ClipItemEntityIcon" />
+            <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/clip_item_content" style="@style/ClipItemContentText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/clip_item_content_image_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/clip_item_content_image" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ClipItemContentImage" />
+            <ImageView android:id="@id/clip_item_content_image_square" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ClipItemContentSquareImage" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/clip_item_content_checker_layout" style="@style/ClipItemCheckerLayout">
+        <ImageView android:id="@id/clip_item_content_checker_off_background" android:tag=".icon.clipboard-item-selector" android:src="@drawable/quantum_gm_ic_radio_button_unchecked_googblue_18" style="@style/ClipItemContentCheckerBackground" />
+        <include layout="@layout/clip_item_checker_on_background" />
+        <CheckBox android:id="@id/clip_item_content_checker" style="@style/ClipItemContentChecker" />
+    </FrameLayout>
+</FrameLayout>

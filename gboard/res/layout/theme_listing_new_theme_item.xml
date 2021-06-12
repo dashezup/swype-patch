@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView style="@style/ThemeListingItemCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/theme_listing_new_item" android:background="@drawable/bg_theme_selector_builder_launcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_add_white_48" />
+    </FrameLayout>
+    <include layout="@layout/theme_listing_item_loading_indicator" />
+</androidx.cardview.widget.CardView>

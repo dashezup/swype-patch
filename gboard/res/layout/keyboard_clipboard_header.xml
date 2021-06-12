@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView android:id="@id/clipboard_header" style="@style/ClipboardHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/clipboard_header_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="start" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_back_to_prime" style="@style/ClipboardHeaderIcon.BackKey" />
+            <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/clipboard_header_select_hint" android:text="@string/clipboard_header_name" style="@style/ClipboardHeaderLabel" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_batch_delete" style="@style/ClipboardHeaderIcon.EditorKey" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_batch_pin" style="@style/ClipboardHeaderIcon.EditorKey" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView android:id="@id/key_pos_clipboard_edit_and_add" style="@style/ClipboardHeaderIcon.EditorKey" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

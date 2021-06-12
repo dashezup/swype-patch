@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nga_active_mic_background_color">@color/google_blue400</color>
+    <color name="nga_label_promo_color">#ff8ab4f8</color>
+    <color name="nga_label_voice_color">#ff8ab4f8</color>
+    <color name="theme_details_background">#ff424242</color>
+    <color name="theme_details_preview_background">#ff303030</color>
+</resources>

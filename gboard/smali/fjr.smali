@@ -1,0 +1,39 @@
+.class final synthetic Lfjr;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
+
+
+# instance fields
+.field private final a:Lfjs;
+
+
+# direct methods
+.method public constructor <init>(Lfjs;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lfjr;->a:Lfjs;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V
+    .locals 0
+
+    iget-object p1, p0, Lfjr;->a:Lfjs;
+
+    .line 1
+    invoke-virtual {p1}, Lfjs;->a()V
+
+    iget-object p1, p1, Lfjs;->a:Lfjt;
+
+    .line 2
+    invoke-virtual {p1}, Lfjt;->c()V
+
+    return-void
+.end method

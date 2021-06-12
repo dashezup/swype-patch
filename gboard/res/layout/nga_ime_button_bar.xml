@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/nga_button_height" android:layout_marginStart="@dimen/nga_button_margin" android:layout_marginEnd="@dimen/nga_button_margin" layout="@layout/nga_ime_clear_button" />
+    <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/nga_button_height" android:layout_marginStart="@dimen/nga_button_margin" android:layout_marginEnd="@dimen/nga_button_margin" layout="@layout/nga_ime_send_button" />
+    <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/nga_button_height" android:layout_marginStart="@dimen/nga_button_margin" android:layout_marginEnd="@dimen/nga_button_margin" layout="@layout/nga_ime_search_button" />
+</LinearLayout>

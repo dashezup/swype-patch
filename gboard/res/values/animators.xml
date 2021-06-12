@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <animator name="APKTOOL_DUMMY_3" />
+    <animator name="APKTOOL_DUMMY_4" />
+    <animator name="APKTOOL_DUMMY_8" />
+    <animator name="APKTOOL_DUMMY_a" />
+    <animator name="APKTOOL_DUMMY_1a" />
+    <animator name="APKTOOL_DUMMY_1b" />
+    <animator name="APKTOOL_DUMMY_1e" />
+    <animator name="APKTOOL_DUMMY_20" />
+    <animator name="APKTOOL_DUMMY_22" />
+    <animator name="APKTOOL_DUMMY_26" />
+    <animator name="APKTOOL_DUMMY_27" />
+    <animator name="APKTOOL_DUMMY_28" />
+    <animator name="APKTOOL_DUMMY_2d" />
+    <animator name="APKTOOL_DUMMY_2e" />
+    <animator name="APKTOOL_DUMMY_2f" />
+    <animator name="APKTOOL_DUMMY_30" />
+    <animator name="APKTOOL_DUMMY_31" />
+    <animator name="APKTOOL_DUMMY_32" />
+    <animator name="APKTOOL_DUMMY_33" />
+    <animator name="APKTOOL_DUMMY_34" />
+    <animator name="APKTOOL_DUMMY_35" />
+    <animator name="APKTOOL_DUMMY_3a" />
+    <animator name="APKTOOL_DUMMY_3b" />
+    <animator name="APKTOOL_DUMMY_3c" />
+    <animator name="APKTOOL_DUMMY_3d" />
+    <animator name="APKTOOL_DUMMY_45" />
+    <animator name="APKTOOL_DUMMY_46" />
+    <animator name="APKTOOL_DUMMY_47" />
+</resources>

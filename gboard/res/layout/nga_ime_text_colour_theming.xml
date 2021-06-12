@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:focusable="false" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/nga_label_voice_color" android:id="@id/ngaime_voice_label_theme" android:tag=".label.nga-voice-highlight" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:textColor="@color/nga_label_promo_color" android:id="@id/ngaime_promo_label_theme" android:tag=".label.nga-promo-highlight" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

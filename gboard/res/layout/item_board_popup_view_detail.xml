@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/item_board_popup_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PopupItemBoardContentWrapper">
+        <LinearLayout android:orientation="horizontal" android:id="@id/item_board_popup_entity_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_board_content_padding_vertical_v2" android:layout_marginStart="@dimen/clip_item_content_padding_start">
+            <ImageView android:id="@id/item_board_popup_entity_icon" android:importantForAccessibility="no" style="@style/PopupItemBoardEntityIcon" />
+            <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView android:id="@id/item_board_popup_entity_text" style="@style/PopupItemBoardEntityText" />
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView android:id="@id/item_board_popup_text_content" style="@style/PopupItemBoardTextContent" />
+    </LinearLayout>
+    <ImageView android:id="@id/item_board_popup_image_content" android:visibility="invisible" style="@style/PopupItemBoardImageContent" />
+</FrameLayout>

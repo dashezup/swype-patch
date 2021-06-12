@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/content_suggestion_short_image_height" android:layout_height="@dimen/content_suggestion_short_image_height" android:layout_marginLeft="4.0dip" android:layout_marginTop="@dimen/content_suggestion_short_top_margin" android:layout_marginRight="4.0dip" android:layout_marginBottom="@dimen/content_suggestion_short_bottom_margin" android:layout_marginHorizontal="4.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/ek_mix_fetch_status_image" android:tag=".content-suggestion-primary-color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/emoji_kitchen_no_mix_available_content_desc" />
+    </FrameLayout>
+    <include layout="@layout/emoji_kitchen_mix_separator" />
+</LinearLayout>

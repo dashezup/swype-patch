@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView android:id="@id/gboard_gif_keyboard_soft_body" app:allowMockActionDown="false" style="@style/Body.NonPrime"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/ExpressionInnerBody">
+        <FrameLayout android:id="@id/animated_image_holder_view_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="?KeyboardInputAreaWeight">
+            <com.google.android.apps.inputmethod.libs.search.widget.CategoryViewPager android:id="@id/expression_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/animated_image_holder_view_loading_spinner" android:tag=".progress-bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+        <include layout="@layout/keyboard_expression_navigation_row" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

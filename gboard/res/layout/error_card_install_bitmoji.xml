@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bitmoji_logo" android:tag=".bitmoji-logo-text" android:src="@drawable/bitmoji_logo_top" app:layout_constraintTop_toTopOf="parent" style="@style/BitmojiCardLogo" />
+    <ImageView android:src="@drawable/bitmoji_logo_bottom" app:layout_constraintTop_toTopOf="parent" style="@style/BitmojiCardLogo" />
+    <TextView app:layout_constraintTop_toBottomOf="@id/bitmoji_logo" style="@style/BitmojiCardSecondaryText.InstallCardPromo" />
+    <ImageView android:id="@id/promo_image" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/bitmoji_zero_graphic_a" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" app:layout_constraintBottom_toTopOf="@id/error_card_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/install_card_promo_text" />
+    <Button android:textSize="16.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/promo_image" style="@style/BitmojiCardActionButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

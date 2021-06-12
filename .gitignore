@@ -1,0 +1,11 @@
+# Vim
+[._]*.sw[a-p]
+
+# Apktool
+/gboard/build/
+/gboard/dist/
+
+/*.apk
+/*.sh
+/scripts/*.apk
+/scripts/*.jar

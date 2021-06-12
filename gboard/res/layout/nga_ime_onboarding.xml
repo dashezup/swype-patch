@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.CopyImageView android:id="@id/nga_ime_overlay" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:copySource="@id/copy_src" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/nga_onboarding_close_button" android:layout_width="@dimen/nga_onboarding_close_btn_size" android:layout_height="@dimen/nga_onboarding_close_btn_size" android:src="@drawable/quantum_ic_close_grey600_24" android:scaleType="center" android:contentDescription="@string/nga_onboarding_close_button_description" android:layout_marginStart="16.0dip" style="?android:borderlessButtonStyle" />
+        <TextView android:gravity="center" android:id="@id/nga_onboarding_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:lines="2" android:layout_weight="1.0" style="@style/NgaLabelText" />
+        <ImageView android:layout_gravity="center_vertical" android:tag=".icon.nga-onboarding-mic" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/quantum_ic_mic_white_24" android:scaleType="center" android:contentDescription="@string/nga_onboarding_mic_button_description" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

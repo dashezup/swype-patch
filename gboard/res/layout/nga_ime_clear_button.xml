@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ngaime_clear_view" android:contentDescription="@string/nga_clear_button_description" style="@style/NgaButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/nga_button_background" />
+    <TextView android:text="@string/nga_clear_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/NgaLabelText.Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

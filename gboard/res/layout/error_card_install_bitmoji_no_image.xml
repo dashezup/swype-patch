@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bitmoji_logo" android:tag=".bitmoji-logo-text" android:src="@drawable/bitmoji_logo_top" app:layout_constraintTop_toTopOf="parent" style="@style/BitmojiCardLogo" />
+    <ImageView android:src="@drawable/bitmoji_logo_bottom" app:layout_constraintTop_toTopOf="parent" style="@style/BitmojiCardLogo" />
+    <TextView android:textSize="14.0dip" app:layout_constraintTop_toBottomOf="@id/bitmoji_logo" style="@style/BitmojiCardSecondaryText.InstallCardPromo" />
+    <Button android:textSize="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/install_card_promo_text" style="@style/BitmojiCardActionButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
