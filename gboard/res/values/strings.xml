@@ -4596,6 +4596,7 @@ To bring up the Assistant, touch &amp; hold the Home screen button or say \"OK G
     <string name="variant_mundari">Mundari</string>
     <string name="variant_mup_deva_transliteration">abc → मालवी</string>
     <string name="variant_mve_arab_transliteration">abc → مارواري</string>
+    <string name="variant_nalmy">NALMY</string>
     <string name="variant_nande">Nande</string>
     <string name="variant_native">Native</string>
     <string name="variant_navajo">Navajo</string>
