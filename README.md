@@ -7,7 +7,7 @@ Added swype keyboard layouts
 - [Sangaline (DGHP)](http://sangaline.com/post/finding-an-optimal-keyboard-layout-for-swype/)
 - [NALMY](https://jasmcole.com/2017/06/04/swype-right/)
 
-<img src="res/sangaline.jpg" width="350">  <img src="res/nalmy.jpg" width="350">
+<img src="res/sangaline-and-nalmy.jpg" width="500">
 
 ## How to Use
 
