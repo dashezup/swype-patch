@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.google.android.inputmethod.latin" platformBuildVersionCode="30" platformBuildVersionName="11">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.google.android.inputmethod.latin.swype" platformBuildVersionCode="30" platformBuildVersionName="11">
     <original-package android:name="com.android.inputmethod.latin"/>
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -64,7 +64,7 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <provider android:authorities="com.google.android.inputmethod.latin.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.inputmethod.fileprovider.CrashResistantFileProvider">
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.inputmethod.fileprovider.CrashResistantFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
         </provider>
         <receiver android:name="com.google.android.apps.inputmethod.libs.japanese.keyboard.InputDeviceReceiver">
@@ -81,12 +81,12 @@
             <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.learning" android:resource="@raw/com_google_android_gms_learning_registration_info"/>
             <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier" android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
             <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.icing.mdd" android:resource="@raw/com_google_android_gms_icing_mdd_registration_info"/>
-            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.inputmethod.latin" android:resource="@raw/com_google_android_inputmethod_latin_registration_info_release"/>
+            <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.inputmethod.latin.swype" android:resource="@raw/com_google_android_inputmethod_latin_registration_info_release"/>
             <meta-data android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes" android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
         </service>
         <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier" android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
         <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.icing.mdd" android:resource="@xml/com_google_android_gms_icing_mdd_phenotype"/>
-        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.inputmethod.latin" android:resource="@xml/com_google_android_inputmethod_latin_phenotype_release"/>
+        <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.inputmethod.latin.swype" android:resource="@xml/com_google_android_inputmethod_latin_phenotype_release"/>
         <meta-data android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes" android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
         <activity android:configChanges="screenLayout|smallestScreenSize" android:exported="true" android:label="@string/setting_title" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:taskAffinity="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:theme="@style/SettingsThemeM2"/>
         <service android:exported="true" android:label="@string/spell_checker_name" android:name="com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService" android:permission="android.permission.BIND_TEXT_SERVICE">
@@ -100,7 +100,7 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.google.android.inputmethod.latin" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+        <provider android:authorities="com.google.android.inputmethod.latin.swype" android:exported="true" android:grantUriPermissions="true" android:multiprocess="false" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsSearchIndexablesProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
             <intent-filter>
                 <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
             </intent-filter>
@@ -111,10 +111,10 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="deeplink.com.google.android.inputmethod.latin" android:scheme="https"/>
+                <data android:host="deeplink.com.google.android.inputmethod.latin.swype" android:scheme="https"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.google.android.inputmethod.latin.clipboard_content" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.clipboard.ClipboardContentProvider"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.clipboard_content" android:exported="false" android:name="com.google.android.apps.inputmethod.libs.clipboard.ClipboardContentProvider"/>
         <activity android:name="com.google.android.apps.inputmethod.libs.crash.UserFeedbackActivity"/>
         <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksForegroundTaskService"/>
         <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.dataservice.superpacks.SuperpacksBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
@@ -123,7 +123,7 @@
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
             </intent-filter>
         </receiver>
-        <provider android:authorities="com.google.android.inputmethod.latin.dvrnn.trainingservice.provider" android:exported="false" android:initOrder="0x7FFFFFFF" android:multiprocess="false" android:name="com.google.android.apps.inputmethod.libs.dvrnn.trainingservice.TrainingProcessInitializerContentProvider" android:process=":train"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.dvrnn.trainingservice.provider" android:exported="false" android:initOrder="0x7FFFFFFF" android:multiprocess="false" android:name="com.google.android.apps.inputmethod.libs.dvrnn.trainingservice.TrainingProcessInitializerContentProvider" android:process=":train"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.learning.internal.training.InAppTrainingService" android:process=":train">
             <intent-filter>
                 <action android:name="com.google.android.gms.learning.training.START"/>
@@ -133,7 +133,7 @@
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <service android:exported="true" android:name="com.google.android.libraries.inputmethod.taskscheduler.JobSchedulerImpl$TaskRunnerJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.apps.inputmethod.libs.framework.preference.SubtypeSettingsActivity" android:taskAffinity="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.inputactionprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.inputactionprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/input_action_path"/>
         </provider>
         <activity android:exported="true" android:name="com.google.android.apps.inputmethod.libs.lens.impl.LensGboardActivity" android:theme="@style/Theme.LensView">
@@ -194,9 +194,9 @@
         </service>
         <activity android:label="" android:name="com.google.android.libraries.avatar.creation.CreateAvatarActivity" android:screenOrientation="portrait" android:theme="@style/AvatarCreationTheme"/>
         <activity android:label="@string/avatar_customizer_label" android:name="com.google.android.libraries.avatar.customizer.CustomizeAvatarActivity" android:screenOrientation="portrait" android:theme="@style/StickerLightTheme"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.appcontext.provider" android:directBootAware="true" android:exported="false" android:initOrder="0x7FFFFFFF" android:name="com.google.android.libraries.inputmethod.appcontext.ApplicationContextContentProvider"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.appcontext.provider" android:directBootAware="true" android:exported="false" android:initOrder="0x7FFFFFFF" android:name="com.google.android.libraries.inputmethod.appcontext.ApplicationContextContentProvider"/>
         <activity android:configChanges="orientation|screenSize" android:exported="false" android:label="BlankActivity" android:name="com.google.android.libraries.inputmethod.blankactivity.BlankActivity" android:theme="@android:style/Theme.Material.Light"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.appcontext.leakcanary" android:exported="false" android:initOrder="0x7FFFFFFF" android:name="com.google.android.libraries.inputmethod.leakcanary.LeakcanaryApplicationContextContentProvider" android:process=":leakcanary"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.appcontext.leakcanary" android:exported="false" android:initOrder="0x7FFFFFFF" android:name="com.google.android.libraries.inputmethod.leakcanary.LeakcanaryApplicationContextContentProvider" android:process=":leakcanary"/>
         <service android:exported="false" android:name="com.google.android.libraries.inputmethod.mdd.ForegroundDownloadService"/>
         <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.permissions.PermissionsActivity" android:taskAffinity="" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"/>
         <activity android:exported="false" android:name="com.google.android.libraries.inputmethod.workprofile.EmptyActivity" android:theme="@style/TransparentActivity"/>
@@ -220,10 +220,10 @@
         <activity android:name="com.google.android.libraries.stickers.avatarcreation.LaunchAvatarCreationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:label="@string/sticker_gallery_label" android:name="com.google.android.libraries.stickers.gallery.StickerGalleryActivity" android:theme="@style/StickerLightTheme"/>
         <activity android:label="@string/megamode_title_label" android:name="com.google.android.libraries.stickers.megamode.MegamodeActivity" android:screenOrientation="portrait" android:theme="@style/StickerLightTheme"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.expressivestickers.megamodefileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.stickers.megamode.MegamodeFileProvider">
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.expressivestickers.megamodefileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.libraries.stickers.megamode.MegamodeFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/megamode_file_provider_paths"/>
         </provider>
         <activity android:label="@string/pack_details_label" android:name="com.google.android.libraries.stickers.packdetails.PackDetailsActivity" android:theme="@style/StickerLightTheme"/>
-        <provider android:authorities="com.google.android.inputmethod.latin.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="com.google.android.inputmethod.latin.swype.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
     </application>
 </manifest>

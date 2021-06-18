@@ -995,7 +995,7 @@
     .line 61
     invoke-virtual {v8, v9, v10}, Litf;->b(Lisv;Z)V
 
-    const-string v9, "com.google.android.inputmethod.latin.BACKGROUND_CRASH"
+    const-string v9, "com.google.android.inputmethod.latin.swype.BACKGROUND_CRASH"
 
     iput-object v9, v8, Litf;->b:Ljava/lang/String;
 

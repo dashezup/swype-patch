@@ -51,7 +51,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "com.google.android.inputmethod.latin"
+    const-string v0, "com.google.android.inputmethod.latin.swype"
 
     .line 3
     invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z

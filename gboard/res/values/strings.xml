@@ -590,8 +590,8 @@ Please wait a while and then try again."</string>
     <string name="gboard_local_category_content_desc">Show %s</string>
     <string name="gboard_no_connection_button">TRY AGAIN</string>
     <string name="gboard_no_connection_message">You are not connected to the internet</string>
-    <string name="gboard_play_store_uri">market://details?id=com.google.android.inputmethod.latin</string>
-    <string name="gboard_play_store_web_uri">http://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin</string>
+    <string name="gboard_play_store_uri">market://details?id=com.google.android.inputmethod.latin.swype</string>
+    <string name="gboard_play_store_web_uri">http://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin.swype</string>
     <string name="gboard_recently_used_stickers_content_desc">Recently Used Stickers</string>
     <string name="gboard_remote_network_error_message">"Something's gone wrong.
 Please wait a moment and then try again."</string>

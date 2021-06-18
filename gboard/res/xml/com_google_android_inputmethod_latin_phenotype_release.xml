@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phenotype-registrations>
     <phenotype-registration>
-        <configuration-package>com.google.android.inputmethod.latin</configuration-package>
+        <configuration-package>com.google.android.inputmethod.latin.swype</configuration-package>
         <log-sources>
             <log-source>LATIN_IME</log-source>
             <log-source>GOOGLE_KEYBOARD_COUNTERS</log-source>

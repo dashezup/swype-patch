@@ -452,7 +452,7 @@
     :try_start_9
     iget-object v4, v2, Lcom/google/android/gms/learning/dynamite/training/InAppTrainingServiceImpl;->i:Ljava/lang/String;
 
-    const-string v6, "com.google.android.inputmethod.latin"
+    const-string v6, "com.google.android.inputmethod.latin.swype"
 
     .line 35
     invoke-virtual {v4, v6}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z

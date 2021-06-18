@@ -71,7 +71,7 @@
 
     if-gt v1, v6, :cond_0
 
-    const-string v1, "com.google.android.inputmethod.latin.inputcontent"
+    const-string v1, "com.google.android.inputmethod.latin.swype.inputcontent"
 
     goto :goto_0
 
@@ -85,7 +85,7 @@
 
     if-gt v1, v6, :cond_1
 
-    const-string v1, "com.google.android.inputmethod.latin.dev.inputcontent"
+    const-string v1, "com.google.android.inputmethod.latin.swype.dev.inputcontent"
 
     goto :goto_1
 

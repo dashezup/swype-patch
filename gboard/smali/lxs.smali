@@ -97,7 +97,7 @@
 
     iput-object p1, p0, Llxs;->b:Landroid/content/Context;
 
-    const-string v4, "com.google.android.inputmethod.latin"
+    const-string v4, "com.google.android.inputmethod.latin.swype"
 
     .line 8
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z

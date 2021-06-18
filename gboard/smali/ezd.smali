@@ -189,7 +189,7 @@
 
     move-result-object p0
 
-    const-string v1, "com.google.android.inputmethod.latin"
+    const-string v1, "com.google.android.inputmethod.latin.swype"
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
