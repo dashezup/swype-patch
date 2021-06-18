@@ -36,6 +36,14 @@ replace_keyhash() {
 	python3 "${SCRIPT_PATH}/replace_keyhash.py" $smali_file
 }
 
+rename_pkg() {
+	grep -rl 'com.google.android.inputmethod.latin' "${APP}/AndroidManifest.xml" "${APP}/res" "${APP}"/smali* \
+		| grep '\.xml$\|\.smali$' \
+		| xargs sed -i 's/com\.google\.android\.inputmethod\.latin/com\.google\.android\.inputmethod\.latin\.swype/'
+	mkdir "${APP}/smali/com/google/android/apps/inputmethod/latin/swype" 2>/dev/null
+	mv "${APP}"/smali/com/google/android/apps/inputmethod/latin/* "${APP}/smali/com/google/android/apps/inputmethod/latin/swype" 2>/dev/null
+}
+
 build_apk() {
 	echo "- building apk..."
 	[ ! -d "$APP" ] && { echo "- aborted, decompile it at first and try again"; exit 0; }
@@ -60,6 +68,7 @@ Usage: $progname       show usage info
        $progname -c    verify APK
        $progname -d    decompile APK
        $progname -k    replace keyhash
+       $progname -r    rename package name
        $progname -b    build and sign APK
 _EOF
 }
@@ -68,6 +77,7 @@ case $1 in
 	-c) verify_apk;;
 	-d) decompile_apk;;
 	-k) replace_keyhash;;
+	-r) rename_pkg;;
 	-b) build_apk && sign_apk && rename_apk;;
 	*) show_usage;;
 esac
