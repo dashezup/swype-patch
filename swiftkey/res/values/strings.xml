@@ -1427,7 +1427,7 @@ The control groups for each experiment are equivalent."</string>
     <string name="layout_name_assamese">Assamese</string>
     <string name="layout_name_assamese_secondary">@string/layout_name_assamese</string>
     <string name="layout_name_azerbaijani">Azerbaijani</string>
-    <string name="layout_name_azerty">AZERTY</string>
+    <string name="layout_name_azerty">Sangaline</string>
     <string name="layout_name_belarusian">Belarusian</string>
     <string name="layout_name_bengali">Bangla (Inscript)</string>
     <string name="layout_name_bengali_secondary">@string/layout_name_bengali</string>
@@ -1529,7 +1529,7 @@ The control groups for each experiment are equivalent."</string>
     <string name="layout_name_qwertz_extended">QWERTZ (Extended)</string>
     <string name="layout_name_qwertz_serbian">QWERTZ (Serbian/Croatian/Bosnian)</string>
     <string name="layout_name_qwertz_swiss_french">QWERTZ (Swiss French)</string>
-    <string name="layout_name_qzerty">QZERTY</string>
+    <string name="layout_name_qzerty">NALMY</string>
     <string name="layout_name_rapa_nui">Rapa Nui</string>
     <string name="layout_name_romaji">Japanese QWERTY</string>
     <string name="layout_name_russian">Russian</string>
