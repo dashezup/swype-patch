@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Kopētais teksts tiks automātiski parādīts šeit</item>
+        <item>Piespraudiet kopētā teksta fragmentus, pretējā gadījumā teksta lietošanas termiņš beigsies pēc 1 stundas</item>
+        <item>Slidiniet starpliktuves vienumus, lai tos dzēstu</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Noņemt paredzējumu</item>
+        <item>Sniegt atsauksmes</item>
+        <item>Saglabāt plūduma atkļūdošanas žurnālu</item>
+    </string-array>
+</resources>

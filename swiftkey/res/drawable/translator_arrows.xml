@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="59.0dip" android:viewportWidth="59.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="line1">
+        <path android:name="line1" android:pathData="M21,9 L52,9 C52,9 58,14 52,21 L7,21" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathStart="0.0" android:trimPathEnd="0.35" />
+    </group>
+    <group android:name="line1a">
+        <path android:name="line1a" android:pathData="M43,2 L52,9" android:strokeColor="@color/white" android:strokeWidth="2.0" />
+    </group>
+    <group android:name="line1b">
+        <path android:name="line1b" android:pathData="M43,16 L52,9" android:strokeColor="@color/white" android:strokeWidth="2.0" />
+    </group>
+    <group android:name="line1c">
+        <path android:name="line1c" android:pathData="M7,21 L15,28" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathEnd="0.0" />
+    </group>
+    <group android:name="line1d">
+        <path android:name="line1d" android:pathData="M7,21 L15,14" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathEnd="0.0" />
+    </group>
+    <group android:name="line2">
+        <path android:name="line2" android:pathData="M37,21 L7,21 C7,21 1,15 7.3,9 L7,9 L52,9" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathStart="0.0" android:trimPathEnd="0.34" />
+    </group>
+    <group android:name="line2a">
+        <path android:name="line2a" android:pathData="M15,14 L7,21" android:strokeColor="@color/white" android:strokeWidth="2.0" />
+    </group>
+    <group android:name="line2b">
+        <path android:name="line2b" android:pathData="M15,28 L7,21" android:strokeColor="@color/white" android:strokeWidth="2.0" />
+    </group>
+    <group android:name="line2c">
+        <path android:name="line2c" android:pathData="M52,9 L43,2" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathEnd="0.0" />
+    </group>
+    <group android:name="line2d">
+        <path android:name="line2d" android:pathData="M52,9 L43,16" android:strokeColor="@color/white" android:strokeWidth="2.0" android:trimPathEnd="0.0" />
+    </group>
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="ㅣ" />
+    <PrimaryKey touchtype:primary="ᆞ" />
+    <PrimaryKey touchtype:primary="ㅡ" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="ㄱㅋ" />
+    <PrimaryKey touchtype:primary="ㄴㄹ" />
+    <PrimaryKey touchtype:primary="ㄷㅌ" />
+    <PrimaryKey touchtype:primary="," />
+    <PrimaryKey touchtype:primary="ㅂㅍ" />
+    <PrimaryKey touchtype:primary="ㅅㅎ" />
+    <PrimaryKey touchtype:primary="ㅈㅊ" />
+    <PrimaryKey touchtype:primary="." />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

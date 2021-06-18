@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:key="@string/pref_about_version_key" android:summary="@string/pref_about_version_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_about_visit_online" android:title="@string/pref_about_online_title" android:key="@string/pref_about_visit_online_key" android:summary="@string/pref_about_online_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_like_facebook" android:title="@string/pref_about_like_facebook_title" android:key="@string/pref_about_like_facebook_key" android:summary="@string/pref_about_like_facebook_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_about_twitter" android:title="@string/pref_about_twitter_title" android:key="@string/pref_about_twitter_key" android:summary="@string/pref_about_twitter_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:enabled="@bool/cloud_services_enabled" android:id="@id/pref_cloud_receive_emails" android:title="@string/pref_account_receive_emails_title" android:key="@string/pref_cloud_receive_emails_key" app:summaryStringFormat="@string/pref_account_receive_emails_summary_no_account" app:summaryStringFormatArg="@string/product_name" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:id="@id/pref_tips_achievements_notifications" android:title="@string/pref_tips_achievements_notifications_title" android:key="@string/pref_user_messaging_notifications_key" android:summary="@string/pref_tips_achievements_notifications_summary" android:defaultValue="@bool/pref_user_messaging_notifications_enabled_default" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_about_eula" android:title="@string/pref_about_eula_title" android:key="@string/pref_about_eula_key" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_about_oss_licenses" android:title="@string/pref_about_oss_licences_title" android:key="@string/pref_about_oss_licences_key" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:id="@id/pref_about_intellectual_property" android:title="@string/pref_about_intellectual_property_title" android:key="@string/pref_about_intellectual_property_key" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:visibility="invisible" android:title="@string/pref_accessibility_statement" android:key="@string/pref_about_accessibility_statement_key" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>O texto copiado aparecerá automaticamente aqui</item>
+        <item>Fixe os fragmentos de texto copiados para impedir que expirem após 1 hora</item>
+        <item>Deslize os itens na área de transferência para os eliminar</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Remover previsão</item>
+        <item>Fazer comentário</item>
+        <item>Guardar registo de depuração de fluência</item>
+    </string-array>
+</resources>

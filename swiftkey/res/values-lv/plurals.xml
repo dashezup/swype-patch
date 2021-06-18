@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Pievienoja %1$d valodas</item>
+        <item quantity="zero">Pievienotas %1$d valodas</item>
+        <item quantity="one">Pievienoja %1$d valodu</item>
+        <item quantity="two">Pievienoja %1$d valodas</item>
+        <item quantity="few">Pievienoja %1$d valodas</item>
+        <item quantity="many">Pievienoja %1$d valodas</item>
+    </plurals>
+</resources>

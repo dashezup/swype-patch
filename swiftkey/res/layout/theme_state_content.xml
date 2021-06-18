@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/theme_button_holder" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/theme_item_padding" android:layout_alignParentEnd="true">
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/theme_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes" />
+        <ImageButton android:layout_gravity="center" android:id="@id/theme_download_button" android:background="@color/transparent_black" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_download" android:adjustViewBounds="true" android:tint="@color/theme_download_icon" android:contentDescription="@string/themes_download_action" android:importantForAccessibility="yes" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/theme_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_toStartOf="@id/theme_button_holder" android:layout_alignParentStart="true" />
+</merge>

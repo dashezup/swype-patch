@@ -1,0 +1,11 @@
+{
+    "charmap":{},
+    "multicharmap": {
+                "ㅏㅣ":[["ㅐ", 1.0]],
+                "ㅑㅣ":[["ㅒ", 1.0]],
+                "ㅓㅣ":[["ㅔ", 1.0]],
+                "ㅕㅣ":[["ㅖ", 1.0]]
+    },
+    "variant":["ko", "KR-vega-languagemap"],
+    "tags":["ko", "KR", "korean-vega", "charactermap"]
+}

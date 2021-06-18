@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Zde se bude automaticky zobrazovat text, který zkopírujete.</item>
+        <item>Zkopírované kousky textu můžete připnout, aby po 1 hodině neskončila jejich platnost.</item>
+        <item>Výstřižky můžete odstraňovat odsunutím.</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Odebrat predikci</item>
+        <item>Poslat názor</item>
+        <item>Uložit protokol ladění plynulosti</item>
+    </string-array>
+</resources>

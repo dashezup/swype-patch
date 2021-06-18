@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.ui.AccessibilityEmptyRecyclerView android:layout_gravity="top" android:id="@id/toolbar_toolgrid_recycler_view" android:fadingEdgeLength="@dimen/toolbar_toolgrid_fading_edge_length" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" />
+    <View android:layout_gravity="top" android:id="@id/toolbar_toolgrid_top_divider" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="bottom" android:id="@id/toolbar_toolgrid_bottom_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_toolgrid_bottom_bar_height" android:text="@string/toolbar_toolgrid_reorder_button_text" style="@style/ToolbarBottomBarButton" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

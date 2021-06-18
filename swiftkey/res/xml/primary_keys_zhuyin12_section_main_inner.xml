@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="ㄅㄉㄚ" />
+    <PrimaryKey touchtype:primary="ㄍㄐㄞ" />
+    <PrimaryKey touchtype:primary="ㄓㄗㄢㄦ" />
+    <PrimaryKey touchtype:primary="ㄆㄊㄛ" />
+    <PrimaryKey touchtype:primary="ㄎㄑㄟ" />
+    <PrimaryKey touchtype:primary="ㄔㄘㄣㄧ" />
+    <PrimaryKey touchtype:primary="ㄇㄋㄜ" />
+    <PrimaryKey touchtype:primary="ㄏㄒㄠㄡ" />
+    <PrimaryKey touchtype:primary="ㄕㄙㄤㄨ" />
+    <PrimaryKey touchtype:primary="ㄈㄌㄝ" />
+    <PrimaryKey touchtype:primary="ˇˋˊ˙" />
+    <PrimaryKey touchtype:primary="ㄖㄥㄩ" />
+</PrimaryKeyList>

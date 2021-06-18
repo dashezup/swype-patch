@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/translator_arrows"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="line1" android:animation="@anim/translator_line_arrow_animation" />
+    <target android:name="line1a" android:animation="@anim/translator_arrow_head_begin_animation" />
+    <target android:name="line1b" android:animation="@anim/translator_arrow_head_begin_animation" />
+    <target android:name="line1c" android:animation="@anim/translator_arrow_head_end_animation" />
+    <target android:name="line1d" android:animation="@anim/translator_arrow_head_end_animation" />
+    <target android:name="line2" android:animation="@anim/translator_line_arrow_animation" />
+    <target android:name="line2a" android:animation="@anim/translator_arrow_head_begin_animation" />
+    <target android:name="line2b" android:animation="@anim/translator_arrow_head_begin_animation" />
+    <target android:name="line2c" android:animation="@anim/translator_arrow_head_end_animation" />
+    <target android:name="line2d" android:animation="@anim/translator_arrow_head_end_animation" />
+</animated-vector>

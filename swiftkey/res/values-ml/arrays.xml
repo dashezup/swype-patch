@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>നിങ്ങൾ പകർത്തുന്ന ടെക്‌സ്‌റ്റ് സ്വയമേവ ഇവിടെ കാണിക്കും</item>
+        <item>1 മണിക്കൂറിന്നു ശേഷം കാലഹരണപ്പെടുന്നത് തടയാൻ പിൻ പകർത്തിയ ടെക്സ്റ്റ് സ്‌നിപ്പെറ്റുകൾ</item>
+        <item>ക്ലിപ്പ്ബോർഡ് ഇനങ്ങൾ ഇല്ലാതാക്കാൻ അവ സ്ലൈഡ് ചെയ്യുക</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>പ്രവചനം നീക്കംചെയ്യുക</item>
+        <item>ഫീഡ്‌ബാക്ക് നൽകുക</item>
+        <item>ഫ്ലൂവൻസി ഡീബഗ് ലോഗ് സംരക്ഷിക്കുക</item>
+    </string-array>
+</resources>

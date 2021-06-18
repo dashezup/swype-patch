@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:enabled="false" android:id="@id/age_gate_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/age_gate_next" style="@style/AgeGateButtonStyle" />
+    <TextView android:textColor="?colorAccent" android:id="@id/age_gate_not_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/age_gate_not_now_margin" android:layout_marginBottom="@dimen/age_gate_not_now_margin" android:text="@string/not_now" />
+</LinearLayout>

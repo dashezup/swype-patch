@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContainerTheme" parent="@style/BaseContainerTheme">
+        <item name="android:navigationBarColor">@color/primary_background</item>
+        <item name="android:windowLightStatusBar">@bool/is_light_mode</item>
+        <item name="android:windowLightNavigationBar">@bool/is_light_mode</item>
+        <item name="colorPrimaryDark">@color/secondary_element</item>
+    </style>
+    <style name="InstallerTheme" parent="@style/ContainerTheme">
+        <item name="android:windowBackground">@color/installer_background</item>
+        <item name="android:navigationBarColor">@color/installer_background</item>
+    </style>
+</resources>

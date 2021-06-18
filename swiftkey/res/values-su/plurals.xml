@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Basa %1$d geus ditambahkeun</item>
+        <item quantity="zero">Basa %1$d geus ditambahkeun</item>
+        <item quantity="one">Basa %1$d geus ditambahkeun</item>
+        <item quantity="two">Basa %1$d geus ditambahkeun</item>
+        <item quantity="few">Basa %1$d geus ditambahkeun</item>
+        <item quantity="many">Basa %1$d geus ditambahkeun</item>
+    </plurals>
+</resources>

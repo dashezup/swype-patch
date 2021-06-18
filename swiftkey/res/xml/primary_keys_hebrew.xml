@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="'" />
+    <PrimaryKey touchtype:primary="ק" />
+    <PrimaryKey touchtype:primary="ר" />
+    <PrimaryKey touchtype:primary="א" />
+    <PrimaryKey touchtype:primary="ט" />
+    <PrimaryKey touchtype:primary="ו" />
+    <PrimaryKey touchtype:primary="ן" />
+    <PrimaryKey touchtype:primary="ם" />
+    <PrimaryKey touchtype:primary="פ" />
+    <PrimaryKey touchtype:primary="ש" />
+    <PrimaryKey touchtype:primary="ד" />
+    <PrimaryKey touchtype:primary="ג" />
+    <PrimaryKey touchtype:primary="כ" />
+    <PrimaryKey touchtype:primary="ע" />
+    <PrimaryKey touchtype:primary="װ" />
+    <PrimaryKey touchtype:primary="י" />
+    <PrimaryKey touchtype:primary="ײ" />
+    <PrimaryKey touchtype:primary="ח" />
+    <PrimaryKey touchtype:primary="ױ" />
+    <PrimaryKey touchtype:primary="ל" />
+    <PrimaryKey touchtype:primary="ך" />
+    <PrimaryKey touchtype:primary="ף" />
+    <PrimaryKey touchtype:primary="ז" />
+    <PrimaryKey touchtype:primary="ס" />
+    <PrimaryKey touchtype:primary="£" />
+    <PrimaryKey touchtype:primary="€" />
+    <PrimaryKey touchtype:primary="¢" />
+    <PrimaryKey touchtype:primary="¥" />
+    <PrimaryKey touchtype:primary="ב" />
+    <PrimaryKey touchtype:primary="ה" />
+    <PrimaryKey touchtype:primary="נ" />
+    <PrimaryKey touchtype:primary="מ" />
+    <PrimaryKey touchtype:primary="צ" />
+    <PrimaryKey touchtype:primary="ת" />
+    <PrimaryKey touchtype:primary="ץ" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

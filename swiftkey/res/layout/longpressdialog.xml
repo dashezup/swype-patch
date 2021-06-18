@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="25.0dip" android:paddingEnd="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/grey_400" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textSize="18.0sp" android:id="@id/title_longpress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[Prediction Information]" />
+    <TextView android:textSize="16.0sp" android:id="@id/source_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:layout_constraintTop_toBottomOf="@id/title_longpress" />
+    <TextView android:textSize="16.0sp" android:id="@id/model_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:layout_constraintTop_toBottomOf="@id/source_model" />
+    <TextView android:textSize="16.0sp" android:id="@id/candidate_probability" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:layout_constraintTop_toBottomOf="@id/model_version" />
+    <TextView android:textSize="16.0sp" android:id="@id/candidate_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:layout_constraintTop_toBottomOf="@id/candidate_probability" />
+</androidx.constraintlayout.widget.ConstraintLayout>

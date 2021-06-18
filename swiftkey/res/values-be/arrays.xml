@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>"Скапіраваны тэкст аўтаматычна з'явіцца тут"</item>
+        <item>Замацуйце скапір. фрагменты тэксту, каб яны не пратэрмінав. праз 1 гдз</item>
+        <item>Правядзіце па элементах буфера абмену для выдалення</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Выдаліць прапанову</item>
+        <item>Пакінуць водгук</item>
+        <item>Захаваць журнал адладкі адносна хуткасці</item>
+    </string-array>
+</resources>

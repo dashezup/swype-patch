@@ -4,6 +4,8 @@
 # Apktool
 /gboard/build/
 /gboard/dist/
+/swiftkey/build/
+/swiftkey/dist/
 
 /*.apk
 /*.sh

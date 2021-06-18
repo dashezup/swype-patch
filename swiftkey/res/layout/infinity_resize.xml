@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/infinity_resize_0" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/secondary_resize_box" layout="@layout/secondary_resize_box" />
+    <androidx.constraintlayout.widget.Group android:id="@id/secondary_box_virtual_container" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:constraint_referenced_ids="secondary_box_resize_ok_button,                                             secondary_box_resize_reset_button,                                             secondary_box_faded_background,                                             secondary_box_resize_top_line,                                             secondary_box_resize_bottom_line,                                             secondary_box_resize_left_line,                                             secondary_box_resize_right_line" />
+    <include android:id="@id/primary_resize_box" layout="@layout/primary_resize_box" />
+</androidx.constraintlayout.widget.ConstraintLayout>

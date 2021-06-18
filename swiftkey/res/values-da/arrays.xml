@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Tekst, du kopierer, vises automatisk her</item>
+        <item>Fastgør kopierede tekststykker, så de ikke udløber efter 1 time</item>
+        <item>Du kan slette elementer fra udklipsholderen ved at skubbe dem</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Fjern fuldførelse</item>
+        <item>Giv feedback</item>
+        <item>Gem logfil fra tilpasning af sprogbrug</item>
+    </string-array>
+</resources>

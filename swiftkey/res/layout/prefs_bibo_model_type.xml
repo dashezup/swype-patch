@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" style="@style/PreferenceItem">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center_vertical" android:id="@id/bibo_model_type" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_weight="1.0" style="@style/PreferenceHeader" />
+        <ImageButton android:id="@id/bibo_model_share" android:background="@drawable/bibo_share_ripple" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_share" android:layout_weight="0.0" app:tint="?colorPrimaryDark" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bibo_model_options" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

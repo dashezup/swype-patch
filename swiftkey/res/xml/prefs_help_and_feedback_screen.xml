@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettings.custompreferences.PromotedPreference android:persistent="false" android:key="@string/pref_launch_crowdsourcing_page_key" app:actionText="@string/get_started" app:iconRes="@drawable/ic_crowdsourcing_promo" app:summary="@string/pref_launch_crowdsourcing_page_summary" app:title="@string/pref_launch_crowdsourcing_page_title" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:title="@string/support_action" android:key="@string/pref_help_and_feedback_go_to_support_key" />
+    <com.touchtype.ui.StringFormatPreference android:key="@string/pref_help_and_feedback_share_swiftkey_key" app:titleStringFormat="@string/container_home_menu_share" app:titleStringFormatArg="@string/product_name" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:title="@string/rate_us" android:key="@string/pref_help_and_feedback_rate_us_key" />
+</PreferenceScreen>

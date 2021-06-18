@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Pridali sa jazyky: %1$d</item>
+        <item quantity="zero">Pridali sa jazyky: %1$d</item>
+        <item quantity="one">Pridal sa jazyk: %1$d</item>
+        <item quantity="two">Pridali sa jazyky: %1$d</item>
+        <item quantity="few">Pridali sa jazyky: %1$d</item>
+        <item quantity="many">Pridali sa jazyky: %1$d</item>
+    </plurals>
+</resources>

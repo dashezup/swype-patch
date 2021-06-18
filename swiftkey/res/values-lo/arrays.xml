@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ຂໍ້ຄວາມທີ່ທ່ານສຳເນົາຈະສະແດງຢູ່ບ່ອນນີ້ອັດຕະໂນມັດ</item>
+        <item>ສຳເນົາ PIN ໄປໃສ່ສະນິບເພັດເພື່ອຢຸດບໍ່ໃຫ້ພວກມັນໝົດອາຍຸຫຼັງຈາກ 1 ຊົ່ວໂມງPin copied text snippets to stop them expiring after 1 hour</item>
+        <item>ເລື່ອນລາຍການຄລິບບອດເພື່ອລຶບພວກມັນ</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>ຍົກຍ້າຍການຄາດຄະເນ?</item>
+        <item>ໃຫ້ຄຳເຫັນ</item>
+        <item>ຈັດເກັບບັນທຶກດີບັກ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Skopiowany tekst będzie automatycznie wyświetlany tutaj</item>
+        <item>Przypnij skopiowane fragmenty tekstu, aby zapobiec ich usunięciu po upływie 1 godz.</item>
+        <item>Przesuń pozycje schowka, aby je usunąć</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Usunąć przewidywanie</item>
+        <item>Przekazać opinię</item>
+        <item>Zapisz dziennik płynności debugowania</item>
+    </string-array>
+</resources>

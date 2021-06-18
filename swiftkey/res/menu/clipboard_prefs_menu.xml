@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_home_info" android:id="@id/action_clipboard_info" android:title="@string/learn_more" touchtype:iconTint="@color/icon_tint" touchtype:showAsAction="ifRoom" />
+</menu>

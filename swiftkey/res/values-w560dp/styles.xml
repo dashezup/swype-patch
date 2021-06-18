@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContainerThemeTabs">
+        <item name="tabMinWidth">@dimen/theme_tab_min_width</item>
+        <item name="tabMode">scrollable</item>
+    </style>
+</resources>

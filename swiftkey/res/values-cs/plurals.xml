@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Byly přidány jazyky (%1$d)</item>
+        <item quantity="zero">Byly přidány jazyky (%1$d)</item>
+        <item quantity="one">Byl přidán jazyk (%1$d)</item>
+        <item quantity="two">Byly přidány jazyky (%1$d)</item>
+        <item quantity="few">Byly přidány jazyky (%1$d)</item>
+        <item quantity="many">Byly přidány jazyky (%1$d)</item>
+    </plurals>
+</resources>

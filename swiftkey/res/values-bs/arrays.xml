@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Tekst koji kopirate će se automatski prikazati ovdje</item>
+        <item>Zakačite kopirane tekstualne isječke da biste zaustavili njihov istek nakon sat vremena</item>
+        <item>Prevucite stavke u međuspremniku da biste ih izbrisali</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Ukloni predviđanje</item>
+        <item>Pružite povratne informacije</item>
+        <item>Sačuvaj evidenciju ispravljanja pogrešaka u tečnosti teksta</item>
+    </string-array>
+</resources>

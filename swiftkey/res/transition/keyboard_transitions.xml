@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <transition app:onAttachAnimation="@transition/$keyboard_transitions__0" app:onDetachedAnimation="@transition/$keyboard_transitions__1" class="com.touchtype.keyboard.view.AnimatedTransition">
+        <targets>
+            <target android:targetName="@string/keyboard_transition_expanded_overlay" />
+        </targets>
+    </transition>
+    <transition app:onAttachAnimation="@transition/$keyboard_transitions__2" app:onDetachedAnimation="@transition/$keyboard_transitions__3" class="com.touchtype.keyboard.view.AnimatedTransition">
+        <targets>
+            <target android:targetId="@id/background_fade" />
+            <target android:targetId="@id/keyboard_expanded_candidate_window" />
+            <target android:targetId="@id/candidates_view" />
+            <target android:targetId="@id/candidates_flow_view" />
+            <target android:targetId="@id/language_packs_broken_view" />
+            <target android:targetId="@id/smart_clip_ribbon_view" />
+            <target android:targetId="@id/ribbon_empty_view" />
+            <target android:targetName="@string/background_fade_transition" />
+        </targets>
+    </transition>
+    <transition app:onAttachAnimation="@transition/$keyboard_transitions__4" app:onDetachedAnimation="@transition/$keyboard_transitions__5" class="com.touchtype.keyboard.view.AnimatedTransition">
+        <targets>
+            <target android:targetName="@string/keyboard_transition_slide_in_and_out" />
+        </targets>
+    </transition>
+    <transitionSet android:transitionOrdering="together">
+        <transition app:onAttachAnimation="@transition/$keyboard_transitions__6" class="com.touchtype.keyboard.view.AnimatedTransition">
+            <targets>
+                <target android:targetName="@string/keyboard_transition_search_text" />
+            </targets>
+        </transition>
+        <transition class="com.touchtype.keyboard.view.SearchIconTransition">
+            <targets>
+                <target android:targetName="@string/keyboard_transition_search_icon" />
+            </targets>
+        </transition>
+    </transitionSet>
+</transitionSet>

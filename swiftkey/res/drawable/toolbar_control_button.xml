@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/open" android:drawable="@drawable/toolbar_control_button_open" app:state_open="true" />
+    <item android:id="@id/closed" android:drawable="@drawable/toolbar_control_button_closed" />
+    <transition android:drawable="@drawable/toolbar_control_button_open_to_closed" android:toId="@id/closed" android:fromId="@id/open" />
+    <transition android:drawable="@drawable/toolbar_control_button_closed_to_open" android:toId="@id/open" android:fromId="@id/closed" />
+</animated-selector>

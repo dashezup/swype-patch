@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.view.fancy.emoji.EmojiPredictionCaption android:ellipsize="middle" android:layout_gravity="center_horizontal" android:id="@id/emoji_prediction_caption" android:padding="@dimen/spacing_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_8">
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/emoji_prediction_caption_text_size" android:ellipsize="start" android:gravity="center" android:layout_gravity="center" android:id="@id/caption" android:layout_width="wrap_content" android:layout_height="@dimen/emoji_prediction_caption_height" android:layout_marginLeft="@dimen/emoji_prediction_caption_horizontal_margin" android:layout_marginRight="@dimen/emoji_prediction_caption_horizontal_margin" android:singleLine="true" android:layout_marginStart="@dimen/emoji_prediction_caption_horizontal_margin" android:layout_marginEnd="@dimen/emoji_prediction_caption_horizontal_margin" />
+        </FrameLayout>
+    </com.touchtype.keyboard.view.fancy.emoji.EmojiPredictionCaption>
+</LinearLayout>

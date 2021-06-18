@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>អត្ថបទដែលអ្នកចម្លងនឹងបង្ហាញដោយស្វ័យប្រវត្តិនៅទីនេះ</item>
+        <item>បង្កកការចម្លងអត្ថបទខ្លីៗ​ ដើម្បីបញ្ឈប់ពួកវា ផុតកំណត់បន្ទាប់ពី 1 ម៉ោង</item>
+        <item>អូសធាតុឃ្លីបប៊តដើម្បីលុបវាចោល</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>យកការទស្សន៍ទាយចេញ</item>
+        <item>ផ្ដល់​មតិ​យោបល់</item>
+        <item>រក្សាទុកកំណត់ហេតុបំបាត់​កំហុសស្ទាត់ជំនាញ</item>
+    </string-array>
+</resources>

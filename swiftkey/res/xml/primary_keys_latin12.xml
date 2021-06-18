@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="icon_smiley" />
+    <PrimaryKey touchtype:primary="\@‌-‌_" />
+    <PrimaryKey touchtype:primary="u" />
+    <PrimaryKey touchtype:primary="C" />
+    <PrimaryKey touchtype:primary="A‌B‌C" />
+    <PrimaryKey touchtype:primary="b" />
+    <PrimaryKey touchtype:primary="c" />
+    <PrimaryKey touchtype:primary="D‌E‌F" />
+    <PrimaryKey touchtype:primary="e" />
+    <PrimaryKey touchtype:primary="f" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+    <PrimaryKey touchtype:primary="G‌H‌I" />
+    <PrimaryKey touchtype:primary="h" />
+    <PrimaryKey touchtype:primary="i" />
+    <PrimaryKey touchtype:primary="J‌K‌L" />
+    <PrimaryKey touchtype:primary="k" />
+    <PrimaryKey touchtype:primary="l" />
+    <PrimaryKey touchtype:primary="M‌N‌O" />
+    <PrimaryKey touchtype:primary="n" />
+    <PrimaryKey touchtype:primary="o" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="1&amp;+" />
+    <PrimaryKey touchtype:primary="P‌Q‌R‌S" />
+    <PrimaryKey touchtype:primary="q" />
+    <PrimaryKey touchtype:primary="r" />
+    <PrimaryKey touchtype:primary="s" />
+    <PrimaryKey touchtype:primary="T‌U‌V" />
+    <PrimaryKey touchtype:primary="v" />
+    <PrimaryKey touchtype:primary="W‌X‌Y‌Z" />
+    <PrimaryKey touchtype:primary="x" />
+    <PrimaryKey touchtype:primary="y" />
+    <PrimaryKey touchtype:primary="z" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+</PrimaryKeyList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_key_height_docked_compact">62.0dip</dimen>
+    <dimen name="default_key_height_docked_full">62.0dip</dimen>
+    <dimen name="default_key_height_docked_split">62.0dip</dimen>
+    <dimen name="default_key_height_floating_candidate_bar">52.0dip</dimen>
+    <dimen name="default_key_height_floating_compact">52.0dip</dimen>
+    <dimen name="default_key_height_floating_full">52.0dip</dimen>
+    <dimen name="default_key_height_floating_split">52.0dip</dimen>
+    <dimen name="default_key_height_game_mode">56.0dip</dimen>
+    <item type="dimen" name="oss_licences_webview_height">@dimen/custom_match_parent</item>
+    <dimen name="oss_licences_webview_width">400.0dip</dimen>
+    <dimen name="translator_language_picker_dialog_height">452.0dip</dimen>
+</resources>

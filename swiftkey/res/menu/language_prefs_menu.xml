@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_topnav_search" android:id="@id/search_languages" android:title="" app:actionViewClass="com.touchtype.materialsettings.KeyboardStateMonitoringSearchView" app:iconTint="@color/icon_tint" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_topnav_refresh" android:id="@id/refresh_languages" android:title="" app:iconTint="@color/icon_tint" app:showAsAction="always" />
+</menu>

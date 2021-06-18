@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_arrow" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="8.0dip" android:src="@drawable/ic_pointy_mark_up" android:scaleType="fitXY" android:tint="@color/default_colour" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/coach_mark_content" android:background="@drawable/bubble_coach_mark_bg" android:paddingLeft="@dimen/bubble_coach_mark_horizontal_padding" android:paddingTop="@dimen/bubble_coach_mark_vertical_padding" android:paddingRight="@dimen/bubble_coach_mark_horizontal_padding" android:paddingBottom="@dimen/bubble_coach_mark_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/bubble_coach_mark_horizontal_padding" android:paddingEnd="@dimen/bubble_coach_mark_horizontal_padding" />
+    <ImageView android:id="@id/bottom_arrow" android:layout_width="16.0dip" android:layout_height="8.0dip" android:src="@drawable/ic_pointy_mark_down" android:scaleType="fitXY" android:tint="@color/default_colour" />
+</LinearLayout>

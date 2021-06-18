@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">S-au adăugat %1$d limbi</item>
+        <item quantity="zero">S-au adăugat %1$d limbi</item>
+        <item quantity="one">S-a adăugat %1$d limbă</item>
+        <item quantity="two">S-au adăugat %1$d limbi</item>
+        <item quantity="few">S-au adăugat %1$d limbi</item>
+        <item quantity="many">S-au adăugat %1$d limbi</item>
+    </plurals>
+</resources>

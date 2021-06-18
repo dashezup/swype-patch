@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/consent_preferences_navigation" app:startDestination="@id/consent_preferences_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/home_pref_privacy" android:name="com.touchtype.materialsettingsx.ConsentPreferenceFragment" android:id="@id/consent_preferences_fragment">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </fragment>
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?dialogPreferredPadding" android:paddingEnd="?dialogPreferredPadding">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/clipboard_text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:boxBackgroundColor="@color/clipboard_text_field_background" app:hintTextColor="@color/container_edit_text_hint">
+            <com.google.android.material.textfield.TextInputEditText android:textColorHint="@color/container_edit_text_hint" android:id="@id/clipboard_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/clipboard_clip_hint" android:maxLines="5" android:inputType="textMultiLine" android:textCursorDrawable="@drawable/cursor">
+                <requestFocus />
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/clipboard_shortcut_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textCursorDrawable="@drawable/cursor" app:boxBackgroundColor="@color/clipboard_text_field_background" app:hintTextColor="@color/container_edit_text_hint">
+            <com.google.android.material.textfield.TextInputEditText android:textColorHint="@color/container_edit_text_hint" android:id="@id/clipboard_shortcut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/clipboard_shortcut_hint" android:inputType="text" android:textCursorDrawable="@drawable/cursor" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clipboard_edit_dialog_info" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:id="@id/clipboard_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clipboard_edit_dialog_save" android:layout_alignParentEnd="true" style="@style/AlertDialogPositiveButton" />
+            <com.google.android.material.button.MaterialButton android:id="@id/clipboard_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_toStartOf="@id/clipboard_save" style="@style/AlertDialogNegativeButton" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="چ" />
+    <PrimaryKey touchtype:primary="ۋ" />
+    <PrimaryKey touchtype:primary="ې" />
+    <PrimaryKey touchtype:primary="ر" />
+    <PrimaryKey touchtype:primary="ت" />
+    <PrimaryKey touchtype:primary="ي" />
+    <PrimaryKey touchtype:primary="ۇ" />
+    <PrimaryKey touchtype:primary="ڭ" />
+    <PrimaryKey touchtype:primary="و" />
+    <PrimaryKey touchtype:primary="پ" />
+    <PrimaryKey touchtype:primary="ھ" />
+    <PrimaryKey touchtype:primary="س" />
+    <PrimaryKey touchtype:primary="د" />
+    <PrimaryKey touchtype:primary="ژ" />
+    <PrimaryKey touchtype:primary="ا" />
+    <PrimaryKey touchtype:primary="ف" />
+    <PrimaryKey touchtype:primary="ە" />
+    <PrimaryKey touchtype:primary="گ" />
+    <PrimaryKey touchtype:primary="ى" />
+    <PrimaryKey touchtype:primary="خ" />
+    <PrimaryKey touchtype:primary="ق" />
+    <PrimaryKey touchtype:primary="ج" />
+    <PrimaryKey touchtype:primary="ك" />
+    <PrimaryKey touchtype:primary="ۆ" />
+    <PrimaryKey touchtype:primary="ل" />
+    <PrimaryKey touchtype:primary="؛" />
+    <PrimaryKey touchtype:primary="ز" />
+    <PrimaryKey touchtype:primary="«" />
+    <PrimaryKey touchtype:primary="ش" />
+    <PrimaryKey touchtype:primary="»" />
+    <PrimaryKey touchtype:primary="غ" />
+    <PrimaryKey touchtype:primary="ۈ" />
+    <PrimaryKey touchtype:primary="ب" />
+    <PrimaryKey touchtype:primary="ن" />
+    <PrimaryKey touchtype:primary="م" />
+    <PrimaryKey touchtype:primary="ئ" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

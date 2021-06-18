@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.candidates.view.SequentialCandidateBarLayoutWithECWButton android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.candidates.view.SequentialCandidatesRecyclerView android:id="@id/sequential_candidate_bar_container" android:fadingEdgeLength="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="horizontal" android:layoutDirection="ltr" android:layout_marginEnd="@dimen/expanded_candidate_window_button_width" />
+    <com.touchtype.keyboard.expandedcandidate.ExpandedResultsOverlayOpenButton android:layout_gravity="end" android:id="@id/sequential_candidate_bar_layout_more_button" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/expanded_candidate_window_button_width" android:layout_height="fill_parent" android:contentDescription="@string/expanded_candidate_window_open" />
+</com.touchtype.keyboard.candidates.view.SequentialCandidateBarLayoutWithECWButton>

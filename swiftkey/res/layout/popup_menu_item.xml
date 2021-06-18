@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/popup_menu_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?dropdownListPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:tag="binding_1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/title_text" android:tag="binding_2" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/image" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

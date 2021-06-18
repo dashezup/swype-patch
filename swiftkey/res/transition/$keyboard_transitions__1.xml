@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@anim/fast_out_slow_in" android:shareInterpolator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <objectAnimator android:duration="150" android:valueFrom="0.0dip" android:valueTo="50.0dip" android:valueType="floatType" android:propertyName="translationY" />
+    <objectAnimator android:duration="150" android:valueFrom="1" android:valueTo="0" android:valueType="floatType" android:propertyName="alpha" />
+</set>

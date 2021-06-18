@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="ᥟ" />
+    <PrimaryKey touchtype:primary="ᥪ" />
+    <PrimaryKey touchtype:primary="ᥬ" />
+    <PrimaryKey touchtype:primary="ᥫ" />
+    <PrimaryKey touchtype:primary="ᥥ" />
+    <PrimaryKey touchtype:primary="ᥦ" />
+    <PrimaryKey touchtype:primary="ᥗ" />
+    <PrimaryKey touchtype:primary="ᥕ" />
+    <PrimaryKey touchtype:primary="ᥧ" />
+    <PrimaryKey touchtype:primary="ᥤ" />
+    <PrimaryKey touchtype:primary="ᥩ" />
+    <PrimaryKey touchtype:primary="ᥚ" />
+    <PrimaryKey touchtype:primary="ᥰ" />
+    <PrimaryKey touchtype:primary="ᥱ" />
+    <PrimaryKey touchtype:primary="ᥣ" />
+    <PrimaryKey touchtype:primary="ᥔ" />
+    <PrimaryKey touchtype:primary="ᥖ" />
+    <PrimaryKey touchtype:primary="ᥜ" />
+    <PrimaryKey touchtype:primary="ᥐ" />
+    <PrimaryKey touchtype:primary="ᥞ" />
+    <PrimaryKey touchtype:primary="ᥡ" />
+    <PrimaryKey touchtype:primary="ᥠ" />
+    <PrimaryKey touchtype:primary="ᥘ" />
+    <PrimaryKey touchtype:primary="ᥲ" />
+    <PrimaryKey touchtype:primary="ᥳ" />
+    <PrimaryKey touchtype:primary="ᥒ" />
+    <PrimaryKey touchtype:primary="ᥑ" />
+    <PrimaryKey touchtype:primary="£" />
+    <PrimaryKey touchtype:primary="€" />
+    <PrimaryKey touchtype:primary="¢" />
+    <PrimaryKey touchtype:primary="¥" />
+    <PrimaryKey touchtype:primary="ᥓ" />
+    <PrimaryKey touchtype:primary="ᥝ" />
+    <PrimaryKey touchtype:primary="ᥙ" />
+    <PrimaryKey touchtype:primary="ᥢ" />
+    <PrimaryKey touchtype:primary="ᥛ" />
+    <PrimaryKey touchtype:primary="ᥭ" />
+    <PrimaryKey touchtype:primary="ᥨ" />
+    <PrimaryKey touchtype:primary="ᥴ" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

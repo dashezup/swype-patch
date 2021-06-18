@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light" />
+    <style name="WebSearchBottomBarButtonEdge">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/web_search_button_state_list</item>
+        <item name="android:background">@drawable/web_search_ripple</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/product_font_light</item>
+        <item name="android:paddingStart">9.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="android:drawableTint">@color/web_search_button_state_list</item>
+    </style>
+    <style name="WebSearchBottomBarButtonIncognitoEdge">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/web_search_button_incognito_state_list</item>
+        <item name="android:background">@drawable/web_search_incognito_ripple</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/product_font_light</item>
+        <item name="android:paddingStart">9.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="android:drawableTint">@color/web_search_button_incognito_state_list</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+</resources>

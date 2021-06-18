@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ਤੁਹਾਡੇ ਦੁਆਰਾ ਕਾਪੀ ਕੀਤਾ ਗਿਆ ਟੈਕਸਟ ਸਵੈਚਲਤ ਇੱਥੇ ਦਿਖਾਈ ਦੇਵੇਗਾ</item>
+        <item>1 ਘੰਟੇ ਬਾਅਦ ਸਮਾਂ ਮਿਆਦ ਸਮਾਪਤ ਹੋਣ ਤੋਂ ਰੋਕਣ ਲਈ ਕਾਪੀ ਕੀਤੇ ਟੈਕਸਟ ਟੁਕੜਿਆਂ ਨੂੰ ਪਿਨ ਕਰੋ</item>
+        <item>ਕਲਿੱਪਬੋਰਡ ਆਈਟਮਾਂ ਨੂੰ ਮਿਟਾਉਣ ਲਈ ਉਹਨਾਂ ਨੂੰ ਸਲਾਈਡ ਕਰੋ</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>ਅਨੁਮਾਨ ਹਟਾਓ</item>
+        <item>ਫੀਡਬੈਕ ਦਿਓ</item>
+        <item>ਫਲੁਏਂਸੀ ਡੀਬੱਗ ਲਾਗ ਰੱਖਿਅਤ ਕਰੋ</item>
+    </string-array>
+</resources>

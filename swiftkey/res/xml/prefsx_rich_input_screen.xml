@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/clipboard" android:key="@string/pref_rich_input_launch_clipboard" app:iconSpaceReserved="false" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:title="@string/voice_input" android:key="@string/pref_voice_enabled_key" android:summary="@string/prefs_voice_input_summary" android:defaultValue="@bool/pref_voice_enabled_default" />
+    <com.touchtype.materialsettingsx.richinputsettings.RichInputSearchEnginePreference android:persistent="false" android:title="@string/prefs_search_engine_title" android:key="@string/pref_rich_input_search_engine" />
+    <Preference android:title="@string/prefs_editor_title" android:key="@string/pref_rich_input_editor" android:summary="@string/prefs_editor_summary" app:iconSpaceReserved="false" />
+</PreferenceScreen>

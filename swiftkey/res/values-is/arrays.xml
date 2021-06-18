@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Afritaður texti birtist sjálfkrafa hér</item>
+        <item>Festu afritaða textabúta til að koma í veg fyrir að þeir hverfi eftir eina klukkustund</item>
+        <item>Renndu atriðum á klippiborðinu til að eyða þeim</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Fjarlægja tillögu</item>
+        <item>Senda athugasemdir</item>
+        <item>Vista kembingarskrá fyrir auðveldari lestur</item>
+    </string-array>
+</resources>

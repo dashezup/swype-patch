@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/prc_consent_coachmark_bg" android:paddingLeft="@dimen/hwr_unavailable_coachmark_padding_horizontal" android:paddingTop="@dimen/hwr_unavailable_coachmark_padding_top" android:paddingRight="@dimen/hwr_unavailable_coachmark_padding_horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/hwr_unavailable_coachmark_padding_horizontal" android:paddingEnd="@dimen/hwr_unavailable_coachmark_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hwr_unavailable_coachmark_image_margin_bottom" android:src="@drawable/hwr_unavailable_icon" android:importantForAccessibility="no" />
+    <TextView android:textSize="@dimen/hwr_unavailable_coachmark_message_text_size" android:textColor="@color/white" android:id="@id/hwr_unavailable_coachmark_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hwr_unavailable_coachmark_text_bottom_margin" android:text="@string/hwr_unavailable_description" />
+    <include layout="@layout/hwr_model_unavailable_coachmark_buttons" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="я" />
+    <PrimaryKey touchtype:primary="в" />
+    <PrimaryKey touchtype:primary="е" />
+    <PrimaryKey touchtype:primary="р" />
+    <PrimaryKey touchtype:primary="т" />
+    <PrimaryKey touchtype:primary="ы" />
+    <PrimaryKey touchtype:primary="у" />
+    <PrimaryKey touchtype:primary="и" />
+    <PrimaryKey touchtype:primary="о" />
+    <PrimaryKey touchtype:primary="п" />
+    <PrimaryKey touchtype:primary="ш" />
+    <PrimaryKey touchtype:primary="щ" />
+    <PrimaryKey touchtype:primary="а" />
+    <PrimaryKey touchtype:primary="с" />
+    <PrimaryKey touchtype:primary="д" />
+    <PrimaryKey touchtype:primary="ф" />
+    <PrimaryKey touchtype:primary="г" />
+    <PrimaryKey touchtype:primary="ч" />
+    <PrimaryKey touchtype:primary="й" />
+    <PrimaryKey touchtype:primary="к" />
+    <PrimaryKey touchtype:primary="л" />
+    <PrimaryKey touchtype:primary="ь" />
+    <PrimaryKey touchtype:primary="ъ" />
+    <PrimaryKey touchtype:primary="icon_ShiftKey" />
+    <PrimaryKey touchtype:primary="з" />
+    <PrimaryKey touchtype:primary="х" />
+    <PrimaryKey touchtype:primary="£" />
+    <PrimaryKey touchtype:primary="€" />
+    <PrimaryKey touchtype:primary="¢" />
+    <PrimaryKey touchtype:primary="¥" />
+    <PrimaryKey touchtype:primary="ц" />
+    <PrimaryKey touchtype:primary="ж" />
+    <PrimaryKey touchtype:primary="б" />
+    <PrimaryKey touchtype:primary="н" />
+    <PrimaryKey touchtype:primary="м" />
+    <PrimaryKey touchtype:primary="ю" />
+    <PrimaryKey touchtype:primary="э" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

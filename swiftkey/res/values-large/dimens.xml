@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="candidate_bar_side_buttons_width">26.0dip</dimen>
+    <dimen name="cloud_sign_in_container_max_width">450.0dip</dimen>
+    <dimen name="default_key_height_docked_compact">58.0dip</dimen>
+    <dimen name="default_key_height_docked_full">72.0dip</dimen>
+    <dimen name="default_key_height_docked_split">72.0dip</dimen>
+    <dimen name="default_key_height_floating_candidate_bar">60.0dip</dimen>
+    <dimen name="default_key_height_floating_compact">52.0dip</dimen>
+    <dimen name="default_key_height_floating_full">60.0dip</dimen>
+    <dimen name="default_key_height_floating_split">50.0dip</dimen>
+    <dimen name="default_key_height_game_mode">56.0dip</dimen>
+    <dimen name="floating_sequential_candidate_padding">17.0dip</dimen>
+    <dimen name="heatmap_overlay_font_size">16.0dip</dimen>
+    <dimen name="hub_extra_icons_padding">6.0dip</dimen>
+    <dimen name="layout_switcher_item_text_size">18.0sp</dimen>
+    <dimen name="oss_licences_webview_height">500.0dip</dimen>
+    <dimen name="oss_licences_webview_width">400.0dip</dimen>
+    <dimen name="sequential_candidate_padding">28.0dip</dimen>
+    <dimen name="translator_language_picker_dialog_height">634.0dip</dimen>
+    <dimen name="translator_language_picker_dialog_width">486.0dip</dimen>
+</resources>

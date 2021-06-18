@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="raw" name="keyboard_layout_standard_cangjie">@null</item>
+    <item type="raw" name="keyboard_layout_standard_qcangjie">@null</item>
+</resources>

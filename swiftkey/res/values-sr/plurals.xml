@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Dodat je sledeći broj jezika: %1$d</item>
+        <item quantity="zero">Dodat je sledeći broj jezika: %1$d</item>
+        <item quantity="one">Dodat je %1$d jezik</item>
+        <item quantity="two">Dodat je sledeći broj jezika: %1$d</item>
+        <item quantity="few">Dodat je sledeći broj jezika: %1$d</item>
+        <item quantity="many">Dodat je sledeći broj jezika: %1$d</item>
+    </plurals>
+</resources>

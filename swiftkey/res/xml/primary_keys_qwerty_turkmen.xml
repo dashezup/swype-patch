@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="ä" />
+    <PrimaryKey touchtype:primary="q" />
+    <PrimaryKey touchtype:primary="w" />
+    <PrimaryKey touchtype:primary="e" />
+    <PrimaryKey touchtype:primary="r" />
+    <PrimaryKey touchtype:primary="t" />
+    <PrimaryKey touchtype:primary="y" />
+    <PrimaryKey touchtype:primary="u" />
+    <PrimaryKey touchtype:primary="i" />
+    <PrimaryKey touchtype:primary="o" />
+    <PrimaryKey touchtype:primary="p" />
+    <PrimaryKey touchtype:primary="ö" />
+    <PrimaryKey touchtype:primary="a" />
+    <PrimaryKey touchtype:primary="s" />
+    <PrimaryKey touchtype:primary="d" />
+    <PrimaryKey touchtype:primary="f" />
+    <PrimaryKey touchtype:primary="g" />
+    <PrimaryKey touchtype:primary="h" />
+    <PrimaryKey touchtype:primary="j" />
+    <PrimaryKey touchtype:primary="k" />
+    <PrimaryKey touchtype:primary="l" />
+    <PrimaryKey touchtype:primary="ş" />
+    <PrimaryKey touchtype:primary="ž" />
+    <PrimaryKey touchtype:primary="icon_ShiftKey" />
+    <PrimaryKey touchtype:primary="z" />
+    <PrimaryKey touchtype:primary="£" />
+    <PrimaryKey touchtype:primary="€" />
+    <PrimaryKey touchtype:primary="¢" />
+    <PrimaryKey touchtype:primary="¥" />
+    <PrimaryKey touchtype:primary="ü" />
+    <PrimaryKey touchtype:primary="x" />
+    <PrimaryKey touchtype:primary="ç" />
+    <PrimaryKey touchtype:primary="c" />
+    <PrimaryKey touchtype:primary="ý" />
+    <PrimaryKey touchtype:primary="v" />
+    <PrimaryKey touchtype:primary="b" />
+    <PrimaryKey touchtype:primary="n" />
+    <PrimaryKey touchtype:primary="m" />
+    <PrimaryKey touchtype:primary="ň" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cloud_setup_carousel_page_indicator_vertical_padding">20.0dip</dimen>
+    <dimen name="cloud_setup_carousel_title_horizontal_padding">50.0dip</dimen>
+    <dimen name="cloud_setup_carousel_title_text_size">14.0sp</dimen>
+    <dimen name="cloud_setup_legal_terms_bottom_space">20.0dip</dimen>
+    <dimen name="cloud_setup_legal_terms_horizontal_space">20.0dip</dimen>
+    <dimen name="cloud_setup_legal_terms_top_space">15.0dip</dimen>
+</resources>

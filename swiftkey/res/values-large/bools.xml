@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_hardkb_auto_caps_default">false</bool>
+    <bool name="pref_hardkb_punc_completion_default">false</bool>
+    <bool name="pref_hardkb_smart_punc_default">false</bool>
+</resources>

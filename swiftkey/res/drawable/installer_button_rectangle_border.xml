@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/installer_button_corner_radius" />
+            <solid android:color="@color/white" />
+            <stroke android:width="1.0dip" android:color="@color/grey_100" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/installer_button_foreground" />
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teksten du kopierer, vises automatisk her</item>
+        <item>Fest kopierte tekstutklipp for å hindre at de utløper etter én time</item>
+        <item>Skyv elementer på utklippstavlen for å slette dem</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Fjern prediksjon</item>
+        <item>Gi tilbakemelding</item>
+        <item>Lagre flytende feilsøkingslogg</item>
+    </string-array>
+</resources>

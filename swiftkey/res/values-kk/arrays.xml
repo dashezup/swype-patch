@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Сіз көшірген мәтін осы жерде автоматты түрде көрсетіледі</item>
+        <item>1 сағаттан кейін мерзімі бітуі тоқтауы үшін көшірілген мәтін үзінділерін түйреңіз</item>
+        <item>Аралық сақтағыш элементтерін жою үшін оларды сырғытыңыз</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Болжамды жою</item>
+        <item>Пікір беру</item>
+        <item>Ретке келтіру журналын сақтау</item>
+    </string-array>
+</resources>

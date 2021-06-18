@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Скопійований текст автоматично відобразиться тут</item>
+        <item>Закріпіть скопійовані фрагменти, щоб вони не зникли через годину</item>
+        <item>Проведіть пальцем по елементам буфера, щоб видалити їх</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Видалити прогнозування</item>
+        <item>Надіслати відгук</item>
+        <item>Зберегти журнал налагодження якості</item>
+    </string-array>
+</resources>

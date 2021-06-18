@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ဤေနရာၾတင္ သင္ ကူးယူသၫ့္စာသားကို အလိုေအလ္ာက္်ပမၫ္</item>
+        <item>1 နာရီၾကာ်ပီးေနာက္ သကၱမ္းကုႏ္ေနသၫ့္ ကူးယူထားသၫ့္စာသားအပိုင္းေလးမ္ားကို ပျငၲဲပါ</item>
+        <item>၎တို႔ကို ဖ်က္ရန္ ကလစ္ဘုတ္ အိုင္တမ္မ်ားကို ေလွ်ာပါ</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>ခန္႔မွန္းခ်က္ဖယ္ရွားပါ</item>
+        <item>တံု႔ျပန္ခ်က္ေပးပါ</item>
+        <item>Fluency Debug Log သိမ္းပါ</item>
+    </string-array>
+</resources>

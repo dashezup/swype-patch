@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.keyboard.view.fancy.richcontent.stickers.StickerView android:id="@id/sticker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@string/stickers_preview_content_description">
+        <com.touchtype.keyboard.view.fancy.richcontent.fresco.SwiftKeyDraweeView android:layout_gravity="center" android:id="@id/editor_gif_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.touchtype.keyboard.view.fancy.richcontent.stickers.StickerView>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/toolbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/close_sticker_editor" android:src="@drawable/ic_close" android:contentDescription="@string/stickers_editor_close_sticker_preview" style="@style/StickerEditorButtonImage" />
+        <View android:background="@color/sticker_editor_button_group_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ImageView android:id="@id/save_sticker" android:src="@drawable/ic_pin" android:contentDescription="@string/pin_unpinned_content_description" app:tint="@color/swiftkey_blue" style="@style/StickerEditorButtonImage" />
+        <ImageView android:id="@id/add_text_block" android:src="@drawable/ic_text" android:contentDescription="@string/stickers_editor_add_text_to_sticker" app:tint="@color/sticker_add_text_tint" style="@style/StickerEditorButtonImage" />
+        <ImageView android:id="@id/sticker_editor_help" android:src="@drawable/ic_support_filled" android:contentDescription="@string/stickers_editor_help_content_description" app:tint="@color/swiftkey_blue" style="@style/StickerEditorButtonImage" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/sticker_editor_toolbox_bottom_whitespace" />
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/send_sticker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="13.0dip" android:src="@drawable/sticker_editor_send" android:scaleType="center" android:layout_alignParentBottom="true" android:contentDescription="@string/stickers_send_content_description" android:layout_alignParentEnd="true" app:backgroundTint="@color/swiftkey_blue" app:tint="@color/white" />
+</RelativeLayout>

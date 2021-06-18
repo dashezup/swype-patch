@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>您复制的文本将自动显示在此处</item>
+        <item>固定复制的文本片段以免其在 1 小时后失效</item>
+        <item>滑动剪贴板项可以将其删除</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>去除联想功能</item>
+        <item>提供反馈</item>
+        <item>保存流畅性调试日志</item>
+    </string-array>
+</resources>

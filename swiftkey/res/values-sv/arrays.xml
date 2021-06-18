@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Text som du kopierar visas automatiskt här</item>
+        <item>Fäst kopierade textavsnitt om du inte vill att de raderas efter en timme</item>
+        <item>Dra urklippsobjekt för att radera dem</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Ta bort förslag</item>
+        <item>Ge feedback</item>
+        <item>Spara felsökningslogg för språkligt flyt</item>
+    </string-array>
+</resources>

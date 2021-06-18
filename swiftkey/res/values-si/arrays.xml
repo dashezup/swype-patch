@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ඔබ පිටපත් කරන පාඨය ස්වයංක්‍රීයව මෙහි පෙන්වනු ලැබේ</item>
+        <item>පිටපත් කළ පාඨ කැබලි 1 පැයකට පසු කල් ඉකුත් වීම නැවැත් වීමට ඒවා අමුණන්න</item>
+        <item>පසුරුපුවරු අයිතම මැකීමට ඒවා ස්ලයිඩ් කරන්න</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>පුරෝකථනය ඉවත් කරන්න</item>
+        <item>ප්‍රතිපෝෂණය දෙන්න</item>
+        <item>ව්‍යක්ත නිදොස් කිරීමේ සටහන සුරකින්න</item>
+    </string-array>
+</resources>

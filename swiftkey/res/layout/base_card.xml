@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="fill_parent" android:accessibilityLiveRegion="polite"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" style="@style/MessagingCentreCard">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/msgc_constraint_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants">
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/msgc_guideline_left" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/msgc_guideline_right" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <ImageView android:id="@id/msgc_background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,284:184" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/msgc_foreground" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,284:184" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.cardview.widget.CardView android:id="@id/msgc_dismiss_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:shape="ring" android:elevation="4.0dip" app:cardCornerRadius="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_messaging_centre_dismiss" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

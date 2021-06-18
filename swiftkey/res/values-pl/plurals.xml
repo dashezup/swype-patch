@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Dodano języki: %1$d</item>
+        <item quantity="zero">Dodano języki: %1$d</item>
+        <item quantity="one">Dodano %1$d język</item>
+        <item quantity="two">Dodano języki: %1$d</item>
+        <item quantity="few">Dodano języki: %1$d</item>
+        <item quantity="many">Dodano języki: %1$d</item>
+    </plurals>
+</resources>

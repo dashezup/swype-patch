@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/toolbar_lock_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/activity_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/toolbar_lock_screen_icon" android:paddingBottom="@dimen/toolbar_content_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/outline_lock_white_24" android:contentDescription="@string/toolbar_padlock_content_description" />
+    <TextView android:id="@id/toolbar_lock_screen_text" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toolbar_lock_screen" android:textAlignment="center" android:paddingStart="@dimen/activity_horizontal_margin" android:paddingEnd="@dimen/activity_horizontal_margin" style="@style/PreferenceSummary" />
+</LinearLayout>

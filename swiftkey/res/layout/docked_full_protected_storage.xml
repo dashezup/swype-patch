@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.frames.BackgroundFrame android:id="@id/background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.view.KeyboardPaddedFrameLayout android:id="@id/keyboard_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.touchtype.keyboard.view.frames.KeyboardFrame android:id="@id/keyboard_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.touchtype.keyboard.view.KeyboardPaddedFrameLayout>
+</com.touchtype.keyboard.view.frames.BackgroundFrame>

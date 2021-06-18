@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="ᨀ" />
+    <PrimaryKey touchtype:primary="ᨁ" />
+    <PrimaryKey touchtype:primary="ᨂ" />
+    <PrimaryKey touchtype:primary="ᨃ" />
+    <PrimaryKey touchtype:primary="ᨄ" />
+    <PrimaryKey touchtype:primary="ᨅ" />
+    <PrimaryKey touchtype:primary="ᨆ" />
+    <PrimaryKey touchtype:primary="ᨇ" />
+    <PrimaryKey touchtype:primary="◌ᨗ" />
+    <PrimaryKey touchtype:primary="◌ᨘ" />
+    <PrimaryKey touchtype:primary="ᨈ" />
+    <PrimaryKey touchtype:primary="ᨉ" />
+    <PrimaryKey touchtype:primary="ᨊ" />
+    <PrimaryKey touchtype:primary="ᨋ" />
+    <PrimaryKey touchtype:primary="ᨌ" />
+    <PrimaryKey touchtype:primary="ᨍ" />
+    <PrimaryKey touchtype:primary="ᨎ" />
+    <PrimaryKey touchtype:primary="ᨏ" />
+    <PrimaryKey touchtype:primary="◌ᨙ" />
+    <PrimaryKey touchtype:primary="◌ᨚ" />
+    <PrimaryKey touchtype:primary="ᨐ" />
+    <PrimaryKey touchtype:primary="ᨑ" />
+    <PrimaryKey touchtype:primary="ᨒ" />
+    <PrimaryKey touchtype:primary="£" />
+    <PrimaryKey touchtype:primary="€" />
+    <PrimaryKey touchtype:primary="¢" />
+    <PrimaryKey touchtype:primary="¥" />
+    <PrimaryKey touchtype:primary="ᨓ" />
+    <PrimaryKey touchtype:primary="ᨔ" />
+    <PrimaryKey touchtype:primary="ᨕ" />
+    <PrimaryKey touchtype:primary="ᨖ" />
+    <PrimaryKey touchtype:primary="◌ᨛ" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

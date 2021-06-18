@@ -1,0 +1,305 @@
+{
+    "version" : 2,
+    "lang" : "default",
+    "punctuationRules" : [
+        {
+            "contextRules": [
+                {
+                    "ContextRule": {
+                        "id": [
+                            "(?i)\\b(www|http|ftp)$"
+                        ],
+                        "actions": [
+                            "INS_FOCUS",
+                            "DUMB_MODE"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "\uE1EA"
+                        ],
+                        "actions": [
+                            "INS_PREDICTION",
+                            "INS_LANG_SPECIFIC_SPACE"
+                        ],
+                        "PredictionRules": [
+                            {
+                                "PredictionRule": {
+                                    "id": [
+                                        ".",
+                                        ",",
+                                        "!",
+                                        "?"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_PREDICTION",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "@"
+                        ],
+                        "actions": [
+                            "INS_FOCUS",
+                            "DUMB_MODE"
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "…",
+                            "”"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_LANG_SPECIFIC_SPACE"
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "-"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            ":"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        "(?i)(file|ftp|http|https) $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "DUMB_MODE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            ".",
+                            ",",
+                            "!",
+                            "?",
+                            "}",
+                            "]",
+                            ")"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_LANG_SPECIFIC_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                      "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $",
+                                        "\u200B$"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\""
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "\""
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_PREDICTION",
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ],
+                                    "contextRules": [
+                                        {
+                                            "CatRule": {
+                                                "id": [
+                                                    "P*"
+                                                ],
+                                                "actions": [
+                                                    "BACKSPACE",
+                                                    "INS_FOCUS",
+                                                    "INS_LANG_SPECIFIC_SPACE"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "ContextRule": {
+                                                "id": [
+                                                    " $",
+                                                    "\u200B$"
+                                                ],
+                                                "actions": [
+                                                    "BACKSPACE",
+                                                    "INS_FOCUS",
+                                                    "INS_LANG_SPECIFIC_SPACE"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "'"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "'"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "&"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "INS_FOCUS",
+                                        "INS_LANG_SPECIFIC_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                         "_comment": [
+                            "U+2019",
+                            "We want to keep the RIGHT SINGLE QUOTATION MARK",
+                            "from adding a space (like other Pf do)",
+                            "cf LP-881"
+                        ],
+                        "id": [
+                            "’"
+                        ],
+                        "actions": [
+                            "INS_FOCUS"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "catRules": [
+                {
+                    "CatRule": {
+                        "id": [
+                            "Pe",
+                            "Pf"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_LANG_SPECIFIC_SPACE"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "defaultSpace":" ",
+    "encodingSeparator":" ",
+    "spacingRules": [
+        {"term1":"","term2":"-","space":""}, {"term1":"-","term2":"","space":""},
+        {"term1":"","term2":"@","space":""}, {"term1":"@","term2":"","space":""},
+        {"term1":"","term2":"_","space":""}, {"term1":"_","term2":"","space":""},
+        {"term1":"","term2":"'","space":""}, {"term1":"'","term2":"","space":""},
+        {"term1":"","term2":"'s","space":""}
+    ],
+    "sentenceSeparators": [".", "!", "?"],
+    "wordSeparators" : ["-"]
+}

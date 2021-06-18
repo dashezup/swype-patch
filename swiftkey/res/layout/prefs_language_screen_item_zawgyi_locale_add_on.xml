@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/language_item_burmese_message_layout" android:paddingTop="@dimen/pref_langs_burmese_warning_vertical_spacing" android:paddingBottom="@dimen/pref_langs_burmese_warning_vertical_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pref_langs_burmese_warning_horizontal_padding" android:paddingEnd="@dimen/pref_langs_burmese_warning_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_secondary" android:id="@id/language_item_burmese_message" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pref_langs_burmese_warning_zawgyi" />
+    <com.google.android.material.button.MaterialButton android:id="@id/burmese_message_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pref_langs_burmese_warning_vertical_spacing" android:text="@string/pref_langs_button_to_locale_settings" style="@style/PreferenceLayoutButton" />
+</LinearLayout>

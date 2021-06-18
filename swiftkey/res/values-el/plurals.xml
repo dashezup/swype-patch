@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Προστέθηκαν %1$d γλώσσες</item>
+        <item quantity="zero">Προστέθηκαν %1$d γλώσσες</item>
+        <item quantity="one">Προστέθηκε %1$d γλώσσα</item>
+        <item quantity="two">Προστέθηκαν %1$d γλώσσες</item>
+        <item quantity="few">Προστέθηκαν %1$d γλώσσες</item>
+        <item quantity="many">Προστέθηκαν %1$d γλώσσες</item>
+    </plurals>
+</resources>

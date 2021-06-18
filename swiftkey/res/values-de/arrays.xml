@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Kopierter Text wird automatisch hier angezeigt</item>
+        <item>Pinnen Sie kopierte Textausschnitte an, damit sie nicht nach 1 Stunde gelöscht werden</item>
+        <item>Elemente in Ihrer Zwischenablage durch Wischen löschen</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Vorhersage entfernen</item>
+        <item>Feedback geben</item>
+        <item>Debugprotokoll zur Sprachbeherrschung</item>
+    </string-array>
+</resources>

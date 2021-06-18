@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>आपण कॉपी केलेला मजकूर येथे स्वयंचलितपणे दर्शवला जाईल</item>
+        <item>कॉपी केलेले मजकूर स्निपेटची 1 तासानंतर मुदत बंद होणे थांबविण्यासाठी पिन करा</item>
+        <item>आपण क्लिपबोर्डवरील गोष्टींना हाटविण्यासाठी त्यांना स्लाइड करू शकता</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>अनुमान काढून टाका</item>
+        <item>फीडबॅक द्या</item>
+        <item>Fluency Debug Log जतन करा</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager.widget.CustomViewPager android:background="@drawable/cloud_setup_carousel_background" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.ui.ViewPagerIndicator android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/carousel_indicator" android:paddingTop="@dimen/cloud_setup_carousel_page_indicator_vertical_padding" android:paddingBottom="@dimen/cloud_setup_carousel_page_indicator_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:indicatorRes="@drawable/view_pager_indicator_cloud_setup" app:selectedIndicatorRes="@drawable/view_pager_indicator_cloud_setup_selected" />
+</androidx.viewpager.widget.CustomViewPager>

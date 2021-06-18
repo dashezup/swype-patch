@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/undo_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/clipboard_clip_card_padding" android:layout_marginTop="@dimen/clipboard_clip_card_padding" android:layout_marginRight="@dimen/clipboard_clip_card_padding" android:minHeight="?listPreferredItemHeightSmall" android:contentDescription="@string/clipboard_undo_clip_delete"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/undo_button" android:background="?selectableItemBackground" android:padding="@dimen/clipboard_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clipboard_undo_clip_delete" android:importantForAccessibility="no" />
+</FrameLayout>

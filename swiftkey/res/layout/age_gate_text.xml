@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/age_gate_title_text_size" android:textColor="@color/age_gate_title" android:gravity="center" android:id="@id/age_gate_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/age_gate_new_user_title" android:paddingStart="@dimen/age_gate_title_padding" android:paddingEnd="@dimen/age_gate_title_padding" style="@style/AgeGateTextAppearance" />
+    <TextView android:textSize="@dimen/age_gate_body_text_size" android:textColor="@color/age_gate_description_color" android:gravity="center" android:id="@id/age_gate_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/age_gate_body_text" style="@style/AgeGateDescription" />
+    <TextView android:textColor="?colorAccent" android:layout_gravity="center_horizontal" android:id="@id/age_gate_find_out_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/age_gate_find_out_more_margin_top" android:text="@string/age_gate_find_out_more" style="@style/AgeGateTextAppearance" />
+</LinearLayout>

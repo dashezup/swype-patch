@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/rich_content_camera_roll_panel_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/camera_roll_empty_view_spinner" android:layout_width="@dimen/fancy_panel_loading_spinner_diameter" android:layout_height="@dimen/fancy_panel_loading_spinner_diameter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyle" />
+    <FrameLayout android:id="@id/camera_roll_empty_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.touchtype.ui.AccessibilityEmptyRecyclerView android:id="@id/camera_roll_recyclerview" android:padding="@dimen/fancy_panel_spacing" android:layout_width="0.0dip" android:layout_height="0.0dip" android:importantForAccessibility="yes" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/home_pref_account" android:key="@string/pref_home_launch_cloud_account_prefs" app:allowDividerBelow="true" />
+    <Preference android:icon="@drawable/ic_home_languages" android:title="@string/home_pref_languages" android:key="@string/pref_home_launch_language_prefs" app:allowDividerAbove="true" />
+    <Preference android:icon="@drawable/ic_home_themes" android:title="@string/home_pref_themes" android:key="@string/pref_home_launch_theme_prefs" />
+    <Preference android:icon="@drawable/ic_home_typing" android:title="@string/home_pref_typing" android:key="@string/pref_home_launch_typing_prefs" />
+    <Preference android:icon="@drawable/ic_home_emoji" android:title="@string/home_pref_emoji" android:key="@string/pref_home_launch_emoji_prefs" />
+    <Preference android:icon="@drawable/ic_home_richinput" android:title="@string/home_pref_rich_input" android:key="@string/pref_home_launch_rich_input_prefs" />
+    <Preference android:icon="@drawable/ic_home_layout" android:title="@string/home_pref_layout_and_keys" android:key="@string/pref_home_launch_layout_and_keys_prefs" />
+    <Preference android:icon="@drawable/ic_home_sound" android:title="@string/prefs_sound_and_vibration_title" android:key="@string/pref_home_launch_sound_and_vibration_prefs" />
+    <Preference android:icon="@drawable/ic_home_privacy" android:title="@string/home_pref_privacy" android:key="@string/pref_home_launch_privacy_prefs" />
+    <Preference android:icon="@drawable/ic_home_help_and_feedback" android:title="@string/home_pref_help_and_feedback" android:key="@string/pref_home_launch_help_and_feedback_prefs" />
+    <com.touchtype.ui.StringFormatPreference android:icon="@drawable/ic_home_info" android:key="@string/pref_home_launch_about_swiftkey_prefs" app:titleStringFormat="@string/pref_screen_about_title" app:titleStringFormatArg="@string/product_name" />
+</PreferenceScreen>

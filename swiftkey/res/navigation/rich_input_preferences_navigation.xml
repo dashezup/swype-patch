@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/rich_input_preferences_navigation" app:startDestination="@id/rich_input_preferences_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/home_pref_rich_input" android:name="com.touchtype.materialsettingsx.richinputsettings.RichInputPreferencesFragment" android:id="@id/rich_input_preferences_fragment">
+        <action android:id="@id/open_clipboard_preferences" app:destination="@id/clipboard_preferences_fragment" />
+        <action android:id="@id/open_editor_preferences" app:destination="@id/editor_preferences_navigation" />
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_voice" />
+    </fragment>
+    <fragment android:label="@string/clipboard" android:name="com.touchtype.materialsettings.clipboard.ClipboardFragment" android:id="@id/clipboard_preferences_fragment">
+        <deepLink app:uri="@string/deeplink_internal_path_clipboard" />
+    </fragment>
+    <include app:graph="@navigation/editor_preferences_navigation" />
+</navigation>

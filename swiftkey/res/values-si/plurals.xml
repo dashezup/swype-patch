@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">භාෂා %1$d ක් එක් කළා</item>
+        <item quantity="zero">භාෂා %1$d ක් එක් කළා</item>
+        <item quantity="one">%1$d භාෂාවක් එක් කළා</item>
+        <item quantity="two">භාෂා %1$d ක් එක් කළා</item>
+        <item quantity="few">භාෂා %1$d ක් එක් කළා</item>
+        <item quantity="many">භාෂා %1$d ක් එක් කළා</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">%1$d ಭಾಷೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="zero">%1$d ಭಾಷೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಭಾಷೆಯನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="two">%1$d ಭಾಷೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="few">%1$d ಭಾಷೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="many">%1$d ಭಾಷೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+</resources>

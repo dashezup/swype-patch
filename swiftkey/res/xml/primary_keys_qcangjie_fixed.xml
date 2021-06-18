@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="手" />
+    <PrimaryKey touchtype:primary="田" />
+    <PrimaryKey touchtype:primary="水" />
+    <PrimaryKey touchtype:primary="口" />
+    <PrimaryKey touchtype:primary="廿" />
+    <PrimaryKey touchtype:primary="卜" />
+    <PrimaryKey touchtype:primary="山" />
+    <PrimaryKey touchtype:primary="戈" />
+    <PrimaryKey touchtype:primary="人" />
+    <PrimaryKey touchtype:primary="心" />
+    <PrimaryKey touchtype:primary="日" />
+    <PrimaryKey touchtype:primary="尸" />
+    <PrimaryKey touchtype:primary="木" />
+    <PrimaryKey touchtype:primary="火" />
+    <PrimaryKey touchtype:primary="土" />
+    <PrimaryKey touchtype:primary="竹" />
+    <PrimaryKey touchtype:primary="十" />
+    <PrimaryKey touchtype:primary="大" />
+    <PrimaryKey touchtype:primary="中" />
+    <PrimaryKey touchtype:primary="速" />
+    <PrimaryKey touchtype:primary="重" />
+    <PrimaryKey touchtype:primary="難" />
+    <PrimaryKey touchtype:primary="金" />
+    <PrimaryKey touchtype:primary="女" />
+    <PrimaryKey touchtype:primary="月" />
+    <PrimaryKey touchtype:primary="弓" />
+    <PrimaryKey touchtype:primary="一" />
+    <PrimaryKey touchtype:primary="icon_DeleteKey" />
+    <PrimaryKey touchtype:primary="icon_upArrow" />
+    <PrimaryKey touchtype:primary="icon_rightArrow" />
+    <PrimaryKey touchtype:primary="icon_leftArrow" />
+</PrimaryKeyList>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/typing_preferences_navigation" app:startDestination="@id/typing_preferences_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/home_pref_typing" android:name="com.touchtype.materialsettingsx.typingsettings.TypingPreferenceFragment" android:id="@id/typing_preferences_fragment">
+        <action android:id="@id/open_hardkeyboard_preferences" app:destination="@id/hardkeyboard_preferences_fragment" />
+        <action android:id="@id/open_typing_stats" app:destination="@id/typing_stats_fragment" />
+        <action android:id="@id/open_chinese_input_preferences" app:destination="@id/chinese_input_preferences_fragment" />
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_typing" />
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_autocorrect" />
+    </fragment>
+    <fragment android:label="@string/prefs_chinese_input_title" android:name="com.touchtype.materialsettingsx.typingsettings.ChineseInputPreferenceFragment" android:id="@id/chinese_input_preferences_fragment">
+        <action android:id="@id/open_fuzzy_pinyin_preferences" app:destination="@id/fuzzy_pinyin_preference_fragment" />
+    </fragment>
+    <fragment android:label="@string/prefs_chinese_input_fuzzy_pinyin_title" android:name="com.touchtype.materialsettingsx.typingsettings.FuzzyPinyinPreferenceFragment" android:id="@id/fuzzy_pinyin_preference_fragment" />
+    <fragment android:label="@string/prefs_hardkb_title" android:name="com.touchtype.materialsettingsx.typingsettings.HardKeyboardPreferenceFragment" android:id="@id/hardkeyboard_preferences_fragment">
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_hard_keyboard" />
+    </fragment>
+    <fragment android:label="@string/appbar_title_typing_stats" android:name="com.touchtype.materialsettingsx.typingsettings.stats.TypingStatsFragment" android:id="@id/typing_stats_fragment">
+        <action android:id="@id/open_typing_heatmap" app:destination="@id/heatmap_fragment" />
+    </fragment>
+    <fragment android:label="@string/appbar_title_typing_heatmap" android:name="com.touchtype.materialsettingsx.typingsettings.stats.HeatmapFragment" android:id="@id/heatmap_fragment">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </fragment>
+</navigation>

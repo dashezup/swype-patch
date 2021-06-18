@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@integer/toolbar_control_button_animation_midpoint" android:startOffset="0" android:valueFrom="@dimen/toolbar_control_button_scale_start" android:valueTo="@dimen/toolbar_control_button_scale_mid" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:duration="@integer/toolbar_control_button_animation_midpoint" android:startOffset="@integer/toolbar_control_button_animation_midpoint" android:valueFrom="@dimen/toolbar_control_button_scale_mid" android:valueTo="@dimen/toolbar_control_button_scale_start" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:duration="@integer/toolbar_control_button_animation_midpoint" android:startOffset="0" android:valueFrom="@dimen/toolbar_control_button_scale_start" android:valueTo="@dimen/toolbar_control_button_scale_mid" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:duration="@integer/toolbar_control_button_animation_midpoint" android:startOffset="@integer/toolbar_control_button_animation_midpoint" android:valueFrom="@dimen/toolbar_control_button_scale_mid" android:valueTo="@dimen/toolbar_control_button_scale_start" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

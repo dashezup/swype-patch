@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="data_consent_buttons_top_margin">@dimen/spacing_16</item>
+    <item type="dimen" name="data_consent_illustration_size">@dimen/custom_wrap_content</item>
+    <item type="dimen" name="data_consent_microsoft_logo_bottom_margin">@dimen/spacing_24</item>
+    <item type="dimen" name="data_consent_more_details_bottom_margin">@dimen/spacing_24</item>
+    <item type="dimen" name="data_consent_question_top_margin">@dimen/spacing_16</item>
+    <dimen name="data_consent_text_horizontal_margin">40.0dip</dimen>
+    <dimen name="data_consent_title_top_margin">48.0dip</dimen>
+</resources>

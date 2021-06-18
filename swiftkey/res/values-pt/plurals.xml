@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Idiomas %1$d adicionados</item>
+        <item quantity="zero">Idiomas %1$d adicionados</item>
+        <item quantity="one">Idioma %1$d adicionado</item>
+        <item quantity="two">Idiomas %1$d adicionados</item>
+        <item quantity="few">Idiomas %1$d adicionados</item>
+        <item quantity="many">Idiomas %1$d adicionados</item>
+    </plurals>
+</resources>

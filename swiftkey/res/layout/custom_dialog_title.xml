@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?dialogPreferredPadding" android:paddingEnd="?dialogPreferredPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/AlertDialogTitle" />
+</FrameLayout>

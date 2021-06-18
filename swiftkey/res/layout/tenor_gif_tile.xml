@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/fancy_panel_spacing" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.view.fancy.richcontent.fresco.SwiftKeyDraweeView android:id="@id/gif_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

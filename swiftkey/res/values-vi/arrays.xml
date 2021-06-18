@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Văn bản bạn sao chép sẽ tự động hiển thị ở đây</item>
+        <item>Ghim các đoạn văn bản đã sao chép để chúng không hết hạn sau 1 giờ</item>
+        <item>Trượt mục bảng tạm để xóa chúng</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Xóa từ dự đoán</item>
+        <item>Đưa ra phản hồi</item>
+        <item>Lưu Nhật ký gỡ lỗi về tính lưu loát</item>
+    </string-array>
+</resources>

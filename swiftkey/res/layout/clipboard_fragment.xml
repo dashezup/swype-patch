@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/local_clipboard" layout="@layout/local_clipboard_preference" />
+            <include android:id="@id/cloud_clipboard" layout="@layout/cloud_clipboard_preference" />
+            <include android:id="@id/cloud_clipboard_prediction_bar" layout="@layout/cloud_clipboard_prediction_bar_preference" />
+            <View android:layout_marginStart="@dimen/spacing_16" android:layout_marginEnd="@dimen/spacing_16" style="@style/HorizontalDivider" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/clipboard_add_with_shortcut" android:background="@drawable/settings_ripple" android:baselineAligned="false" android:minHeight="80.0dip" style="@style/PreferenceItem">
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add" android:contentDescription="@string/clipboard_add_content_description" android:layout_marginEnd="@dimen/spacing_16" app:tint="@color/accent_blue" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/accent_blue" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/clipboard_add_clip_text" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:layout_marginStart="@dimen/spacing_16" android:layout_marginEnd="@dimen/spacing_16" style="@style/HorizontalDivider" />
+        </LinearLayout>
+        <com.touchtype.ui.AccessibilityEmptyRecyclerView android:id="@id/clipboard_recycler_view" android:paddingBottom="@dimen/fab_page_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:nestedScrollingEnabled="false" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/heading" />
+        <include android:id="@id/clipboard_empty_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/heading" layout="@layout/clipboard_fragment_empty_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

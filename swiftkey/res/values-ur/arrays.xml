@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>متن جو آپ نقل کریں خودکار طور پر یہاں دکھائے گا</item>
+        <item>نقل کردہ متن کترنوں کو 1 گھنٹے بعد ضائع ہونے سے روکنے کیلئے پن کریں</item>
+        <item>کلپ بورڈ آئیٹمز کو حذف کرنے کیلئے ان کو سلائڈ کریں</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>پیشنگوئی ہٹائیں</item>
+        <item>فیڈ بیک دیں</item>
+        <item>فلوئنسی ڈی بگ لاگ محفوظ کریں</item>
+    </string-array>
+</resources>

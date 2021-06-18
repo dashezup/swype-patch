@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:textStyle="normal" android:textColor="@color/swiftkey_blue" android:id="@id/quick_task_chip" android:tag="layout/quick_task_chip_0" android:paddingTop="@dimen/spacing_4" android:paddingBottom="@dimen/spacing_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/quick_task_chip_button_placeholder" android:textAllCaps="false" android:paddingStart="@dimen/spacing_8" android:paddingEnd="@dimen/spacing_8" app:backgroundTint="@color/light_fancy_panel_main_background" app:cornerRadius="@dimen/spacing_16" app:icon="@drawable/ic_todo" app:iconTint="@color/swiftkey_blue" app:strokeColor="@color/secondary_button_background_ripple" app:strokeWidth="0.25dip" style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+</merge>

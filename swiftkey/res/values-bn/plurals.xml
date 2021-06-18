@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">%1$dগুলি ভাষা যোগ করা হয়েছে</item>
+        <item quantity="zero">%1$dগুলি ভাষা যোগ করা হয়েছে</item>
+        <item quantity="one">%1$dটি ভাষা যোগ করা হয়েছে</item>
+        <item quantity="two">%1$dগুলি ভাষা যোগ করা হয়েছে</item>
+        <item quantity="few">%1$dগুলি ভাষা যোগ করা হয়েছে</item>
+        <item quantity="many">%1$dগুলি ভাষা যোগ করা হয়েছে</item>
+    </plurals>
+</resources>

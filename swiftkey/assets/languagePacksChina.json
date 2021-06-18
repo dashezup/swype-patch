@@ -1,0 +1,2487 @@
+[ {
+  "name" : "Kinyarwanda",
+  "language" : "rw",
+  "country" : "RW",
+  "sha1" : "f74cbd6a0a1976fea7e0479a125cc25b61a96695",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/rw_RW/rw_RW.104.zip"
+}, {
+  "name" : "Galo",
+  "language" : "gll",
+  "country" : "FR",
+  "sha1" : "09fd59c3fef278258e523eed1f04244bafaf75fc",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gll_FR/gll_FR.104.zip"
+}, {
+  "name" : "Italiano (Svizzera)",
+  "language" : "it",
+  "country" : "CH",
+  "sha1" : "82f2182e2a81c4f89f0b8683f05ad492e4427ebb",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/it_CH/it_CH.105.zip"
+}, {
+  "name" : "བོད་སྐད།",
+  "language" : "bo",
+  "country" : "CN",
+  "sha1" : "8ec196bc194f709dd2b01e4344190466d8949009",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bo_CN/bo_CN.102.zip"
+}, {
+  "name" : "گیلکی",
+  "language" : "glk",
+  "country" : "IR",
+  "sha1" : "2aee1b66c7567031c223949dad240a2a1e3f545c",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/glk_IR/glk_IR.1.zip"
+}, {
+  "name" : "Afrikaans",
+  "language" : "af",
+  "country" : "ZA",
+  "sha1" : "7a708fb14d85023c07068bd3286ca6030bd01565",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/af_ZA/af_ZA.102.zip"
+}, {
+  "name" : "ತುಳು",
+  "language" : "tcy",
+  "country" : "IN",
+  "sha1" : "d09014c5d11f29de4c9b69ef342213cfdb19afff",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tcy_IN/tcy_IN.2.zip"
+}, {
+  "name" : "Español (US)",
+  "language" : "es",
+  "country" : "US",
+  "sha1" : "ef5a5058343d5fdb9c6a8a4e183891e60f636a7d",
+  "version" : 303,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_RNN/es_US/es_US.303.zip"
+}, {
+  "name" : "Português (BR)",
+  "language" : "pt",
+  "country" : "BR",
+  "sha1" : "58381d8dd417a4dc7c5678f415a61943c9384a55",
+  "version" : 117,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_RNN/pt_BR/pt_BR.117.zip"
+}, {
+  "name" : "toki pona",
+  "language" : "tok",
+  "country" : "XX",
+  "sha1" : "974b052788568e426f9eb936ae8e83ac62379e27",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tok_XX/tok_XX.1.zip"
+}, {
+  "name" : "Norsk (Bokmål)",
+  "language" : "nb",
+  "country" : "NO",
+  "sha1" : "6cca8795db22c3baf44c78821b1013af6d0d6513",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nb_NO/nb_NO.102.zip"
+}, {
+  "name" : "ꆈꌠꉙ",
+  "language" : "ii",
+  "country" : "CN",
+  "sha1" : "037b7d821827b6469697589f3c3af76ac1d618d4",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ii_CN/ii_CN.1.zip"
+}, {
+  "name" : "Qyol Mam",
+  "language" : "mam",
+  "country" : "GT",
+  "sha1" : "25559c4d5b8081386a4f42bbe805837dbe57aee9",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mam_GT/mam_GT.1.zip"
+}, {
+  "name" : "Mískitu",
+  "language" : "miq",
+  "country" : "NI",
+  "sha1" : "a0a9d3461a7ea6f613d8d317101f3a1ba4533cc2",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/miq_NI/miq_NI.1.zip"
+}, {
+  "name" : "Tshivenḓa",
+  "language" : "ve",
+  "country" : "ZA",
+  "sha1" : "51434a57881327adbb51352f31a83df5741e4fff",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ve_ZA/ve_ZA.104.zip"
+}, {
+  "name" : "Pasemah",
+  "language" : "pse",
+  "country" : "ID",
+  "sha1" : "e3efd9dcc645490abf13f14f1ec930b5a9ed5755",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pse_ID/pse_ID.1.zip"
+}, {
+  "name" : "Kaszëbsczi",
+  "language" : "csb",
+  "country" : "PL",
+  "sha1" : "b3e4cc252f6ba6165c464e9719ef33838ebd3133",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/csb_PL/csb_PL.102.zip"
+}, {
+  "name" : "Español (ES)",
+  "language" : "es",
+  "country" : "ES",
+  "sha1" : "ac855b7e99f0e4597c2c0d5117e09f122f9aef74",
+  "version" : 311,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_RNN/es_ES/es_ES.311.zip"
+}, {
+  "name" : "Lingála",
+  "language" : "ln",
+  "country" : "CD",
+  "sha1" : "cfd193b90ae5bf230796094e3698f88bb6724da5",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ln_CD/ln_CD.102.zip"
+}, {
+  "name" : "Русиньскый",
+  "language" : "rue",
+  "country" : "SK",
+  "sha1" : "cfed54b1fabf55e8181ea45ab57c4c8ed564f9ae",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/rue_SK/rue_SK.101.zip"
+}, {
+  "name" : "IsiXhosa",
+  "language" : "xh",
+  "country" : "ZA",
+  "sha1" : "b7749b60017b5dc35e539b100c169a2d644acaba",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/xh_ZA/xh_ZA.104.zip"
+}, {
+  "name" : "Gã",
+  "language" : "gaa",
+  "country" : "GH",
+  "sha1" : "d3cf6289ce5b53f77e8a73e43369bfcabb3f0992",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/gaa_GH/gaa_GH.101.zip"
+}, {
+  "name" : "Bislama",
+  "language" : "bi",
+  "country" : "VU",
+  "sha1" : "3e8cb4c0d73e350873826e0df1df3a97d42fd858",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bi_VU/bi_VU.102.zip"
+}, {
+  "name" : "Nederlands (BE)",
+  "language" : "nl",
+  "country" : "BE",
+  "sha1" : "ccf3b67b2c1d291b3baefbff0f4e4332ca1608f6",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nl_BE/nl_BE.106.zip"
+}, {
+  "name" : "Чӑвашла",
+  "language" : "cv",
+  "country" : "RU",
+  "sha1" : "579bb00f9d98ab0759878aa7e2609614d0382353",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cv_RU/cv_RU.102.zip"
+}, {
+  "name" : "ꠍꠤꠟꠐꠤ",
+  "language" : "syl",
+  "country" : "IN",
+  "sha1" : "e2f1e0d9998e5da7d8d1bf64639c97105eefddc2",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/syl_IN/syl_IN.1.zip"
+}, {
+  "name" : "Dansk",
+  "language" : "da",
+  "country" : "DK",
+  "sha1" : "1f8f81ddd8404898f8e070b46e095da9d7ae5d42",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/da_DK/da_DK.102.zip"
+}, {
+  "name" : "Nāhuatl",
+  "language" : "nah",
+  "country" : "MX",
+  "sha1" : "124039b86f35d0f79f49437f700ccfe9a5068964",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nah_MX/nah_MX.1.zip"
+}, {
+  "name" : "Lea faka-Tonga",
+  "language" : "to",
+  "country" : "TO",
+  "sha1" : "148f1785bdf0a9ca78918397c091be58e567f07b",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/to_TO/to_TO.1.zip"
+}, {
+  "name" : "Farsi",
+  "language" : "fas",
+  "country" : "IR",
+  "sha1" : "4c68484d1d3bea951d6f8fb230c59152f5611a16",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/fas_IR/fas_IR.1.zip"
+}, {
+  "name" : "Marathi (English)",
+  "language" : "mar",
+  "country" : "IN",
+  "sha1" : "d9126b0cde0f2aab3bbe562e92bf92f055348597",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mar_IN/mar_IN.4.zip"
+}, {
+  "name" : "ꯃꯤꯇꯩ",
+  "language" : "mxi",
+  "country" : "IN",
+  "sha1" : "5cea05ac8a0ab6928dc8f49f2c24da03dab77dc4",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mxi_IN/mxi_IN.1.zip"
+}, {
+  "name" : "سنڌي",
+  "language" : "sd",
+  "country" : "PK",
+  "sha1" : "24fc7df6e8e40b86cb6028a83324b06d708340ae",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sd_PK/sd_PK.104.zip"
+}, {
+  "name" : "ትግርኛ",
+  "language" : "ti",
+  "country" : "ET",
+  "sha1" : "5dd4b67826bad884a751fb5c15f29e1897a9a5aa",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ti_ET/ti_ET.101.zip"
+}, {
+  "name" : "አማርኛ",
+  "language" : "am",
+  "country" : "ET",
+  "sha1" : "e9e9bebf2fecede55ccc42dcfce27980dbbf02f6",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/am_ET/am_ET.105.zip"
+}, {
+  "name" : "كأشُر",
+  "language" : "ks",
+  "country" : "PK",
+  "sha1" : "3dc84df247008467fba3916edc4eac34c9e3b340",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ks_PK/ks_PK.2.zip"
+}, {
+  "name" : "цӀаӀхна миз",
+  "language" : "tkr",
+  "country" : "RU",
+  "sha1" : "04344bb28fb6d6ca7612d713af89572e45e32df4",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tkr_RU/tkr_RU.1.zip"
+}, {
+  "name" : "Føroyskt",
+  "language" : "fo",
+  "country" : "FO",
+  "sha1" : "94ae53d34afccc87683decb54e1e0323b107dc53",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/fo_FO/fo_FO.103.zip"
+}, {
+  "name" : "Ирон æвзаг",
+  "language" : "os",
+  "country" : "RU",
+  "sha1" : "1c3bcd91d23832af64a8d6d1874f5e90f4dc4dbd",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/os_RU/os_RU.1.zip"
+}, {
+  "name" : "Kikongo",
+  "language" : "kg",
+  "country" : "CD",
+  "sha1" : "92768786c6e61247ba21a1fa1c94f10e9f84d1cc",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kg_CD/kg_CD.1.zip"
+}, {
+  "name" : "Waray",
+  "language" : "war",
+  "country" : "PH",
+  "sha1" : "d6d5226805dd2041cf9fe1c221708ce9c4777814",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/war_PH/war_PH.102.zip"
+}, {
+  "name" : "संस्कृतम्",
+  "language" : "sa",
+  "country" : "IN",
+  "sha1" : "96b52e4e0166d3da8da4e557a60f7cc0bb2a123c",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sa_IN/sa_IN.102.zip"
+}, {
+  "name" : "한국어",
+  "short_name" : "한",
+  "language" : "ko",
+  "country" : "KR",
+  "sha1" : "8041da5a38db8ed327200d2e29184c89bcabad4f",
+  "version" : 120,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_morpheme/ko_KR/ko_KR.120.zip"
+}, {
+  "name" : "English (US)",
+  "language" : "en",
+  "country" : "US",
+  "sha1" : "944f3181e8da33935cc3fc0b13c3eab55e480f63",
+  "version" : 315,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_emoji_RNN/en_US/en_US.315.zip"
+}, {
+  "name" : "Ilokano",
+  "language" : "ilo",
+  "country" : "PH",
+  "sha1" : "8394a3f25d41ff98f351b8dc826206e6ab163267",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ilo_PH/ilo_PH.2.zip"
+}, {
+  "name" : "कोंकणी",
+  "language" : "kok",
+  "country" : "IN",
+  "sha1" : "268522c9d19da044366c241bff717239f85f09d9",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kok_IN/kok_IN.102.zip"
+}, {
+  "name" : "Aymar aru",
+  "language" : "ay",
+  "country" : "BO",
+  "sha1" : "5db794e4459a7c519d01aa979cdf61f457866bb9",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ay_BO/ay_BO.1.zip"
+}, {
+  "name" : "مصرى",
+  "language" : "arz",
+  "country" : "EG",
+  "sha1" : "af6fa006a00f7c661bed4d057b5e98dd0298b716",
+  "version" : 111,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/arz_EG/arz_EG.111.zip"
+}, {
+  "name" : "Emakuana",
+  "language" : "vmw",
+  "country" : "MZ",
+  "sha1" : "04b94b679c315b9a812be57a302f052c6a107726",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/vmw_MZ/vmw_MZ.101.zip"
+}, {
+  "name" : "Ελληνικά",
+  "language" : "el",
+  "country" : "GR",
+  "sha1" : "45e528014c75e9889f4280429e201c69810fccbd",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/el_GR/el_GR.105.zip"
+}, {
+  "name" : "Tok Pisin",
+  "language" : "tpi",
+  "country" : "PG",
+  "sha1" : "ece11b9a6c47525bb276c4ad46c154c9abcfeb32",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tpi_PG/tpi_PG.1.zip"
+}, {
+  "name" : "IsiZulu",
+  "language" : "zu",
+  "country" : "ZA",
+  "sha1" : "d4a117e76daedee4fe7569fc52ad5979ea3c3ead",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/zu_ZA/zu_ZA.104.zip"
+}, {
+  "name" : "Беларуская",
+  "language" : "be",
+  "country" : "BY",
+  "sha1" : "f215b8cde35e559617afa1014f783549582703d5",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/be_BY/be_BY.101.zip"
+}, {
+  "name" : "English (AU)",
+  "language" : "en",
+  "country" : "AU",
+  "sha1" : "2619e8b7b038555a7a328f2b883a1ba1a80152ae",
+  "version" : 120,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_emoji_RNN/en_AU/en_AU.120.zip"
+}, {
+  "name" : "עברית",
+  "language" : "he",
+  "country" : "IL",
+  "sha1" : "8c50a5bafcee74a762eaf3995ca399c888410f96",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_morpheme/he_IL/he_IL.103.zip"
+}, {
+  "name" : "Davvisámegiella",
+  "language" : "se",
+  "country" : "NO",
+  "sha1" : "c23d1bd31bd529cad1ec179d22819742b13575bc",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/se_NO/se_NO.100.zip"
+}, {
+  "name" : "Taetae ni Kiribati",
+  "language" : "gil",
+  "country" : "KI",
+  "sha1" : "f9c8a5cde2c3ed6fbbdd1047a3358c5a5d2560b3",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gil_KI/gil_KI.1.zip"
+}, {
+  "name" : "Schwiizerdütsch",
+  "language" : "gsw",
+  "country" : "CH",
+  "sha1" : "3789eb8fbaf281f78c0c5a0885beb6c8857b4fb3",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gsw_CH/gsw_CH.3.zip"
+}, {
+  "name" : "Kabiye",
+  "language" : "kbp",
+  "country" : "TG",
+  "sha1" : "693d82c0f02798a6ccc562ec1bb83409d061c7fc",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kbp_TG/kbp_TG.2.zip"
+}, {
+  "name" : "табасаран чIал",
+  "language" : "tab",
+  "country" : "RU",
+  "sha1" : "4562467bbc61eecc06106cf09fed54c09c68c2b9",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tab_RU/tab_RU.1.zip"
+}, {
+  "name" : "Ilonggo",
+  "language" : "hil",
+  "country" : "PH",
+  "sha1" : "796927ea58c7bfb141cb14db391b5b23b06e6d7a",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/hil_PH/hil_PH.104.zip"
+}, {
+  "name" : "Li Niha",
+  "language" : "nia",
+  "country" : "ID",
+  "sha1" : "3abcd036ef9c4e9d2831c3b78fc95258dd2b1aad",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nia_ID/nia_ID.1.zip"
+}, {
+  "name" : "شامي",
+  "language" : "apc",
+  "country" : "LB",
+  "sha1" : "b72c4bdee72aa6d2be5ea758c6d0ea16102d6c9f",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/apc_LB/apc_LB.104.zip"
+}, {
+  "name" : "Fɔngbè",
+  "language" : "fon",
+  "country" : "BJ",
+  "sha1" : "94478768689003307da12ee17c29c7d3afd76ec8",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/fon_BJ/fon_BJ.4.zip"
+}, {
+  "name" : "বাংলা",
+  "language" : "bn",
+  "country" : "IN",
+  "sha1" : "32950e09a5aac231395c449f0c4c0e9ef2d4f0d4",
+  "version" : 112,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bn_IN/bn_IN.112.zip"
+}, {
+  "name" : "Mooré",
+  "language" : "mos",
+  "country" : "BF",
+  "sha1" : "7aad7d29ef2fecb7d3ea20afe9e83e229f3ddbcc",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/mos_BF/mos_BF.101.zip"
+}, {
+  "name" : "Тыва дыл",
+  "language" : "tyv",
+  "country" : "RU",
+  "sha1" : "c7bc85173f7e331153925198a91c98334759475a",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tyv_RU/tyv_RU.1.zip"
+}, {
+  "name" : "ਪੰਜਾਬੀ",
+  "language" : "pa",
+  "country" : "IN",
+  "sha1" : "4decc803d0b0ba13a21f0b3ae5cf97833da525b3",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pa_IN/pa_IN.113.zip"
+}, {
+  "name" : "Gagana Sāmoa",
+  "language" : "sm",
+  "country" : "WS",
+  "sha1" : "ad48b3abec2e834d5c1ebbecac17609872e6acd7",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sm_WS/sm_WS.105.zip"
+}, {
+  "name" : "Jumiekan Patwa",
+  "language" : "jam",
+  "country" : "JM",
+  "sha1" : "a6dee083012d06f8d1bd2e5b25a07f1a1078aa3b",
+  "version" : 5,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/jam_JM/jam_JM.5.zip"
+}, {
+  "name" : "יידיש",
+  "language" : "yi",
+  "country" : "IL",
+  "sha1" : "d210339d46968fcda2dc663696ce9c0bc8a10268",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/yi_IL/yi_IL.104.zip"
+}, {
+  "name" : "ܛܘܪܝܐ",
+  "language" : "tru",
+  "country" : "TR",
+  "sha1" : "f53bffd42479d2da8176aff6579eb62ccf1a4407",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/tru_TR/tru_TR.101.zip"
+}, {
+  "name" : "Malagasy",
+  "language" : "mg",
+  "country" : "MG",
+  "sha1" : "caba513beed9a67be581e07286dc97912f20eeb7",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mg_MG/mg_MG.101.zip"
+}, {
+  "name" : "Azərbaycanca",
+  "language" : "az",
+  "country" : "AZ",
+  "sha1" : "e504a58d294b7e4b0f5f49937ef21b3fbbcb88c1",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/az_AZ/az_AZ.101.zip"
+}, {
+  "name" : "Kurpśosky",
+  "language" : "crp",
+  "country" : "PL",
+  "sha1" : "6644e34ac9e56e4efa990f3527e7d7a7022c6774",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/crp_PL/crp_PL.2.zip"
+}, {
+  "name" : "Suomi",
+  "language" : "fi",
+  "country" : "FI",
+  "sha1" : "b78b84f8fa8849953f3b3657bb13dfcb1631a5f9",
+  "version" : 110,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_morpheme/fi_FI/fi_FI.110.zip"
+}, {
+  "name" : "بهاس ملايو (جاوي)",
+  "language" : "msa",
+  "country" : "MY",
+  "sha1" : "abeeca8b0b9421e90540a5d69ad53f64558a84f1",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/msa_MY/msa_MY.2.zip"
+}, {
+  "name" : "Српски",
+  "language" : "sr",
+  "country" : "YU",
+  "sha1" : "d84cc433b41947fc21b90d7091df1384ac41b435",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sr_YU/sr_YU.102.zip"
+}, {
+  "name" : "English (CA)",
+  "language" : "en",
+  "country" : "CA",
+  "sha1" : "043369c26acff941eadadf95fcd7364a82381251",
+  "version" : 308,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_emoji_RNN/en_CA/en_CA.308.zip"
+}, {
+  "name" : "ქართული",
+  "language" : "ka",
+  "country" : "GE",
+  "sha1" : "84968afce24dff38b8c1457e183f359ad3849ec9",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ka_GE/ka_GE.102.zip"
+}, {
+  "name" : "Latviešu",
+  "language" : "lv",
+  "country" : "LV",
+  "sha1" : "3d88211018b023cd73f18af9ae7260e9d6e2e111",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lv_LV/lv_LV.113.zip"
+}, {
+  "name" : "Українська",
+  "language" : "uk",
+  "country" : "UA",
+  "sha1" : "70f7bfba802bc60e72190d4026679da75adf506d",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/uk_UA/uk_UA.113.zip"
+}, {
+  "name" : "اردو",
+  "language" : "ur",
+  "country" : "PK",
+  "sha1" : "77dd3e25a8450dc63a23844d5cf46c55c44c6449",
+  "version" : 110,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ur_PK/ur_PK.110.zip"
+}, {
+  "name" : "Telugu (English)",
+  "language" : "tel",
+  "country" : "IN",
+  "sha1" : "8eb1ef434fa3866f1bd711dd678f9467bb7491fb",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tel_IN/tel_IN.4.zip"
+}, {
+  "name" : "Monokutuba",
+  "language" : "ktu",
+  "country" : "CD",
+  "sha1" : "59f60a47d9d8c6b6e956e7abe9b251f98ac4175a",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ktu_CD/ktu_CD.1.zip"
+}, {
+  "name" : "Ϯⲙⲉⲧⲣⲉⲙⲛ̀Ⲭⲏⲙⲓ",
+  "language" : "cop",
+  "country" : "EG",
+  "sha1" : "f0d61eb82486b50762ce3e3ca9cb7e2605ea2219",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cop_EG/cop_EG.100.zip"
+}, {
+  "name" : "Maaya T’aan",
+  "language" : "yua",
+  "country" : "MX",
+  "sha1" : "2a24eb241b4074e5252028b6c13e4d0eec97b88a",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/yua_MX/yua_MX.1.zip"
+}, {
+  "name" : "मारवाड़ी",
+  "language" : "mwr",
+  "country" : "IN",
+  "sha1" : "11763773d606afc1f2525d1b21f9c4b250e336ce",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/mwr_IN/mwr_IN.4.zip"
+}, {
+  "name" : "Sinhala (English)",
+  "language" : "sin",
+  "country" : "LK",
+  "sha1" : "5c7baaee863feb02301c774839ef40bb96b10cca",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sin_LK/sin_LK.4.zip"
+}, {
+  "name" : "Português (PT)",
+  "language" : "pt",
+  "country" : "PT",
+  "sha1" : "86d4c2fce7cc4c285232287430f18f8792acbc13",
+  "version" : 114,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_neural2/pt_PT/pt_PT.114.zip"
+}, {
+  "name" : "Xitsonga",
+  "language" : "ts",
+  "country" : "ZA",
+  "sha1" : "70708cdfdc4c807b56e1bc6987e7fd8ebc5fbba1",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ts_ZA/ts_ZA.104.zip"
+}, {
+  "name" : "Brezhoneg",
+  "language" : "br",
+  "country" : "FR",
+  "sha1" : "2e2fd9cb833e9d21504a87491ee58d02d56d9abb",
+  "version" : 108,
+  "beta" : "true",
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/br_FR/br_FR.108.zip"
+}, {
+  "name" : "Urin Qhichwa",
+  "language" : "quz",
+  "country" : "PE",
+  "sha1" : "051f8c86e04257e5146fa6865e385621faf24d57",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/quz_PE/quz_PE.1.zip"
+}, {
+  "name" : "Ⲁⲛⲇⲁ̄ⲛⲇⲓ",
+  "language" : "dgl",
+  "country" : "SD",
+  "sha1" : "36fef9f01e043912877a6eb10fd894aa03eeee5c",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/dgl_SD/dgl_SD.1.zip"
+}, {
+  "name" : "Къумукъ тил",
+  "language" : "kum",
+  "country" : "RU",
+  "sha1" : "da7ff9a942c3222d1e2cdf347e0e4a70207116a9",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kum_RU/kum_RU.1.zip"
+}, {
+  "name" : "Дигорон æвзаг",
+  "language" : "oss",
+  "country" : "RU",
+  "sha1" : "cbb1c40925f231208f1636761d061c625684df8d",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/oss_RU/oss_RU.1.zip"
+}, {
+  "name" : "ᨅᨔ ᨆᨀᨔᨑ",
+  "language" : "mak",
+  "country" : "ID",
+  "sha1" : "32bbe5e40755bae636a6377310404ded1cfb8ca1",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mak_ID/mak_ID.1.zip"
+}, {
+  "name" : "Bikol Central",
+  "language" : "bcl",
+  "country" : "PH",
+  "sha1" : "755694162cfc80792b5a075d487f73c4c6e128c7",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bcl_PH/bcl_PH.1.zip"
+}, {
+  "name" : "ไทย",
+  "language" : "th",
+  "country" : "TH",
+  "sha1" : "d56d40971c5bcf49a547f225b1506cea3b574063",
+  "version" : 115,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/th_TH/th_TH.115.zip"
+}, {
+  "name" : "Буряад хэлэн",
+  "language" : "bxr",
+  "country" : "RU",
+  "sha1" : "e50c8834d699e3f9c4ca8a7d36e429062aaadb32",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bxr_RU/bxr_RU.1.zip"
+}, {
+  "name" : "සිංහල",
+  "language" : "si",
+  "country" : "LK",
+  "sha1" : "b38c5f7462e241c1175ef47a2126f3f8c3a478df",
+  "version" : 107,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/si_LK/si_LK.107.zip"
+}, {
+  "name" : "Magyar",
+  "language" : "hu",
+  "country" : "HU",
+  "sha1" : "ef6215bc239094c9435379e1ea5aebaa4e6c467f",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hu_HU/hu_HU.105.zip"
+}, {
+  "name" : "Kajin M̧ajeļ",
+  "language" : "mh",
+  "country" : "MH",
+  "sha1" : "47c8014bef4e21a687b6320c4cfe2cfb490f8b39",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mh_MH/mh_MH.102.zip"
+}, {
+  "name" : "العربية",
+  "language" : "ar",
+  "country" : "SA",
+  "sha1" : "5ff41aaf64ed501ea55be876b126de50c505d53c",
+  "version" : 122,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ar_SA/ar_SA.122.zip"
+}, {
+  "name" : "Basa Sunda",
+  "language" : "su",
+  "country" : "ID",
+  "sha1" : "b5bacf60be2053e434afb9665d79f672b694404a",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/su_ID/su_ID.101.zip"
+}, {
+  "name" : "Kalaallisut",
+  "language" : "kl",
+  "country" : "GL",
+  "sha1" : "aaaf34ac1938c16a4aaee6bbf7fa02039b198267",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/kl_GL/kl_GL.102.zip"
+}, {
+  "name" : "Kernewek",
+  "language" : "kw",
+  "country" : "GB",
+  "sha1" : "689b029ba4e248d5cfe178540c73d96e63f76757",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kw_GB/kw_GB.104.zip"
+}, {
+  "name" : "ျမန္မာဘာသာ",
+  "language" : "my",
+  "country" : "ZG",
+  "sha1" : "e55ef7c574184f139b8c65fbb092abb84c931052",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/my_ZG/my_ZG.101.zip"
+}, {
+  "name" : "Akan (Twi)",
+  "language" : "ak",
+  "country" : "GH",
+  "sha1" : "74f425a3cd77cd71ec3e4215769f518fa8a9ef48",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ak_GH/ak_GH.102.zip"
+}, {
+  "name" : "Mi’kmawi’simk",
+  "language" : "mic",
+  "country" : "CA",
+  "sha1" : "4d44d45ff3e85df3d605918570d949a52316c7a1",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mic_CA/mic_CA.3.zip"
+}, {
+  "name" : "Piemontèis",
+  "language" : "pms",
+  "country" : "IT",
+  "sha1" : "bc203ef04f56f9e458327f1e96a9d64435da2fc3",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pms_IT/pms_IT.1.zip"
+}, {
+  "name" : "ಕೊಂಕಣಿ",
+  "language" : "knn",
+  "country" : "IN",
+  "sha1" : "a05fa189daedda98fe2e22b2e20e2dc26e2729aa",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/knn_IN/knn_IN.102.zip"
+}, {
+  "name" : "Марий",
+  "language" : "mhr",
+  "country" : "RU",
+  "sha1" : "a76b9075b6d1372f80bc08515a8d894cd055d9ee",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mhr_RU/mhr_RU.1.zip"
+}, {
+  "name" : "Gàidhlig",
+  "language" : "gd",
+  "country" : "GB",
+  "sha1" : "d4977d42c91c05d715c510c3e470253da3eb6d6f",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gd_GB/gd_GB.105.zip"
+}, {
+  "name" : "தமிழ்",
+  "language" : "ta",
+  "country" : "IN",
+  "sha1" : "2cd631b6bff1ec719f37c6ae81ab9884e5f45b3f",
+  "version" : 126,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/ta_IN/ta_IN.126.zip"
+}, {
+  "name" : "Srpski",
+  "language" : "sr",
+  "country" : "RS",
+  "sha1" : "a27041d8ad3b9951a6c3edf554afec3cfa28e461",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sr_RS/sr_RS.104.zip"
+}, {
+  "name" : "Qafaraf",
+  "language" : "aa",
+  "country" : "ET",
+  "sha1" : "c5ce044a9c3d5e6da8fce51c213e6c2744fe08fe",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/aa_ET/aa_ET.3.zip"
+}, {
+  "name" : "Sängö",
+  "language" : "sg",
+  "country" : "CF",
+  "sha1" : "72dbdca3f80cd802f873026b6b0e190c9291ebe1",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/sg_CF/sg_CF.3.zip"
+}, {
+  "name" : "پنجابی",
+  "language" : "pnb",
+  "country" : "PK",
+  "sha1" : "53135a3df7d12ac8f0b403c22771e3236f4b6cfb",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pnb_PK/pnb_PK.1.zip"
+}, {
+  "name" : "Panglish",
+  "language" : "pan",
+  "country" : "IN",
+  "sha1" : "151f27d531c993c925f8ebe27b408fb900f90bd7",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pan_IN/pan_IN.104.zip"
+}, {
+  "name" : "Vèneto",
+  "language" : "vec",
+  "country" : "IT",
+  "sha1" : "114f640082ddc9fab6431a89e5c44f69a050f1a0",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/vec_IT/vec_IT.103.zip"
+}, {
+  "name" : "Ślōnski",
+  "language" : "szl",
+  "country" : "PL",
+  "sha1" : "d1dd2937b643cb5646ed2128a4e906788b41e4dd",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/szl_PL/szl_PL.104.zip"
+}, {
+  "name" : "Dhivehi (English)",
+  "language" : "div",
+  "country" : "MV",
+  "sha1" : "2066b2225683da598feeea325fde9cffe26e49ab",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/div_MV/div_MV.2.zip"
+}, {
+  "name" : "Қазақ",
+  "language" : "kk",
+  "country" : "KZ",
+  "sha1" : "23c297eae731d857cb06f3d20d8d4481b88da16e",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kk_KZ/kk_KZ.101.zip"
+}, {
+  "name" : "Papiamentu (Kòrsou)",
+  "language" : "pap",
+  "country" : "CW",
+  "sha1" : "1634691cebddc47dc236ff2c3507f3c719a344d1",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/pap_CW/pap_CW.101.zip"
+}, {
+  "name" : "Hmongb (Zhongb gox)",
+  "language" : "cqd",
+  "country" : "CN",
+  "sha1" : "7205a1d99dff1b907a9cfaa450aee8dede9c697b",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cqd_CN/cqd_CN.1.zip"
+}, {
+  "name" : "Dholuo",
+  "language" : "luo",
+  "country" : "KE",
+  "sha1" : "5ecc5be600992d03d33aa671ff517d74a1c16220",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/luo_KE/luo_KE.1.zip"
+}, {
+  "name" : "تونسي",
+  "language" : "ar",
+  "country" : "TN",
+  "sha1" : "a20a59a64eae8cf2c39a7128adb364d2fc198ff3",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ar_TN/ar_TN.3.zip"
+}, {
+  "name" : "Ẹdo",
+  "language" : "bin",
+  "country" : "NG",
+  "sha1" : "714fcb8cfa475276a0663bd08e032f0c7c3a3a4d",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bin_NG/bin_NG.1.zip"
+}, {
+  "name" : "हिन्दी",
+  "language" : "hi",
+  "country" : "IN",
+  "sha1" : "3d5194f93e2164869fe2f3bdb83c60698a48f67b",
+  "version" : 152,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/word/hi_IN/hi_IN.152.zip"
+}, {
+  "name" : "Ĝusso",
+  "language" : "hru",
+  "country" : "IN",
+  "sha1" : "cbc7822eb606cb18438754313c1470a957015a06",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hru_IN/hru_IN.2.zip"
+}, {
+  "name" : "Kannada (English)",
+  "language" : "kan",
+  "country" : "IN",
+  "sha1" : "de0500ec5554f593ee6a60d9a301d36ad3f09b09",
+  "version" : 5,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kan_IN/kan_IN.5.zip"
+}, {
+  "name" : "Монгол",
+  "language" : "mn",
+  "country" : "MN",
+  "sha1" : "50c8663d274ad07e6c2e50a9a8c249bda81fd4b7",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mn_MN/mn_MN.102.zip"
+}, {
+  "name" : "လိၵ်ႈတႆး",
+  "language" : "shn",
+  "country" : "MM",
+  "sha1" : "90f3d48e368e4cdfd604455f3886e069632fcbe0",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/shn_MM/shn_MM.1.zip"
+}, {
+  "name" : "Français (FR)",
+  "language" : "fr",
+  "country" : "FR",
+  "sha1" : "70696667d675111d612b2726ba40b01ecd451456",
+  "version" : 308,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_emoji_RNN/fr_FR/fr_FR.308.zip"
+}, {
+  "name" : "Napulitano",
+  "language" : "nap",
+  "country" : "IT",
+  "sha1" : "edf79b23d654ce7451487a8fc6b4530d5ab307e1",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nap_IT/nap_IT.100.zip"
+}, {
+  "name" : "Elsassisch",
+  "language" : "gsw",
+  "country" : "FR",
+  "sha1" : "69e7b6b70d01d2a9f3eece662b5c18779cf7855f",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gsw_FR/gsw_FR.104.zip"
+}, {
+  "name" : "Bahasa Melayu",
+  "language" : "ms",
+  "country" : "MY",
+  "sha1" : "5cb2dba80ad85468eb151d3d8e384820426ec8f6",
+  "version" : 112,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ms_MY/ms_MY.112.zip"
+}, {
+  "name" : "Griko",
+  "language" : "grk",
+  "country" : "IT",
+  "sha1" : "eec9bb03755113ffa689c04be5bcbdfc360131ee",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/grk_IT/grk_IT.1.zip"
+}, {
+  "name" : "Kapampangan",
+  "language" : "pam",
+  "country" : "PH",
+  "sha1" : "6269b8701301ae869175be18da3844dfdccec3fc",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pam_PH/pam_PH.1.zip"
+}, {
+  "name" : "O'zbekcha",
+  "language" : "uz",
+  "country" : "UZ",
+  "sha1" : "436830089b9530821082726d257e460a22847e08",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/uz_UZ/uz_UZ.101.zip"
+}, {
+  "name" : "Chicheŵa",
+  "language" : "ny",
+  "country" : "MW",
+  "sha1" : "068f78f81e84168774e3e647d862f7d406e180a0",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ny_MW/ny_MW.102.zip"
+}, {
+  "name" : "Corsu",
+  "language" : "co",
+  "country" : "FR",
+  "sha1" : "10b01cfe64a1f7eca9bfe33b0be60237b2da20d3",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/co_FR/co_FR.102.zip"
+}, {
+  "name" : "Hawaiʻi",
+  "language" : "haw",
+  "country" : "US",
+  "sha1" : "022abe737d664fedbe166c7a4832a5821a879a21",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/haw_US/haw_US.102.zip"
+}, {
+  "name" : "Ka Ktien Khasi",
+  "language" : "kha",
+  "country" : "IN",
+  "sha1" : "6c91ebd9dae7d601f5b8ae94cc60216d2cf6a6be",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kha_IN/kha_IN.1.zip"
+}, {
+  "name" : "Norsk (Nynorsk)",
+  "language" : "nn",
+  "country" : "NO",
+  "sha1" : "54aafc876d5cc1ccbaa77c1fa302779da1bc9bc9",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nn_NO/nn_NO.105.zip"
+}, {
+  "name" : "Нохчийн",
+  "language" : "ce",
+  "country" : "RU",
+  "sha1" : "9208d59ecc7d6e466b82a95af14fa56259eb97a1",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ce_RU/ce_RU.103.zip"
+}, {
+  "name" : "Basa Jawa",
+  "language" : "jv",
+  "country" : "ID",
+  "sha1" : "2cdea152e1630a3e361abd78ccd353e950bad9a4",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/jv_ID/jv_ID.101.zip"
+}, {
+  "name" : "Bahasa Hulontalo",
+  "language" : "gor",
+  "country" : "ID",
+  "sha1" : "24c3c5483523d76986cf77afde051384308da7f1",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gor_ID/gor_ID.1.zip"
+}, {
+  "name" : "Pangasinan",
+  "language" : "pag",
+  "country" : "PH",
+  "sha1" : "e1c7082ca598877ce529087fc244a5e4b2a71231",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pag_PH/pag_PH.1.zip"
+}, {
+  "name" : "Malayalam (English)",
+  "language" : "mal",
+  "country" : "IN",
+  "sha1" : "03989013274aaf59b2c2f72f6e49d91a6144ea49",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mal_IN/mal_IN.4.zip"
+}, {
+  "name" : "Saamáka",
+  "language" : "srm",
+  "country" : "SR",
+  "sha1" : "db902ea3e9c9514ed227d98a2bce10c5e07ef3f8",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/srm_SR/srm_SR.1.zip"
+}, {
+  "name" : "डोटेली",
+  "language" : "dty",
+  "country" : "NP",
+  "sha1" : "474dbddb188ba3f89e67f757db18521be656f7a5",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/dty_NP/dty_NP.1.zip"
+}, {
+  "name" : "فارسی",
+  "language" : "fa",
+  "country" : "IR",
+  "sha1" : "705b54aed42a2cc08997e9608a1e9d25aa629b2f",
+  "version" : 112,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/fa_IR/fa_IR.112.zip"
+}, {
+  "name" : "جزائرية",
+  "language" : "ar",
+  "country" : "DZ",
+  "sha1" : "8f41448e3a8a53043c72085a7c23e5631241fb51",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ar_DZ/ar_DZ.3.zip"
+}, {
+  "name" : "Lëtzebuergesch",
+  "language" : "lb",
+  "country" : "LU",
+  "sha1" : "200b2343d4c056039abb669531a2507d7fe34d7d",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lb_LU/lb_LU.104.zip"
+}, {
+  "name" : "Cymraeg",
+  "language" : "cy",
+  "country" : "GB",
+  "sha1" : "2589a03fbbdd9bd356427e6f8daecc96387adc12",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cy_GB/cy_GB.102.zip"
+}, {
+  "name" : "Kreyòl ayisyen",
+  "language" : "ht",
+  "country" : "HT",
+  "sha1" : "7f72d1612cc3e841778f27fed79a18d2f921e918",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ht_HT/ht_HT.103.zip"
+}, {
+  "name" : "ကညီကျိာ်",
+  "language" : "ksw",
+  "country" : "MM",
+  "sha1" : "9b6d7af81e77672dfde6b06ebc8cc72182892f6d",
+  "version" : 7,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ksw_MM/ksw_MM.7.zip"
+}, {
+  "name" : "Hornjoserbšćina",
+  "language" : "hsb",
+  "country" : "DE",
+  "sha1" : "e01200d005c70a8babbfff4f70e83fc9ac5b27bf",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hsb_DE/hsb_DE.1.zip"
+}, {
+  "name" : "Lingua Franca Nova",
+  "language" : "lfn",
+  "country" : "XX",
+  "sha1" : "1c7761c3f3b68cd0ae197ce7c461bc99ef38e5a9",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lfn_XX/lfn_XX.1.zip"
+}, {
+  "name" : "Naro",
+  "language" : "nhr",
+  "country" : "NA",
+  "sha1" : "0cb0e99de1383344866c3b8a00d3dd7a2c68f5e4",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nhr_NA/nhr_NA.2.zip"
+}, {
+  "name" : "Sinugboanon",
+  "language" : "ceb",
+  "country" : "PH",
+  "sha1" : "5e32693af7d34824391a49bea5c8429e87fdc28d",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ceb_PH/ceb_PH.101.zip"
+}, {
+  "name" : "Татарча",
+  "language" : "tt",
+  "country" : "RU",
+  "sha1" : "1d68576cf5ea86e2cb33dc99b353eb613904b0db",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tt_RU/tt_RU.101.zip"
+}, {
+  "name" : "Võro",
+  "language" : "vro",
+  "country" : "EE",
+  "sha1" : "8c5016e62d5975d252158711e242f9b97525d50f",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/vro_EE/vro_EE.1.zip"
+}, {
+  "name" : "ꓡꓲ-ꓢꓴ",
+  "language" : "lis",
+  "country" : "CN",
+  "sha1" : "f07d0d20b34bbb59c411cfe4990b6233bc9c8697",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lis_CN/lis_CN.1.zip"
+}, {
+  "name" : "ܣܘܪܝܝܐ",
+  "language" : "syc",
+  "country" : "IQ",
+  "sha1" : "8e57be867d7e72af5b92e68d8e6fc42d1e470dd7",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/syc_IQ/syc_IQ.104.zip"
+}, {
+  "name" : "Oromoo",
+  "language" : "om",
+  "country" : "ET",
+  "sha1" : "d84d8bbfc271e31ccab8dceabb1069d1fcb1c483",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/om_ET/om_ET.102.zip"
+}, {
+  "name" : "Odia (English)",
+  "language" : "ori",
+  "country" : "IN",
+  "sha1" : "399843c8f5f63e9e7a5163b630318192a1812838",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ori_IN/ori_IN.4.zip"
+}, {
+  "name" : "Tetun",
+  "language" : "tet",
+  "country" : "ID",
+  "sha1" : "0b731ca2c2fca98fc8a71bb121f17505caec8c43",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/tet_ID/tet_ID.102.zip"
+}, {
+  "name" : "Gagauz",
+  "language" : "gag",
+  "country" : "MD",
+  "sha1" : "37f294b1d127eac3453e6105876e76c9ea4757fe",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gag_MD/gag_MD.1.zip"
+}, {
+  "name" : "Warlpiri",
+  "language" : "wbp",
+  "country" : "AU",
+  "sha1" : "27af7fee376504b1a05b57a408da4cbba39e0318",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/wbp_AU/wbp_AU.1.zip"
+}, {
+  "name" : "Română",
+  "language" : "ro",
+  "country" : "RO",
+  "sha1" : "064e766e61371f00bd8d794aef3c44d5c470b277",
+  "version" : 116,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ro_RO/ro_RO.116.zip"
+}, {
+  "name" : "Malti",
+  "language" : "mt",
+  "country" : "MT",
+  "sha1" : "77b5ecf61f8bcf861f82bd7518268a9f369b53f3",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mt_MT/mt_MT.105.zip"
+}, {
+  "name" : "лакку маз",
+  "language" : "lbe",
+  "country" : "RU",
+  "sha1" : "b7bb765f6641334a303560963af1a7d472a4c393",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lbe_RU/lbe_RU.1.zip"
+}, {
+  "name" : "Сахалыы",
+  "language" : "sah",
+  "country" : "RU",
+  "sha1" : "52ebd9248a840dcf22c1aa661da35aad1f25b7a8",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sah_RU/sah_RU.105.zip"
+}, {
+  "name" : "Čeština",
+  "language" : "cs",
+  "country" : "CZ",
+  "sha1" : "81e93a61775b8b95ee67737dcea223f5bd7acb9d",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cs_CZ/cs_CZ.104.zip"
+}, {
+  "name" : "Sicilianu",
+  "language" : "scn",
+  "country" : "IT",
+  "sha1" : "b9760931c65a361c86f4eb62f23a3670ddd7cae4",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/scn_IT/scn_IT.103.zip"
+}, {
+  "name" : "Хальмг",
+  "language" : "xal",
+  "country" : "RU",
+  "sha1" : "202617b5e94b4b92facb5039a2a1f45cc649728f",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/xal_RU/xal_RU.1.zip"
+}, {
+  "name" : "भोजपुरी",
+  "language" : "bho",
+  "country" : "IN",
+  "sha1" : "4956a8f5ce4ad748976668ac74878b6f51c3d4a3",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bho_IN/bho_IN.2.zip"
+}, {
+  "name" : "Garífuna",
+  "language" : "cab",
+  "country" : "HN",
+  "sha1" : "311ab3993a286d02b304afac228616ff9498690b",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/cab_HN/cab_HN.3.zip"
+}, {
+  "name" : "Kreol Morisien",
+  "language" : "mfe",
+  "country" : "MU",
+  "sha1" : "abe0b5b6a5d4bf96546434b9f3a65dbba52000f0",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/mfe_MU/mfe_MU.2.zip"
+}, {
+  "name" : "Boarisch",
+  "language" : "bar",
+  "country" : "AT",
+  "sha1" : "29eb769ba40e6f72b25b95cfcf9ecef1c5f5c190",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bar_AT/bar_AT.2.zip"
+}, {
+  "name" : "Español (Mexico)",
+  "language" : "es",
+  "country" : "MX",
+  "sha1" : "d33af5425b5d5f0ee0fc56730bbb8abf90ec7c60",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/es_MX/es_MX.1.zip"
+}, {
+  "name" : "閩南語",
+  "language" : "nan",
+  "country" : "TW",
+  "sha1" : "e4d7d6843921a3d7d03a8d475951ad6e41ca4442",
+  "version" : 6,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nan_TW/nan_TW.6.zip"
+}, {
+  "name" : "Slovenčina",
+  "language" : "sk",
+  "country" : "SK",
+  "sha1" : "1b9540a9f5de7f86a22303a78b3dd359b9f3399e",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sk_SK/sk_SK.104.zip"
+}, {
+  "name" : "Chamoru",
+  "language" : "ch",
+  "country" : "US",
+  "sha1" : "2295357cf606b8d9b5bf59af6e81b92ee2372b21",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ch_US/ch_US.1.zip"
+}, {
+  "name" : "شِْنْیٛآ",
+  "language" : "scl",
+  "country" : "PK",
+  "sha1" : "3d3f1f11b67023cac9621e00ac54226bfad4540b",
+  "version" : 5,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/scl_PK/scl_PK.5.zip"
+}, {
+  "name" : "K’iche’",
+  "language" : "quc",
+  "country" : "GT",
+  "sha1" : "88e4d22560e1e5f03aa5a3f7b3cb24a5a73e451c",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/quc_GT/quc_GT.1.zip"
+}, {
+  "name" : "Scots",
+  "language" : "sco",
+  "country" : "GB",
+  "sha1" : "e1817a0fe63f0e8a00b9aad95c0101314e80a300",
+  "version" : 108,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sco_GB/sco_GB.108.zip"
+}, {
+  "name" : "Ayizɔ",
+  "language" : "ayb",
+  "country" : "BJ",
+  "sha1" : "7922d997cad86813133129a1f1682a4ade8c49de",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ayb_BJ/ayb_BJ.1.zip"
+}, {
+  "name" : "Normaund",
+  "language" : "nrf",
+  "country" : "FR",
+  "sha1" : "eb2177ea05f991cc2db4481f0802bc318e0c40ae",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nrf_FR/nrf_FR.2.zip"
+}, {
+  "name" : "తెలుగు",
+  "language" : "te",
+  "country" : "IN",
+  "sha1" : "98e07358a891dc69bf56f94a1fd5a11f3a5d4fdc",
+  "version" : 109,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/te_IN/te_IN.109.zip"
+}, {
+  "name" : "粵語(廣東話)",
+  "short_name" : "粵",
+  "language" : "yue",
+  "country" : "HK",
+  "sha1" : "aab596fe82ea5635cb58d4337b80c9b6b8a9d327",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/yue_HK/yue_HK.102.zip"
+}, {
+  "name" : "बर'",
+  "language" : "brx",
+  "country" : "IN",
+  "sha1" : "743e846e30492975ca7ad0e2f344b34e6b8c46e0",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/brx_IN/brx_IN.102.zip"
+}, {
+  "name" : "Shqip",
+  "language" : "sq",
+  "country" : "AL",
+  "sha1" : "59333f46b89e4a449d704a4aa830be53f15130ef",
+  "version" : 112,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sq_AL/sq_AL.112.zip"
+}, {
+  "name" : "Svenska",
+  "language" : "sv",
+  "country" : "SE",
+  "sha1" : "11f7c02b9c677912fe972e44d1f72acaaa88e025",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sv_SE/sv_SE.106.zip"
+}, {
+  "name" : "chiShona",
+  "language" : "sn",
+  "country" : "ZW",
+  "sha1" : "e1f60e88cfbc268ccba4ce3c965eb7a39d1ccd93",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sn_ZW/sn_ZW.103.zip"
+}, {
+  "name" : "Basa Gayo",
+  "language" : "gay",
+  "country" : "ID",
+  "sha1" : "76bb728f5ec548795b5dc6e1d50c8d8c6e020174",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gay_ID/gay_ID.1.zip"
+}, {
+  "name" : "မြန်မာဘာသာ",
+  "language" : "my",
+  "country" : "MM",
+  "sha1" : "aacbb9f9b13c053dbe912c2bc88a6e69e2525d67",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/my_MM/my_MM.106.zip"
+}, {
+  "name" : "Tekoi er a Belau",
+  "language" : "pau",
+  "country" : "PW",
+  "sha1" : "c02a4ba890b1a972f4877280e9f82e30a42f6f3b",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pau_PW/pau_PW.1.zip"
+}, {
+  "name" : "Лезги",
+  "language" : "lez",
+  "country" : "RU",
+  "sha1" : "0765da94b3e62b5c65e0e21111bba2e5237be5f0",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lez_RU/lez_RU.1.zip"
+}, {
+  "name" : "Latgaļu",
+  "language" : "ltg",
+  "country" : "LV",
+  "sha1" : "78369e06e71280b24dcab067901cab43bd56c397",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ltg_LV/ltg_LV.100.zip"
+}, {
+  "name" : "Khoekhoegowab",
+  "language" : "naq",
+  "country" : "NA",
+  "sha1" : "b337da2580b5881880ad4a1c4417dcc8f130060a",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/naq_NA/naq_NA.102.zip"
+}, {
+  "name" : "ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ",
+  "language" : "tdd",
+  "country" : "CN",
+  "sha1" : "e9582f24e22a8bf9bf0ec8a56eb5e23fdc181e69",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tdd_CN/tdd_CN.1.zip"
+}, {
+  "name" : "Žemaitėška",
+  "language" : "sgs",
+  "country" : "LT",
+  "sha1" : "6f02a422830de3f965643b9863dd1a1801a8f5f2",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/sgs_LT/sgs_LT.3.zip"
+}, {
+  "name" : "डोगरी",
+  "language" : "doi",
+  "country" : "IN",
+  "sha1" : "328447340cad2c18cfbb7bc515068a9349bd527a",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/doi_IN/doi_IN.102.zip"
+}, {
+  "name" : "მარგალური",
+  "language" : "xmf",
+  "country" : "GE",
+  "sha1" : "0d86d18738b868df3c606d7242dd382810031f67",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/xmf_GE/xmf_GE.2.zip"
+}, {
+  "name" : "Удмурт",
+  "language" : "udm",
+  "country" : "RU",
+  "sha1" : "a51bcc0466320c6705317b09a1ff8b0e8dc2b2e5",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/udm_RU/udm_RU.102.zip"
+}, {
+  "name" : "Italiano",
+  "language" : "it",
+  "country" : "IT",
+  "sha1" : "c54cbebc241dc2594959d21fa543bc8298e0758c",
+  "version" : 311,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_RNN/it_IT/it_IT.311.zip"
+}, {
+  "name" : "Polski",
+  "language" : "pl",
+  "country" : "PL",
+  "sha1" : "822fae924610b6235f033ec3eae9e398771c7ad6",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/pl_PL/pl_PL.106.zip"
+}, {
+  "name" : "Français (Belgique)",
+  "language" : "fr",
+  "country" : "BE",
+  "sha1" : "599c0108310174cb4a45bf9047a9550ae476039b",
+  "version" : 110,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_emoji/fr_BE/fr_BE.110.zip"
+}, {
+  "name" : "Adjagbe",
+  "language" : "ajg",
+  "country" : "BJ",
+  "sha1" : "8c19ec2e5d871d753bf7ea70673553a1ee5aed30",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ajg_BJ/ajg_BJ.1.zip"
+}, {
+  "name" : "कॉशुर",
+  "language" : "ks",
+  "country" : "IN",
+  "sha1" : "fa6455e5ed935e530621dab59cf802cf497f9b63",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ks_IN/ks_IN.102.zip"
+}, {
+  "name" : "Türkçe",
+  "language" : "tr",
+  "country" : "TR",
+  "sha1" : "b12f3d94ada6b0a2026b785ae1df0d9d19263193",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tr_TR/tr_TR.113.zip"
+}, {
+  "name" : "Thuɔŋjäŋ",
+  "language" : "din",
+  "country" : "SS",
+  "sha1" : "e61b6ca52d8f389f4b77d6a34aa70764df5287e5",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/din_SS/din_SS.2.zip"
+}, {
+  "name" : "Bahasa Indonesia",
+  "language" : "id",
+  "country" : "ID",
+  "sha1" : "b33b5c560e1855dc62e441a96f84397efe98d41d",
+  "version" : 115,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/id_ID/id_ID.115.zip"
+}, {
+  "name" : "ភាសាខ្មែរ",
+  "language" : "km",
+  "country" : "KH",
+  "sha1" : "5112f980a41003e4e756e7eddc36e2c04d34574b",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/km_KH/km_KH.106.zip"
+}, {
+  "name" : "日本語",
+  "short_name" : "日",
+  "language" : "ja",
+  "country" : "JP",
+  "sha1" : "6ef9e5324abe58e49a2059295aceefb74fc74f26",
+  "version" : 18,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ja_JP/ja_JP.18.zip"
+}, {
+  "name" : "Deutsch (DE)",
+  "language" : "de",
+  "country" : "DE",
+  "sha1" : "8b3921206a81e2fd1780e91285561ecdb5470499",
+  "version" : 114,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_neural2/de_DE/de_DE.114.zip"
+}, {
+  "name" : "Sesotho",
+  "language" : "st",
+  "country" : "ZA",
+  "sha1" : "cbd90cf189ad7bf05dee178c717c428206af95ae",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/st_ZA/st_ZA.104.zip"
+}, {
+  "name" : "Zazaki",
+  "language" : "zza",
+  "country" : "TR",
+  "sha1" : "dd2048a4deb5b45f1acb0fd72e6e36cec470eca6",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/zza_TR/zza_TR.3.zip"
+}, {
+  "name" : "Nepali (English)",
+  "language" : "nep",
+  "country" : "NP",
+  "sha1" : "5b93861c96532694a2b595d47993a215341e1c47",
+  "version" : 5,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nep_NP/nep_NP.5.zip"
+}, {
+  "name" : "ଓଡ଼ିଆ",
+  "language" : "or",
+  "country" : "IN",
+  "sha1" : "fea53073c1361f261ac2a09b050b6f9fc227d43d",
+  "version" : 110,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/or_IN/or_IN.110.zip"
+}, {
+  "name" : "सिन्धी",
+  "language" : "sd",
+  "country" : "IN",
+  "sha1" : "38044ff70986eb71e6f22111afc62bbc644514c7",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sd_IN/sd_IN.103.zip"
+}, {
+  "name" : "Тоҷикӣ",
+  "language" : "tg",
+  "country" : "TJ",
+  "sha1" : "a8f873028c778e3566ea4970560d081b0d9e19f6",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tg_TJ/tg_TJ.101.zip"
+}, {
+  "name" : "X̌ikwor",
+  "language" : "wbl",
+  "country" : "PK",
+  "sha1" : "23faded6a873904362bb499374b7e20e6d03016b",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/wbl_PK/wbl_PK.4.zip"
+}, {
+  "name" : "Адыгабзэ",
+  "language" : "ady",
+  "country" : "RU",
+  "sha1" : "263cdf6c6a2d930ad30cf06e95e3584f93bb57d1",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ady_RU/ady_RU.2.zip"
+}, {
+  "name" : "Deutsch (CH)",
+  "language" : "de",
+  "country" : "CH",
+  "sha1" : "6e6394eb9255c6b244b027dbbe5556277feff013",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/de_CH/de_CH.103.zip"
+}, {
+  "name" : "Jèrriais",
+  "language" : "nrf",
+  "country" : "JE",
+  "sha1" : "e8d784067982a130513dc0b60c80d1551014a860",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nrf_JE/nrf_JE.102.zip"
+}, {
+  "name" : "Ikirundi",
+  "language" : "rn",
+  "country" : "BI",
+  "sha1" : "231659b6aec8a7f22dbd6a0094eb4e0dbad9051f",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/rn_BI/rn_BI.2.zip"
+}, {
+  "name" : "繁體香港",
+  "short_name" : "繁",
+  "language" : "zh",
+  "country" : "HK",
+  "sha1" : "455b6e8cfa328b1ccee5ccb754fa6601482aa206",
+  "version" : 42,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/huawei/zh_HK/zh_HK.42.zip",
+  "hwr" : {
+    "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/zh/zh.hwr.2.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "Rapa Nui",
+  "language" : "rap",
+  "country" : "CL",
+  "sha1" : "9cd67685c842da2c5a156c3b83d4243117982260",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/rap_CL/rap_CL.1.zip"
+}, {
+  "name" : "Euskara",
+  "language" : "eu",
+  "country" : "ES",
+  "sha1" : "9eb8666a82acfaf7c76c9a0a4d7e65b3892f6cbc",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/eu_ES/eu_ES.101.zip"
+}, {
+  "name" : "Hausa",
+  "language" : "ha",
+  "country" : "NG",
+  "sha1" : "13e7b21e6f82ec1cdbfc61c0da22e1378c207a25",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ha_NG/ha_NG.102.zip"
+}, {
+  "name" : "Tamlish",
+  "language" : "tam",
+  "country" : "IN",
+  "sha1" : "60860a5f51b1519d36235e0468deb5a05f802404",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_morpheme/tam_IN/tam_IN.102.zip"
+}, {
+  "name" : "Хуэйзў йүян",
+  "language" : "dng",
+  "country" : "KG",
+  "sha1" : "2bc90620617a0875604fa06bd960511cc7e737cf",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/dng_KG/dng_KG.1.zip"
+}, {
+  "name" : "Occitan",
+  "language" : "oc",
+  "country" : "FR",
+  "sha1" : "3a8808cb4393896b313f5f65eeb8f966840dfb26",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/oc_FR/oc_FR.106.zip"
+}, {
+  "name" : "Eʋegbe",
+  "language" : "ee",
+  "country" : "GH",
+  "sha1" : "01f82d5d536fed4c819e32e8479d06d5bff37e2e",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ee_GH/ee_GH.103.zip"
+}, {
+  "name" : "Yorùbá",
+  "language" : "yo",
+  "country" : "NG",
+  "sha1" : "39aab7b7a144eee51852bf66e0c9711b97c87911",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/yo_NG/yo_NG.102.zip"
+}, {
+  "name" : "Español (América Latina)",
+  "language" : "es",
+  "country" : "LA",
+  "sha1" : "b835a2504349dca312c57529371540a82781ec76",
+  "version" : 306,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_neural2/es_LA/es_LA.306.zip"
+}, {
+  "name" : "Walon",
+  "language" : "wa",
+  "country" : "BE",
+  "sha1" : "15ea95af350c56ea90c2ac790558e30dc46d0db2",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/wa_BE/wa_BE.103.zip"
+}, {
+  "name" : "Français (CA)",
+  "language" : "fr",
+  "country" : "CA",
+  "sha1" : "e1df1f443dc10f3c75a60ef1e5cbe22931153b68",
+  "version" : 117,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_emoji_RNN/fr_CA/fr_CA.117.zip"
+}, {
+  "name" : "Assamese (English)",
+  "language" : "asm",
+  "country" : "IN",
+  "sha1" : "14c214cd707441ad97bbcbca7dd79c49c8fca858",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/asm_IN/asm_IN.4.zip"
+}, {
+  "name" : "ᱥᱟᱱᱛᱟᱲᱤ",
+  "language" : "mjx",
+  "country" : "IN",
+  "sha1" : "18e74e327c60391965957cf341a850f64a9f22ff",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/mjx_IN/mjx_IN.3.zip"
+}, {
+  "name" : "Taqbaylit",
+  "language" : "kab",
+  "country" : "AL",
+  "sha1" : "2e34468209c5a31d04e74ad029c1a5546842bce5",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kab_AL/kab_AL.101.zip"
+}, {
+  "name" : "Kurdî",
+  "language" : "ku",
+  "country" : "TR",
+  "sha1" : "e14f3b39bc81a032a1263b46885fb2b608b16373",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ku_TR/ku_TR.104.zip"
+}, {
+  "name" : "Français (Suisse)",
+  "language" : "fr",
+  "country" : "CH",
+  "sha1" : "8fb45178b285d583d642f46d98eae345c76318ae",
+  "version" : 109,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_emoji/fr_CH/fr_CH.109.zip"
+}, {
+  "name" : "Tiếng Việt",
+  "language" : "vi",
+  "country" : "VN",
+  "sha1" : "951ea3204d2d3cfe482b6a2f5aecf6d10ec4f450",
+  "version" : 110,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/vi_VN/vi_VN.110.zip"
+}, {
+  "name" : "Gujlish",
+  "language" : "guj",
+  "country" : "IN",
+  "sha1" : "8b19269c98fa55947fd1c8385740bd1c1e5a38f5",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/guj_IN/guj_IN.106.zip"
+}, {
+  "name" : "Ⲙⲁⲧⲧⲟⲕⲕⲓ",
+  "language" : "xnz",
+  "country" : "EG",
+  "sha1" : "048b4c72b43449810a610c4abeb420f7051f4a30",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/xnz_EG/xnz_EG.1.zip"
+}, {
+  "name" : "ГӀалгӀай",
+  "language" : "inh",
+  "country" : "RU",
+  "sha1" : "22158fb1560e089040c38635f8dab1d33fecbc2a",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/inh_RU/inh_RU.1.zip"
+}, {
+  "name" : "Bosanski",
+  "language" : "bs",
+  "country" : "BA",
+  "sha1" : "902e56a83761bc1bdbc058a69ff06fd858bef580",
+  "version" : 111,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bs_BA/bs_BA.111.zip"
+}, {
+  "name" : "नेपाली",
+  "language" : "ne",
+  "country" : "NP",
+  "sha1" : "3948270830f19844477be4ba04fe3394204b2cdb",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/ne_NP/ne_NP.113.zip"
+}, {
+  "name" : "Gaeilge",
+  "language" : "ga",
+  "country" : "IE",
+  "sha1" : "0c020da48757a9ec9ff659db5b83465b2d84589e",
+  "version" : 113,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ga_IE/ga_IE.113.zip"
+}, {
+  "name" : "Iu Mienh",
+  "language" : "ium",
+  "country" : "CN",
+  "sha1" : "a2c9832cbddf499a807f0a2debc083d9f24f19b0",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ium_CN/ium_CN.1.zip"
+}, {
+  "name" : "Slovenščina",
+  "language" : "sl",
+  "country" : "SI",
+  "sha1" : "70f72fcaacef70ef1c15a27c6ba94a3093f98d9e",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sl_SI/sl_SI.104.zip"
+}, {
+  "name" : "Papiamento (Aruba)",
+  "language" : "pap",
+  "country" : "AW",
+  "sha1" : "910573e49e16d66bbd24e5e28e0e3f4d5619b841",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/pap_AW/pap_AW.101.zip"
+}, {
+  "name" : "Māori",
+  "language" : "mi",
+  "country" : "NZ",
+  "sha1" : "f061a55eba9c5490d2f1a2bc922c434b12882cbe",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mi_NZ/mi_NZ.102.zip"
+}, {
+  "name" : "Bahsa Acèh",
+  "language" : "ace",
+  "country" : "ID",
+  "sha1" : "a457d533059c63ca76ef836cfea662a8682958bf",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ace_ID/ace_ID.1.zip"
+}, {
+  "name" : "Frysk",
+  "language" : "fy",
+  "country" : "NL",
+  "sha1" : "a902a983485a31c06f2938bc752508f1c396e633",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/fy_NL/fy_NL.105.zip"
+}, {
+  "name" : "Qaraqalpaq",
+  "language" : "kaa",
+  "country" : "UZ",
+  "sha1" : "282d3c4ea680bacbc8a03182275818a426e866b5",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kaa_UZ/kaa_UZ.1.zip"
+}, {
+  "name" : "Lombard",
+  "language" : "lmo",
+  "country" : "IT",
+  "sha1" : "3693a5dc95f42a77fd83f46a0f2a2d455b0b8fc2",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lmo_IT/lmo_IT.1.zip"
+}, {
+  "name" : "Bamanankan",
+  "language" : "bm",
+  "country" : "ML",
+  "sha1" : "c3d0068f44407d8f939b1078e627477c533ce7b8",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bm_ML/bm_ML.102.zip"
+}, {
+  "name" : "Aragonés",
+  "language" : "an",
+  "country" : "ES",
+  "sha1" : "e43677bb16f633f1f948c3f49c314e53139b6f38",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/an_ES/an_ES.102.zip"
+}, {
+  "name" : "Filipino",
+  "language" : "tl",
+  "country" : "PH",
+  "sha1" : "8d81854e63edd7ccf50fe46e40fac1780da73b6a",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tl_PH/tl_PH.101.zip"
+}, {
+  "name" : "Mizo ṭawng",
+  "language" : "lus",
+  "country" : "IN",
+  "sha1" : "c912303e419fa0676557a7aed025418c4b50fad8",
+  "version" : 5,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lus_IN/lus_IN.5.zip"
+}, {
+  "name" : "کوردی",
+  "language" : "ckb",
+  "country" : "IQ",
+  "sha1" : "2b4b264f5695534a696ae4fa65c201fe402ff126",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ckb_IQ/ckb_IQ.102.zip"
+}, {
+  "name" : "Hinglish",
+  "language" : "hg",
+  "country" : "IN",
+  "sha1" : "89c2d9ca67678473d458dcee1f07214cb5fae897",
+  "version" : 115,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hg_IN/hg_IN.115.zip"
+}, {
+  "name" : "Qazaq",
+  "language" : "kaz",
+  "country" : "KZ",
+  "sha1" : "931cc00679a67b3ad10eed055b9310007999d8ad",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kaz_KZ/kaz_KZ.1.zip"
+}, {
+  "name" : "Oʼodham",
+  "language" : "ood",
+  "country" : "US",
+  "sha1" : "6351c68349a3afc31bc6402875968291099b942f",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ood_US/ood_US.1.zip"
+}, {
+  "name" : "Igbo",
+  "language" : "ig",
+  "country" : "NG",
+  "sha1" : "e90046b20ec431f2b4864c9bf64addec411c766f",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ig_NG/ig_NG.104.zip"
+}, {
+  "name" : "Català",
+  "language" : "ca",
+  "country" : "ES",
+  "sha1" : "36879c580f8fbf9afdbb211c934c51d93706e6b7",
+  "version" : 116,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ca_ES/ca_ES.116.zip"
+}, {
+  "name" : "Bahasa Banjar",
+  "language" : "bjn",
+  "country" : "ID",
+  "sha1" : "23b25effbfda5a7ab354ed1c3a5e4c7da6bf659d",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bjn_ID/bjn_ID.1.zip"
+}, {
+  "name" : "Mandingo",
+  "language" : "mnk",
+  "country" : "SN",
+  "sha1" : "7e8b162955526441be6f2037d473ba8e828376f1",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mnk_SN/mnk_SN.1.zip"
+}, {
+  "name" : "ߒߞߏ",
+  "language" : "nqo",
+  "country" : "ML",
+  "sha1" : "f68777cc6c2d623953555b368858b8e565cda32f",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nqo_ML/nqo_ML.102.zip"
+}, {
+  "name" : "ລາວ",
+  "language" : "lo",
+  "country" : "LA",
+  "sha1" : "04479bb7d3882c7c9224ec828591d39fd440e6e7",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lo_LA/lo_LA.103.zip"
+}, {
+  "name" : "Galego",
+  "language" : "gl",
+  "country" : "ES",
+  "sha1" : "c90bfc651c40d242fedbeda919638093d0572c3d",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gl_ES/gl_ES.101.zip"
+}, {
+  "name" : "ಕನ್ನಡ",
+  "language" : "kn",
+  "country" : "IN",
+  "sha1" : "861e619a50b6a1e61ba21fe9fede77931a379f3a",
+  "version" : 111,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kn_IN/kn_IN.111.zip"
+}, {
+  "name" : "Soomaaliga",
+  "language" : "so",
+  "country" : "SO",
+  "sha1" : "19ecfd85f37273b4d675d7b739168453376a15cc",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/so_SO/so_SO.103.zip"
+}, {
+  "name" : "ܣܘܪܝܬ",
+  "language" : "aii",
+  "country" : "IQ",
+  "sha1" : "1935cf9d495401211de3b635680bc426d4d7b287",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/aii_IQ/aii_IQ.100.zip"
+}, {
+  "name" : "ئۇيغۇرچە",
+  "language" : "ug",
+  "country" : "CN",
+  "sha1" : "86b6c2e9f68fa7e3b7fc5d8b83b6a1ce364e99d6",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ug_CN/ug_CN.103.zip"
+}, {
+  "name" : "Kiswahili",
+  "language" : "sw",
+  "country" : "KE",
+  "sha1" : "911d9b484fcfd0ddcdf35da2f684e8def2558e51",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sw_KE/sw_KE.102.zip"
+}, {
+  "name" : "Setswana",
+  "language" : "tn",
+  "country" : "ZA",
+  "sha1" : "4c654145b81b7dfa474c101cefb46c18c1369281",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/tn_ZA/tn_ZA.104.zip"
+}, {
+  "name" : "Asturianu",
+  "language" : "ast",
+  "country" : "ES",
+  "sha1" : "6a5b933e9e145c16546486949e681f88eeb6a5bc",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ast_ES/ast_ES.102.zip"
+}, {
+  "name" : "Mëranaw",
+  "language" : "mrw",
+  "country" : "PH",
+  "sha1" : "8ce9bfa889428e0e9b869af0fdbcc906321d36da",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/mrw_PH/mrw_PH.102.zip"
+}, {
+  "name" : "Esperanto",
+  "language" : "eo",
+  "country" : "EO",
+  "sha1" : "32c0edec376ffa561d309e6cd72e9f4cbbb93045",
+  "version" : 108,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/eo_EO/eo_EO.108.zip"
+}, {
+  "name" : "Dagbanli",
+  "language" : "dag",
+  "country" : "GH",
+  "sha1" : "7a0ce55bde078b8f9219550373886e0a90bf8fac",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/dag_GH/dag_GH.103.zip"
+}, {
+  "name" : "мыхӀабишды чӀел",
+  "language" : "rut",
+  "country" : "RU",
+  "sha1" : "71b37760c4a3239c51fbda5e8c23f647cfeecc16",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/rut_RU/rut_RU.1.zip"
+}, {
+  "name" : "Nederlands (NL)",
+  "language" : "nl",
+  "country" : "NL",
+  "sha1" : "fa1bc888a306064a3e539370130ccf7d6abe318c",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nl_NL/nl_NL.106.zip"
+}, {
+  "name" : "Íslenska",
+  "language" : "is",
+  "country" : "IS",
+  "sha1" : "43ee9fd480e527fff6188cad886e1e3fe80e5843",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/is_IS/is_IS.101.zip"
+}, {
+  "name" : "Sesotho sa Leboa",
+  "language" : "ns",
+  "country" : "ZA",
+  "sha1" : "cbefe1dd28853d1c105fe1586ae8078443be7c60",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ns_ZA/ns_ZA.104.zip"
+}, {
+  "name" : "Bengali (English)",
+  "language" : "ben",
+  "country" : "IN",
+  "sha1" : "f3d812aebfd51714f3cfa89da8d19c6132efbaab",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ben_IN/ben_IN.4.zip"
+}, {
+  "name" : "Dolnoserbski",
+  "language" : "dsb",
+  "country" : "DE",
+  "sha1" : "082e48bdd3ca63d62fa43d928cba7c73d5c7523b",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/dsb_DE/dsb_DE.101.zip"
+}, {
+  "name" : "Lingua latīna",
+  "language" : "la",
+  "country" : "VA",
+  "sha1" : "eab1dedaa5527964781cb7e927725aae3805f598",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/la_VA/la_VA.1.zip"
+}, {
+  "name" : "Haqniqdoq",
+  "language" : "hni",
+  "country" : "CN",
+  "sha1" : "0769c49321d235e7b0de6c4ac2c8a11192184d34",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hni_CN/hni_CN.1.zip"
+}, {
+  "name" : "Hrvatski",
+  "language" : "hr",
+  "country" : "HR",
+  "sha1" : "7d4c83f42306488d3d18d6d00145e0254d2c0566",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hr_HR/hr_HR.104.zip"
+}, {
+  "name" : "Ju|'hoan kokxui",
+  "language" : "ktz",
+  "country" : "NA",
+  "sha1" : "d66d8b28f260ba48f81dbdf05c73bf5f1eb53108",
+  "version" : 4,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ktz_NA/ktz_NA.4.zip"
+}, {
+  "name" : "Sassaresu",
+  "language" : "sdc",
+  "country" : "IT",
+  "sha1" : "7cb387b6a3cfc59c6d64fa62ec2837182db2bdb2",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/sdc_IT/sdc_IT.2.zip"
+}, {
+  "name" : "Lietuvių",
+  "language" : "lt",
+  "country" : "LT",
+  "sha1" : "ebc2970cd179deeeb4abde91e4756f018d6acda2",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lt_LT/lt_LT.105.zip"
+}, {
+  "name" : "English (India)",
+  "language" : "en",
+  "country" : "IN",
+  "sha1" : "9cc61ffa0de5d09d1db6bc9c6075d63ca966000c",
+  "version" : 6,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/en_IN/en_IN.6.zip"
+}, {
+  "name" : "नेपाल भाषा",
+  "language" : "new",
+  "country" : "NP",
+  "sha1" : "977585d585a03bf8572f6839888db85e84740da0",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/new_NP/new_NP.1.zip"
+}, {
+  "name" : "ⵜⴰⵎⴰⵣⵉⵖⵜ",
+  "language" : "ber",
+  "country" : "MA",
+  "sha1" : "7a8858a8b72c882e5314becc81950afb8aca1fe1",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ber_MA/ber_MA.102.zip"
+}, {
+  "name" : "پښتو",
+  "language" : "ps",
+  "country" : "AF",
+  "sha1" : "6cf7e4518f76a34d03eab1b1961f061b813a4eab",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ps_AF/ps_AF.103.zip"
+}, {
+  "name" : "Avañe'ẽ",
+  "language" : "gn",
+  "country" : "PY",
+  "sha1" : "885f71c3c3d208e5cbc74104a480346d0d7861ce",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gn_PY/gn_PY.3.zip"
+}, {
+  "name" : "Joolaa fooñi",
+  "language" : "dyo",
+  "country" : "SN",
+  "sha1" : "50136f89b702eb701c50e96da8e81bc76edeb716",
+  "version" : 100,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/dyo_SN/dyo_SN.100.zip"
+}, {
+  "name" : "isiNdebele",
+  "language" : "nr",
+  "country" : "ZA",
+  "sha1" : "7d79b194657be5a078455f96db125efcb82e9535",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/nr_ZA/nr_ZA.103.zip"
+}, {
+  "name" : "मुंडारि",
+  "language" : "unr",
+  "country" : "IN",
+  "sha1" : "ad44af5da16c83d3df61d699eb1b19be808bf4f6",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/unr_IN/unr_IN.1.zip"
+}, {
+  "name" : "Русский",
+  "language" : "ru",
+  "country" : "RU",
+  "sha1" : "66c9c1d8e48b03d3db1e762b68951d126edf4a4a",
+  "version" : 124,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_neural2/ru_RU/ru_RU.124.zip"
+}, {
+  "name" : "मैथिली",
+  "language" : "mai",
+  "country" : "IN",
+  "sha1" : "4aacc4c70a064c6352b2b079252776bd899c6d4d",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mai_IN/mai_IN.102.zip"
+}, {
+  "name" : "Gaelg",
+  "language" : "gv",
+  "country" : "GB",
+  "sha1" : "7f395eb435cf6c6a0b40ecc66584c3e7c8ece7f6",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/gv_GB/gv_GB.101.zip"
+}, {
+  "name" : "मराठी",
+  "language" : "mr",
+  "country" : "IN",
+  "sha1" : "7ce731b89b1f536721f5816125441b39d1745232",
+  "version" : 120,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mr_IN/mr_IN.120.zip"
+}, {
+  "name" : "ދިވެހި",
+  "language" : "dv",
+  "country" : "MV",
+  "sha1" : "5ecd9cef362c103ea31d8284db0401c3e324c18a",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/dv_MV/dv_MV.105.zip"
+}, {
+  "name" : "Gĩkũyũ",
+  "language" : "ki",
+  "country" : "KE",
+  "sha1" : "e53841b03ebf8f012292cd8bdf1b1b9807967a8a",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ki_KE/ki_KE.102.zip"
+}, {
+  "name" : "Urdu (English)",
+  "language" : "urd",
+  "country" : "PK",
+  "sha1" : "ce8119c3ca42391def8cf81e10421fadc0e594f9",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/urd_PK/urd_PK.2.zip"
+}, {
+  "name" : "Башҡортса",
+  "language" : "ba",
+  "country" : "RU",
+  "sha1" : "ff8174b281d52d239224b59e7a154d2a8899e46e",
+  "version" : 106,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ba_RU/ba_RU.106.zip"
+}, {
+  "name" : "Na Vosa Vakaviti",
+  "language" : "fj",
+  "country" : "FJ",
+  "sha1" : "7b3ce0b6d67365ec989cba8ebc61797d5a1e6ab3",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/fj_FJ/fj_FJ.103.zip"
+}, {
+  "name" : "Кыргызча",
+  "language" : "ky",
+  "country" : "KG",
+  "sha1" : "2c95e06bbe30d682718c8945d7331af2efc47561",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ky_KG/ky_KG.101.zip"
+}, {
+  "name" : "Furlan",
+  "language" : "fur",
+  "country" : "IT",
+  "sha1" : "fbe9e5e6637d96bf264ddc7413b2cca6af52d194",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/fur_IT/fur_IT.104.zip"
+}, {
+  "name" : "Baso Minangkabau",
+  "language" : "min",
+  "country" : "ID",
+  "sha1" : "16a5a25bb71d39bd5646cb04611ceecad1bd57ec",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/min_ID/min_ID.1.zip"
+}, {
+  "name" : "繁體台灣",
+  "short_name" : "繁",
+  "language" : "zh",
+  "country" : "TW",
+  "sha1" : "5e65baef1fe2f9a068b8fb19deb125dc28912d36",
+  "version" : 47,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/huawei/zh_TW/zh_TW.47.zip",
+  "hwr" : {
+    "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/zh/zh.hwr.2.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "संथाली",
+  "language" : "sat",
+  "country" : "IN",
+  "sha1" : "93805029333571010641dad28fa1f2537c9e4652",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sat_IN/sat_IN.102.zip"
+}, {
+  "name" : "Türkmençe",
+  "language" : "tk",
+  "country" : "TM",
+  "sha1" : "e5c2190ad878817d9c6e1bea9c61b7bb0e707335",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/tk_TM/tk_TM.101.zip"
+}, {
+  "name" : "Inuktitut",
+  "language" : "ike",
+  "country" : "CA",
+  "sha1" : "fb69917de32372b61d8316cd82b56bd5d863ac3d",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ike_CA/ike_CA.1.zip"
+}, {
+  "name" : "Siksiká",
+  "language" : "bla",
+  "country" : "US",
+  "sha1" : "342b8b44079848f46db6dd1b735cd325b751d869",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bla_US/bla_US.3.zip"
+}, {
+  "name" : "অসমীয়া",
+  "language" : "as",
+  "country" : "IN",
+  "sha1" : "588a717621967e0593f5ab6e30b36dcd7677bf61",
+  "version" : 114,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/as_IN/as_IN.114.zip"
+}, {
+  "name" : "Mirandés",
+  "language" : "mwl",
+  "country" : "PT",
+  "sha1" : "914f9fdc8b072bffd15c2268543736aa12fd34ac",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mwl_PT/mwl_PT.1.zip"
+}, {
+  "name" : "Kreol Seselwa",
+  "language" : "crs",
+  "country" : "SC",
+  "sha1" : "c6ce10aaa7d0c91b70bd1ed2fe8326a3fdeec7f3",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/crs_SC/crs_SC.1.zip"
+}, {
+  "name" : "Wolof",
+  "language" : "wo",
+  "country" : "SN",
+  "sha1" : "6e751c1fd21a2aa9e254763fe36037f568e57a85",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/wo_SN/wo_SN.104.zip"
+}, {
+  "name" : "Limburgs",
+  "language" : "li",
+  "country" : "NL",
+  "sha1" : "bb77815ca260aecb4c8581be45401758bb0098f7",
+  "version" : 8,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/li_NL/li_NL.8.zip"
+}, {
+  "name" : "মৈতৈলোন্",
+  "language" : "mni",
+  "country" : "IN",
+  "sha1" : "2506ae8eef2861135926d69c5d637d042dc3869b",
+  "version" : 102,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mni_IN/mni_IN.102.zip"
+}, {
+  "name" : "Plattdüütsch",
+  "language" : "nds",
+  "country" : "DE",
+  "sha1" : "0eb56a3ad3d78574c4e7a779b87220ae49f54586",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/nds_DE/nds_DE.105.zip"
+}, {
+  "name" : "Български",
+  "language" : "bg",
+  "country" : "BG",
+  "sha1" : "4b2acb5c10a5a14b90dcb3c3bb3b1f891a12563f",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bg_BG/bg_BG.104.zip"
+}, {
+  "name" : "Baatɔnum",
+  "language" : "bba",
+  "country" : "BJ",
+  "sha1" : "794886cac85839c6d5d9ca5db52b18071f43865e",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/bba_BJ/bba_BJ.2.zip"
+}, {
+  "name" : "Հայերեն",
+  "language" : "hy",
+  "country" : "AM",
+  "sha1" : "6beefc6087070c35b83273d77150a14192b843d0",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/hy_AM/hy_AM.101.zip"
+}, {
+  "name" : "Dorerin Naoero",
+  "language" : "na",
+  "country" : "NR",
+  "sha1" : "80943bc941b254b2b9193c516084e152e68eb0ef",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/na_NR/na_NR.1.zip"
+}, {
+  "name" : "Madhura",
+  "language" : "mad",
+  "country" : "ID",
+  "sha1" : "44da50669dfcc05d88caae0df8ed48d3c8ea3bc1",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mad_ID/mad_ID.1.zip"
+}, {
+  "name" : "SiSwati",
+  "language" : "ss",
+  "country" : "ZA",
+  "sha1" : "8d4bc0f78aa7b2b639c787af59e4c85718a92489",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_bus/ss_ZA/ss_ZA.104.zip"
+}, {
+  "name" : "Македонски",
+  "language" : "mk",
+  "country" : "MK",
+  "sha1" : "140405f1efc8e950adece18a24a15128e33b8458",
+  "version" : 104,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mk_MK/mk_MK.104.zip"
+}, {
+  "name" : "الدارجة المغربية",
+  "language" : "ar",
+  "country" : "MA",
+  "sha1" : "d689af6e502201f53042b65489e8add58e716c60",
+  "version" : 3,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ar_MA/ar_MA.3.zip"
+}, {
+  "name" : "खान्देशी",
+  "language" : "khn",
+  "country" : "IN",
+  "sha1" : "191faf1dbaac54312e297be3a49c5ec64f7ba779",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/khn_IN/khn_IN.1.zip"
+}, {
+  "name" : "English (UK)",
+  "language" : "en",
+  "country" : "GB",
+  "sha1" : "fa97609fcd2178a88ae80e80845835661cd75716",
+  "version" : 315,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey_sensitive_emoji_RNN/en_GB/en_GB.315.zip"
+}, {
+  "name" : "ગુજરાતી",
+  "language" : "gu",
+  "country" : "IN",
+  "sha1" : "31d7646130d333f1bf5dd3023f3db6c0c3898819",
+  "version" : 120,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/translit/gu_IN/gu_IN.120.zip"
+}, {
+  "name" : "Oluganda",
+  "language" : "lg",
+  "country" : "UG",
+  "sha1" : "6292bf19cfa38406224e8be38696de0031875ae1",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/lg_UG/lg_UG.1.zip"
+}, {
+  "name" : "Eesti",
+  "language" : "et",
+  "country" : "EE",
+  "sha1" : "b2541dcf3ce1d7a1c17df37e8d89a1ce82fabaf5",
+  "version" : 105,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/et_EE/et_EE.105.zip"
+}, {
+  "name" : "Pulaar-Fulfulde",
+  "language" : "ff",
+  "country" : "SN",
+  "sha1" : "0f788a87bf6889fa3dcca63718ea5df36827e48f",
+  "version" : 2,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ff_SN/ff_SN.2.zip"
+}, {
+  "name" : "മലയാളം",
+  "language" : "ml",
+  "country" : "IN",
+  "sha1" : "11cd3ff23c996451f31696cfa721ab709536b6cc",
+  "version" : 112,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/ml_IN/ml_IN.112.zip"
+}, {
+  "name" : "Sardu",
+  "language" : "sc",
+  "country" : "IT",
+  "sha1" : "f5e0141ede0f83da423f395e49c001bceded6eaf",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/sc_IT/sc_IT.1.zip"
+}, {
+  "name" : "агъул чӀал",
+  "language" : "agx",
+  "country" : "RU",
+  "sha1" : "468538ab7f9e2bde8455b0490e4a529b6b926493",
+  "version" : 1,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/agx_RU/agx_RU.1.zip"
+}, {
+  "name" : "ᠮᠣᠩᠭᠣᠯ",
+  "language" : "mn",
+  "country" : "CN",
+  "sha1" : "8408362e6f0d37e526f7a03feda44cd4f33e49d2",
+  "version" : 101,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/mn_CN/mn_CN.101.zip"
+}, {
+  "name" : "简体中文",
+  "short_name" : "简",
+  "language" : "zh",
+  "country" : "CN",
+  "sha1" : "b5bbe42581c29695e9da37c2170d547143852f33",
+  "version" : 116,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/huawei/zh_CN/zh_CN.116.zip",
+  "hwr" : {
+    "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/zh/zh.hwr.2.zip",
+    "version" : 2,
+    "sha1" : "ed519ded919a7c649e1faa8e55b80a53f6a6d270"
+  }
+}, {
+  "name" : "Адыгэбзэ",
+  "language" : "kbd",
+  "country" : "RU",
+  "sha1" : "037f235c68b360b83f2343e9ee940791c2ae10b8",
+  "version" : 103,
+  "archive" : "https://cdn.$ENVIRONMENT.swiftkey.microsoft.com/skcdn/Store/swiftkey/kbd_RU/kbd_RU.103.zip"
+} ]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:title="@string/prefs_emoji_predictions_title" android:key="@string/pref_predict_emoji_key" android:summary="@string/prefs_emoji_predictions_summary" android:defaultValue="@bool/pref_predict_emoji_default" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:title="@string/prefs_dedicated_emoji_key_title" android:key="@string/pref_dedicated_emoji_key" android:summary="@string/prefs_dedicated_emoji_key_summary" android:defaultValue="@bool/pref_dedicated_emoji_key_default" android:disableDependentsState="true" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:title="@string/prefs_emoji_access_title" android:key="@string/pref_adaptive_imegokey_key" android:summary="@string/prefs_emoji_access_summary" android:dependency="@string/pref_dedicated_emoji_key" android:defaultValue="@bool/pref_adaptive_imegokey_default" />
+</PreferenceScreen>

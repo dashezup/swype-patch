@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/overlay_coachmark_padding_horizontal" android:paddingRight="@dimen/overlay_coachmark_padding_horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/overlay_coachmark_padding_horizontal" android:paddingEnd="@dimen/overlay_coachmark_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/overlay_coachmark_image" android:visibility="gone" android:importantForAccessibility="no" style="@style/OverlayCoachmarkItem" />
+    <TextView android:textSize="@dimen/overlay_coachmark_title_and_message_text_size" android:textColor="@color/white" android:id="@id/overlay_coachmark_title" android:visibility="gone" style="@style/OverlayCoachmarkItem" />
+    <TextView android:textSize="@dimen/overlay_coachmark_title_and_message_text_size" android:textColor="@color/white" android:id="@id/overlay_coachmark_message" style="@style/OverlayCoachmarkItem" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton android:id="@id/overlay_coachmark_button_negative" style="@style/OverlayCoachmarkButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/overlay_coachmark_button_positive" style="@style/OverlayCoachmarkButton" />
+    </LinearLayout>
+</LinearLayout>

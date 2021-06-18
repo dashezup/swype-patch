@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Kopiatutako testua hemen bistaratuko da automatikoki</item>
+        <item>Eseki kopiatutako testu zatiak ez daitezen 1 orduren buruan iraungi</item>
+        <item>Irristatu arbeleko elementuak, elementu horiek ezabatzeko</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Iragarpena kendu</item>
+        <item>Iritzia eman</item>
+        <item>Gorde erraztasun arazketa erregistroa</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="?dialogPreferredPadding" android:layout_width="372.0dip" android:layout_height="241.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textColor="@color/cloud_dialog_text" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="25.0dip" android:textAlignment="viewStart" app:drawableBottomCompat="@drawable/dialog_success_icon" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teie kopeeritud tekst ilmub automaatselt siia</item>
+        <item>Kinnitage kopeeritud tekstilõigud, et need pärast 1 tundi ei aeguks</item>
+        <item>Lõikelaua üksuste kustutamiseks võite neid libistada</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Eemalda ennustus</item>
+        <item>Anna tagasisidet</item>
+        <item>Salvesta sõnastuse silumislogi</item>
+    </string-array>
+</resources>

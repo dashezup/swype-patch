@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/toolbar_control_button_closed"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="toolbar_control_button_bottom_group" android:animation="@animator/rotate_180_360" />
+    <target android:name="toolbar_control_button_bottom_group" android:animation="@animator/scale_pulse" />
+    <target android:name="toolbar_control_button_top_group" android:animation="@animator/rotate_180_360" />
+    <target android:name="toolbar_control_button_top_group" android:animation="@animator/scale_pulse" />
+    <target android:name="toolbar_control_button_root" android:animation="@animator/rotate_0_180" />
+</animated-vector>

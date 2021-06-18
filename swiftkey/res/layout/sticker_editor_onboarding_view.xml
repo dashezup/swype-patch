@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/sticker_editor_onboarding_background" android:padding="@dimen/sticker_editor_toolbox_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sticker_close_text" android:text="@string/stickers_editor_close_sticker_preview" style="@style/StickerEditorOnboardingTextView" />
+    <TextView android:id="@id/sticker_save_text" android:text="@string/stickers_editor_onboarding_save_icon" android:layout_below="@id/sticker_close_text" style="@style/StickerEditorOnboardingTextView" />
+    <TextView android:id="@id/sticker_add_text_block_text" android:text="@string/stickers_editor_add_text_to_sticker" android:layout_below="@id/sticker_save_text" style="@style/StickerEditorOnboardingTextView" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/sticker_editor_onboarding_ok_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sticker_editor_onboarding_ok_button_margin_bottom" android:text="@string/ok" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/sticker_editor_onboarding_ok_button_margin_right" android:layout_alignParentEnd="true" android:backgroundTint="@color/swiftkey_blue" />
+</RelativeLayout>

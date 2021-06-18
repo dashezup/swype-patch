@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_sync" android:id="@id/sync_now" android:title="@string/pref_sync_menu_sync_now" app:iconTint="@color/icon_tint" app:showAsAction="ifRoom" />
+</menu>

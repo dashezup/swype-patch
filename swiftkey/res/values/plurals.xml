@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">%1$d languages were added</item>
+        <item quantity="zero">%1$d languages were added</item>
+        <item quantity="one">%1$d language was added</item>
+        <item quantity="two">%1$d languages were added</item>
+        <item quantity="few">%1$d languages were added</item>
+        <item quantity="many">%1$d languages were added</item>
+    </plurals>
+    <plurals name="pref_last_event_days">
+        <item quantity="other">@string/pref_last_event_days_other</item>
+        <item quantity="one">@string/pref_last_event_days_one</item>
+    </plurals>
+    <plurals name="pref_last_event_hours">
+        <item quantity="other">@string/pref_last_event_hours_other</item>
+        <item quantity="one">@string/pref_last_event_hours_one</item>
+    </plurals>
+    <plurals name="pref_last_event_minutes">
+        <item quantity="other">@string/pref_last_event_minutes_other</item>
+        <item quantity="one">@string/pref_last_event_minutes_one</item>
+    </plurals>
+    <plurals name="stat_cards_completed">
+        <item quantity="other">@string/container_stat_completed_other</item>
+        <item quantity="zero">@string/container_stat_completed_zero</item>
+        <item quantity="one">@string/container_stat_completed_one</item>
+    </plurals>
+    <plurals name="stat_cards_completed_me">
+        <item quantity="other">@string/container_stat_completed_other_me</item>
+        <item quantity="zero">@string/container_stat_completed_zero_me</item>
+        <item quantity="one">@string/container_stat_completed_one_me</item>
+    </plurals>
+    <plurals name="stat_cards_flowed">
+        <item quantity="other">@string/container_stat_flowed_other</item>
+        <item quantity="zero">@string/container_stat_flowed_zero</item>
+        <item quantity="one">@string/container_stat_flowed_one</item>
+    </plurals>
+    <plurals name="stat_cards_flowed_me">
+        <item quantity="other">@string/container_stat_flowed_other_me</item>
+        <item quantity="zero">@string/container_stat_flowed_zero_me</item>
+        <item quantity="one">@string/container_stat_flowed_one_me</item>
+    </plurals>
+    <plurals name="stat_cards_flowed_share">
+        <item quantity="other">@string/container_stat_flowed_share_other</item>
+        <item quantity="zero">@string/container_stat_flowed_share_zero</item>
+        <item quantity="one">@string/container_stat_flowed_share_one</item>
+    </plurals>
+    <plurals name="stat_cards_predicted">
+        <item quantity="other">@string/container_stat_predicted_other</item>
+        <item quantity="zero">@string/container_stat_predicted_zero</item>
+        <item quantity="one">@string/container_stat_predicted_one</item>
+    </plurals>
+    <plurals name="stat_cards_predicted_me">
+        <item quantity="other">@string/container_stat_predicted_other_me</item>
+        <item quantity="zero">@string/container_stat_predicted_zero_me</item>
+        <item quantity="one">@string/container_stat_predicted_one_me</item>
+    </plurals>
+    <plurals name="stat_cards_taps">
+        <item quantity="other">@string/container_stat_taps_other</item>
+        <item quantity="zero">@string/container_stat_taps_zero</item>
+        <item quantity="one">@string/container_stat_taps_one</item>
+    </plurals>
+    <plurals name="stat_cards_taps_me">
+        <item quantity="other">@string/container_stat_taps_other_me</item>
+        <item quantity="zero">@string/container_stat_taps_zero_me</item>
+        <item quantity="one">@string/container_stat_taps_one_me</item>
+    </plurals>
+    <plurals name="stat_cards_taps_share">
+        <item quantity="other">@string/container_stat_taps_share_other</item>
+        <item quantity="zero">@string/container_stat_taps_share_zero</item>
+        <item quantity="one">@string/container_stat_taps_share_one</item>
+    </plurals>
+    <plurals name="stat_completed_title">
+        <item quantity="other">@string/container_stat_completed_title</item>
+        <item quantity="zero">@string/container_stat_completed_title_zero</item>
+        <item quantity="one">@string/container_stat_completed_title_one</item>
+    </plurals>
+    <plurals name="stat_distance">
+        <item quantity="other">@string/container_stat_distance</item>
+        <item quantity="zero">@string/container_stat_distance_zero</item>
+        <item quantity="one">@string/container_stat_distance_one</item>
+    </plurals>
+    <plurals name="stat_distance_me">
+        <item quantity="other">@string/container_stat_distance_me</item>
+        <item quantity="zero">@string/container_stat_distance_zero_me</item>
+        <item quantity="one">@string/container_stat_distance_one_me</item>
+    </plurals>
+    <plurals name="stat_distance_share">
+        <item quantity="other">@string/container_stat_distance_share</item>
+        <item quantity="zero">@string/container_stat_distance_share_zero</item>
+        <item quantity="one">@string/container_stat_distance_share_one</item>
+    </plurals>
+    <plurals name="stat_flowed_title">
+        <item quantity="other">@string/container_stat_flowed_title</item>
+        <item quantity="zero">@string/container_stat_flowed_title_zero</item>
+        <item quantity="one">@string/container_stat_flowed_title_one</item>
+    </plurals>
+    <plurals name="stat_predicted_title">
+        <item quantity="other">@string/container_stat_predicted_title</item>
+        <item quantity="zero">@string/container_stat_predicted_title_zero</item>
+        <item quantity="one">@string/container_stat_predicted_title_one</item>
+    </plurals>
+    <plurals name="stat_taps_title">
+        <item quantity="other">@string/container_stat_taps_title</item>
+        <item quantity="zero">@string/container_stat_taps_title_zero</item>
+        <item quantity="one">@string/container_stat_taps_title_one</item>
+    </plurals>
+</resources>

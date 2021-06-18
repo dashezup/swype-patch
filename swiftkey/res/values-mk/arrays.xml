@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Текстот што го копирате автоматски ќе се прикаже тука</item>
+        <item>Закачете ги копираните текстуални извадоци за да спречите да истечат по 1 час</item>
+        <item>Лизгајте ги ставките во склад за копирање за да ги избришете</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Отстрани предвидување</item>
+        <item>Дај повратни информации</item>
+        <item>Зачувај дневник за отстранување грешки во течноста</item>
+    </string-array>
+</resources>

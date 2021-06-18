@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/theme_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/prc_consent_theme_container" android:background="@drawable/prc_consent_theme_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/dropshadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_below="@id/prc_consent_theme_contents" />
+        <ToggleButton android:id="@id/prc_consent_theme_collapse_button" android:background="@drawable/button_arrow" android:layout_width="@dimen/prc_consent_theme_button_width" android:layout_height="@dimen/prc_consent_theme_button_height" android:layout_marginTop="@dimen/prc_consent_theme_button_margin_top" android:button="@null" android:textOn="@null" android:textOff="@null" android:layout_marginEnd="@dimen/prc_consent_theme_button_margin_end" android:layout_alignParentEnd="true" />
+        <ViewFlipper android:id="@id/prc_consent_theme_contents" android:padding="@dimen/prc_consent_theme_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:measureAllChildren="false" android:inAnimation="@anim/fade_in_slow" android:outAnimation="@anim/fade_out_slow" android:layout_alignParentTop="true" android:layout_toStartOf="@id/prc_consent_theme_collapse_button" android:layout_alignParentStart="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/prc_consent_theme_expanded" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/prc_consent_theme_expanded_message_text_size" android:textColor="@color/container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/prc_consent_container_theme_expanded" />
+                <TextView android:textSize="@dimen/prc_consent_theme_expanded_button_text_size" android:textStyle="bold" android:textColor="@color/swiftkey_blue" android:id="@id/prc_consent_theme_allow_button" android:paddingTop="@dimen/prc_consent_theme_allow_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/prc_consent_container_theme_allow" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:id="@id/prc_consent_theme_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/prc_consent_theme_image_no_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prc_consent_no_network_dark" />
+                <TextView android:textSize="@dimen/prc_consent_theme_collapsed_message_text_size" android:textColor="@color/container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/prc_consent_theme_collapsed_margin_horizontal" android:layout_marginRight="@dimen/prc_consent_theme_collapsed_margin_horizontal" android:text="@string/prc_consent_container_theme_collapsed" android:layout_marginStart="@dimen/prc_consent_theme_collapsed_margin_horizontal" android:layout_marginEnd="@dimen/prc_consent_theme_collapsed_margin_horizontal" />
+            </LinearLayout>
+        </ViewFlipper>
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/theme_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

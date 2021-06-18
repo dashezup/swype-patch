@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">"S'han afegit %1$d idiomes"</item>
+        <item quantity="zero">"S'han afegit %1$d idiomes"</item>
+        <item quantity="one">"S'ha afegit %1$d idioma"</item>
+        <item quantity="two">"S'han afegit %1$d idiomes"</item>
+        <item quantity="few">"S'han afegit %1$d idiomes"</item>
+        <item quantity="many">"S'han afegit %1$d idiomes"</item>
+    </plurals>
+</resources>

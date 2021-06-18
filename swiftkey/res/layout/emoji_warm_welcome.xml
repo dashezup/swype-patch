@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/emoji_warmwelcome" android:background="@color/emoji_panel_warm_welcome_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/emoji_warmwelcome_dialog" android:background="@drawable/emoji_warmwelcome_dialog" android:layout_width="@dimen/warm_welcome_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/warm_welcome_margin" android:layout_marginRight="@dimen/warm_welcome_margin">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_emoji" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/light_shade_contrasting_color" android:id="@id/emoji_warmwelcome_title" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_warm_welcome_title" />
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <HorizontalScrollView android:id="@id/emoji_showreel_scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        <TextView android:textStyle="bold" android:textColor="@color/swiftkey_blue" android:layout_gravity="end" android:id="@id/emoji_ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" android:textAllCaps="true" android:layout_marginEnd="28.0dip" />
+    </LinearLayout>
+</FrameLayout>

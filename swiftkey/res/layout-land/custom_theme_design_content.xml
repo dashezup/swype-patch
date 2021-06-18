@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/custom_theme_screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/custom_theme_add_image" />
+    <include layout="@layout/custom_theme_design_controls" />
+</LinearLayout>

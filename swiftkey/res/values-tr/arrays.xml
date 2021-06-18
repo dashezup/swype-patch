@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Kopyaladığınız metin otomatik olarak burada görünür</item>
+        <item>1 saat sonra silinmelerini engellemek için kopyalanan metin parçalarını sabitleyin</item>
+        <item>Silmek için pano öğelerini kaydırın</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Tahmini kaldır</item>
+        <item>Geribildirimde bulun</item>
+        <item>Akıcılık Hata Ayıklama Kaydını Kaydet</item>
+    </string-array>
+</resources>

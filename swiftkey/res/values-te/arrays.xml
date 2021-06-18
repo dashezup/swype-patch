@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>మీరు కాపీ చేసిన టెక్స్ట్ స్వయంచాలకంగా ఇక్కడ ప్రదర్శింపబడుతుంది</item>
+        <item>1 గంట తర్వాత గడువు ముగియకుండా ఆపడానికి కాపీ చేసిన టెక్స్ట్ స్నిప్పెట్లను పిన్ చేయండి</item>
+        <item>వాటిని తొలగించడానికి క్లిప్‌బోర్డ్ అంశాలను స్లైడ్ చేయండి</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>సూచనను తీసివేయి</item>
+        <item>అభిప్రాయాన్ని అందించండి</item>
+        <item>ఫ్లూయెన్సీ డీబగ్ లాగ్‌ని సేవ్ చేయి</item>
+    </string-array>
+</resources>

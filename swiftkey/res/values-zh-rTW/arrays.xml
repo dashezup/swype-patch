@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>您複製的文字會自動顯示在此處</item>
+        <item>只要釘住複製的文字片段，它們就不會在 1 小時後過期</item>
+        <item>滑動剪貼簿項目可將其刪除</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>移除聯想功能</item>
+        <item>提供意見</item>
+        <item>儲存流暢度偵錯記錄</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Engadíronse %1$d idiomas</item>
+        <item quantity="zero">Engadíronse %1$d idiomas</item>
+        <item quantity="one">Engadiuse %1$d idioma</item>
+        <item quantity="two">Engadíronse %1$d idiomas</item>
+        <item quantity="few">Engadíronse %1$d idiomas</item>
+        <item quantity="many">Engadíronse %1$d idiomas</item>
+    </plurals>
+</resources>

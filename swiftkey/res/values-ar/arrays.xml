@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>سيظهر النص الذي تقوم بنسخه هنا تلقائيًا</item>
+        <item>تثبيت قصاصات النص المنسوخ لمنع انقضائها بعد ساعة واحدة</item>
+        <item>قم بتمرير عناصر الحافظة لحذفها</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>إزالة التوقع</item>
+        <item>تقديم تعليقات</item>
+        <item>حفظ سجل برنامج Fluency Debug</item>
+    </string-array>
+</resources>

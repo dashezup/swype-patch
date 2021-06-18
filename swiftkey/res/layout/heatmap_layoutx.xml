@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/heatmap_container" android:padding="24.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/pref_usage_heatmap_helptext" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/heatmap_wrapper" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="34.0dip">
+        <ImageView android:id="@id/heatmap_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+        <ProgressBar android:id="@id/heatmap_progress_bar" android:padding="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pref_usage_heatmap_helptext" android:importantForAccessibility="no" app:layout_anchor="@id/heatmap_wrapper" app:layout_anchorGravity="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

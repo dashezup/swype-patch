@@ -1,0 +1,20 @@
+{
+  "multicharmap":{
+    "in":[
+      ["ing", 1.0,0]
+    ],
+    "ing":[
+      ["in", 1.0,0]
+    ]
+  },
+  "variant":[
+    "zh",
+    "CN-pinyin-languagemap"
+  ],
+  "tags":[
+    "zh",
+    "CN",
+    "pinyin-fuzzy-mapping-ing",
+    "charactermap"
+  ]
+}

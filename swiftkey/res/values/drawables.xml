@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="alien" />
+    <item type="drawable" name="astro_cat" />
+    <item type="drawable" name="cat_with_tears_of_joy" />
+    <item type="drawable" name="full_kbd" />
+    <item type="drawable" name="hot_dog" />
+    <item type="drawable" name="keyboard_layout_icon_12key_keyboard" />
+    <item type="drawable" name="keyboard_layout_icon_cangjie" />
+    <item type="drawable" name="keyboard_layout_icon_fivestroke" />
+    <item type="drawable" name="keyboard_layout_icon_full_keyboard" />
+    <item type="drawable" name="keyboard_layout_icon_handwriting" />
+    <item type="drawable" name="keyboard_layout_icon_quick_cangjie" />
+    <item type="drawable" name="keyboard_layout_icon_zhuyin" />
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="party_popper" />
+    <item type="drawable" name="pile_of_poo" />
+    <item type="drawable" name="rainbow" />
+    <item type="drawable" name="robot_face" />
+</resources>

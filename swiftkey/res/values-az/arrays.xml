@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Köçürdüyünüz mətn avtomatik olaraq burada görünəcək</item>
+        <item>Köçürülmüş mətn fraqmentlərini 1 saat sonra bitməməsi üçün bərkidin</item>
+        <item>Mübadilə buferi elementlərini silmək üçün sürüşdürün</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Proqnozu silin</item>
+        <item>Rəy bildirin</item>
+        <item>Səlislik Sazlama Jurnalını yadda saxlayın</item>
+    </string-array>
+</resources>

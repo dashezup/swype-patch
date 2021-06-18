@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Моў дададзена: %1$d</item>
+        <item quantity="zero">Моў дададзена: %1$d</item>
+        <item quantity="one">Дададзена %1$d мова</item>
+        <item quantity="two">Моў дададзена: %1$d</item>
+        <item quantity="few">Моў дададзена: %1$d</item>
+        <item quantity="many">Моў дададзена: %1$d</item>
+    </plurals>
+</resources>

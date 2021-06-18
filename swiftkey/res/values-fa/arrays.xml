@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>متنی که کپی می‌کنید به‌صورت خودکار اینجا نمایش داده می‌شود</item>
+        <item>کدهای آماده متن‌ها توسط پین کپی شد تا بعد از ۱ ساعت منقضی نشوند</item>
+        <item>برای حذف موارد بریده‌متن آن‌ها را بلغزانید</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>حذف پیش بینی</item>
+        <item>ارائه بازخورد</item>
+        <item>ذخیره گزارش رفع اشکال شیوایی</item>
+    </string-array>
+</resources>

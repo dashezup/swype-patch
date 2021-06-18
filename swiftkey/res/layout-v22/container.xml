@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/container_activity_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/container_app_appbar_layout" />
+    <com.touchtype.materialsettings.ContainerFrameLayout android:id="@id/content_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" style="@style/ContainerThemeCoordinatorContent" />
+    </com.touchtype.materialsettings.ContainerFrameLayout>
+    <com.touchtype.materialsettings.SwiftKeyPreferenceFloatingActionButton android:id="@id/keyboard_open_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:src="@drawable/keyboard_fab_transition" android:contentDescription="@string/open_keyboard_description" app:layout_anchor="@id/content_wrapper" app:layout_anchorGravity="end|bottom|center" app:layout_dodgeInsetEdges="bottom" app:tint="@color/white" style="@style/PrimaryButtonStyle" />
+    <com.touchtype.materialsettings.ContainerEditTextLayout android:id="@id/text_input" android:layout_height="0.0dip" app:layout_dodgeInsetEdges="bottom" style="@style/TryOutEditArea">
+        <com.touchtype.materialsettings.KeyboardStateMonitoringEditText android:textColor="@color/container_try_setup_edit_text" android:id="@id/tryout_edit_text" android:focusableInTouchMode="false" android:hint="@string/container_edittext_hint" android:inputType="textCapSentences|textMultiLine" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/cursor" android:importantForAutofill="noExcludeDescendants" style="@style/TryOutEditText" />
+    </com.touchtype.materialsettings.ContainerEditTextLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

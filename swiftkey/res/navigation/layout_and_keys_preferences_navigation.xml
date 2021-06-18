@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/layout_and_keys_preferences_navigation" app:startDestination="@id/layout_and_keys_preferences_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/home_pref_layout_and_keys" android:name="com.touchtype.materialsettingsx.LayoutKeysPreferenceFragment" android:id="@id/layout_and_keys_preferences_fragment">
+        <action android:id="@id/open_resize_keyboard_preferences" app:destination="@id/resize_keyboard_activity" />
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_keys" />
+    </fragment>
+    <activity android:name="com.touchtype.materialsettings.typingsettings.ResizeContainerActivity" android:id="@id/resize_keyboard_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+</navigation>

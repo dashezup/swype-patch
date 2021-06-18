@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Dodano je %1$d jezika</item>
+        <item quantity="zero">Dodano je %1$d jezika</item>
+        <item quantity="one">Dodan je %1$d jezik</item>
+        <item quantity="two">Dodano je %1$d jezika</item>
+        <item quantity="few">Dodano je %1$d jezika</item>
+        <item quantity="many">Dodano je %1$d jezika</item>
+    </plurals>
+</resources>

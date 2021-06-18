@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>आपके द्वारा कॉपी किया गया टेक्स्ट स्वचालित रूप से यहां दिखाई देगा</item>
+        <item>1 घंटे बाद टेक्स्ट स्निपेट की समय-सीमा समाप्त होने से रोकने के लिए पिन ने इन्हें कॉपी किया</item>
+        <item>क्लिपबोर्ड आइटम को हटाने के लिए उन्हें स्लाइड करें</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>पूर्वानुमान निकालें</item>
+        <item>प्रतिक्रिया दें</item>
+        <item>फ़्लूएंसी डीबग लॉग सहेजें</item>
+    </string-array>
+</resources>

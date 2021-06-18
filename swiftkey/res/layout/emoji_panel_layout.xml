@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.fancy.emoji.EmojiPanel android:id="@id/emoji_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/emoji_top_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/emoji_back" android:background="@drawable/fancy_panel_ripple" android:focusable="true" android:clickable="true" android:layout_width="@dimen/fancy_panel_back_width" android:layout_height="fill_parent" android:src="@drawable/ic_chevron_left_18dp" android:scaleType="centerInside" android:contentDescription="@string/back" android:paddingStart="@dimen/fancy_panel_back_horizontal_padding" android:paddingEnd="@dimen/fancy_panel_back_horizontal_padding" />
+        <com.touchtype.ui.SwiftKeyTabLayout android:id="@id/emoji_tabs" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabMaxWidth="36.0dip" app:tabMinWidth="36.0dip" app:tabMode="scrollable" app:tabPaddingEnd="6.0dip" app:tabPaddingStart="6.0dip" style="@style/ToolbarPanelTab.WithoutIndicator" />
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/emoji_pager" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="0.0dip" android:columnWidth="40.0dip" android:numColumns="7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/emoji_top_bar" />
+    <include android:id="@id/emoji_warmwelcome" layout="@layout/emoji_warm_welcome" />
+</com.touchtype.keyboard.view.fancy.emoji.EmojiPanel>

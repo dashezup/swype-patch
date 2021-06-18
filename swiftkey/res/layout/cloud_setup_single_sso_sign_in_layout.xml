@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.cloud.uiv2.signin.MsaSsoSignInButton android:id="@id/msa_sso_account_button" android:background="@drawable/msa_sso_button_all_corners_rounded_background" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/default_accounts_button" />
+    <com.google.android.material.button.MaterialButton android:id="@id/default_accounts_button" android:layout_width="fill_parent" app:layout_constraintBottom_toTopOf="@id/not_now_button" style="@style/CloudSetupMaterialButton.Other" />
+    <com.google.android.material.button.MaterialButton android:id="@id/not_now_button" android:layout_width="fill_parent" app:layout_constraintBottom_toBottomOf="parent" style="@style/CloudSetupMaterialButton.NotNow" />
+</merge>

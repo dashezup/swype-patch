@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>კოპირებული ტექსტი ავტომატურად გამოჩნდება აქ</item>
+        <item>ჩაამაგრეთ კოპირებული ტექსტის ნაწყვეტები, რათა აღარ მოძველდეს 1 საათის შემდეგ</item>
+        <item>გადასწიეთ გაცვლის ბუფერის ელემენტები მათ წასაშლელად</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>პროგნოზის წაშლა</item>
+        <item>შეფასება</item>
+        <item>გამართულობის გასწორების ჟურნალის შენახვა</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ข้อความที่คุณคัดลอกจะปรากฏตรงนี้โดยอัตโนมัติ</item>
+        <item>ปักหมุดข้อความสั้นๆ ที่คัดลอกไว้เพื่อไม่ให้หายไปเมื่อครบ 1 ชั่วโมง</item>
+        <item>เลื่อนสิ่งที่อยู่ในคลิปบอร์ดเพื่อลบคลิปนั้น</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>ลบคำที่เดา</item>
+        <item>แสดงความคิดเห็น</item>
+        <item>บันทึกล็อกดีบักความคล่องแคล่ว</item>
+    </string-array>
+</resources>

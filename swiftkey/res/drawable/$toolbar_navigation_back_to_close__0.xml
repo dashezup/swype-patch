@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="group" android:pivotX="9.0" android:pivotY="9.0">
+        <path android:name="line_1" android:fillColor="#ffffffff" android:pathData="@string/toolbar_navigation_back_line_1" android:fillType="nonZero" />
+        <path android:name="line_2" android:fillColor="#ffffffff" android:pathData="@string/toolbar_navigation_back_line_2" android:fillType="nonZero" />
+    </group>
+</vector>

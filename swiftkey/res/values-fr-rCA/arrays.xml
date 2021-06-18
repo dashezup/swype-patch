@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Le texte que vous copiez s’affichera automatiquement ici</item>
+        <item>Épinglez les morceaux de texte copiés pour qu’ils n’expirent pas après 1 heure</item>
+        <item>Faites glisser des éléments du presse-papiers pour les supprimer</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Supprimer la prédiction</item>
+        <item>Envoyer vos commentaires</item>
+        <item>Enregistrer le journal de débogage de la fluidité</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.keyboard.view.fancy.richcontent.fresco.SwiftKeyDraweeView android:layout_gravity="center" android:id="@id/theme_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:actualImageScaleType="fitCenter" app:imageScalingBehaviour="heightWrapContent" app:placeholderImage="@drawable/preview_placeholder" app:placeholderImageScaleType="fitCenter" />
+    <TextView android:textSize="@dimen/theme_dialog_text_size" android:textColor="@color/theme_dialog_name" android:id="@id/theme_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_dialog_horizontal_margin" android:layout_marginTop="@dimen/theme_dialog_vertical_margin" android:layout_marginRight="@dimen/theme_dialog_horizontal_margin" android:layout_marginBottom="@dimen/theme_dialog_vertical_margin" android:layout_below="@id/theme_preview" />
+</RelativeLayout>

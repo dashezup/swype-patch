@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">تمت إضافة %1$d لغات</item>
+        <item quantity="zero">تمت إضافة %1$d لغات</item>
+        <item quantity="one">تمت إضافة %1$d لغة</item>
+        <item quantity="two">تمت إضافة %1$d لغات</item>
+        <item quantity="few">تمت إضافة %1$d لغات</item>
+        <item quantity="many">تمت إضافة %1$d لغات</item>
+    </plurals>
+</resources>

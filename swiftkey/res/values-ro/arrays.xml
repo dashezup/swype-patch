@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Textul pe care îl copiați va apărea automat aici</item>
+        <item>Fixați fragmente de text copiate pentru a nu mai expira după 1 oră</item>
+        <item>Glisați elementele din clipboard pentru a le șterge</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Eliminare predicție</item>
+        <item>Lăsați comentarii</item>
+        <item>Salvare jurnal depanare fluență</item>
+    </string-array>
+</resources>

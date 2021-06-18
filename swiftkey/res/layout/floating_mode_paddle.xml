@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.FloatingKeyboardPaddle android:orientation="horizontal" android:id="@id/floating_mode_paddle" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="48.0dip" android:importantForAccessibility="no" android:paddingStart="25.0dip" android:paddingEnd="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.keyboard.view.frames.ImageFrame android:id="@id/floating_mode_paddle_drag" android:layout_width="@dimen/floating_kb_paddle_height" android:layout_height="@dimen/floating_kb_paddle_height" android:scaleType="centerInside" android:layout_weight="1.0" touchtype:iconId="bottomFloatingModeDragTab" />
+</com.touchtype.keyboard.view.FloatingKeyboardPaddle>

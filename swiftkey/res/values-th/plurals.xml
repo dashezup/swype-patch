@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">เพิ่มแล้ว %1$dภาษา</item>
+        <item quantity="zero">เพิ่มแล้ว %1$dภาษา</item>
+        <item quantity="one">เพิ่มแล้ว %1$d ภาษา</item>
+        <item quantity="two">เพิ่มแล้ว %1$dภาษา</item>
+        <item quantity="few">เพิ่มแล้ว %1$dภาษา</item>
+        <item quantity="many">เพิ่มแล้ว %1$dภาษา</item>
+    </plurals>
+</resources>

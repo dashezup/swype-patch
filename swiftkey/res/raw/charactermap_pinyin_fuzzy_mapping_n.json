@@ -1,0 +1,20 @@
+{
+  "charmap":{
+    "n":[
+      ["l", 1.0,0]
+    ],
+    "l":[
+      ["n", 1.0,0]
+    ]
+  },
+  "variant":[
+    "zh",
+    "CN-pinyin-languagemap"
+  ],
+  "tags":[
+    "zh",
+    "CN",
+    "pinyin-fuzzy-mapping-n",
+    "charactermap"
+  ]
+}

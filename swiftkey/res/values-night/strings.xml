@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="web_view_color_style">&lt;style> body{font-family: sans-serif; color: white; background: black} a{color: #6EA5FF;} &lt;/style></string>
+</resources>

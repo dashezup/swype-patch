@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/key_borders_switch_container" android:paddingTop="22.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingEnd" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <TextView android:textSize="@dimen/custom_theme_switch_text_size" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_themes_key_borders_setting" android:layout_toStartOf="@id/key_borders_switch" android:layout_alignParentStart="true" />
+        <com.touchtype.materialsettings.languagepreferences.NonSlideableSwitchCompat android:enabled="true" android:id="@id/key_borders_switch" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include layout="@layout/custom_themes_preferences_separator" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/symbols_switch_container" android:paddingTop="22.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingEnd" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <TextView android:textSize="@dimen/custom_theme_switch_text_size" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_themes_symbols_setting" android:layout_toStartOf="@id/symbols_switch" android:layout_alignParentStart="true" />
+        <com.touchtype.materialsettings.languagepreferences.NonSlideableSwitchCompat android:enabled="true" android:id="@id/symbols_switch" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include layout="@layout/custom_themes_preferences_separator" />
+</LinearLayout>

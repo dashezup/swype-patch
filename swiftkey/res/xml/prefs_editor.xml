@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:title="@string/prefs_editor_live_update_title" android:key="@string/pref_editor_live_update_enabled_key" android:summary="@string/prefs_editor_live_update_summary" app:allowDividerBelow="false" />
+    <com.touchtype.materialsettings.custompreferences.TrackedListPreference android:persistent="true" android:title="@string/prefs_editor_language_title" android:key="@string/pref_editor_language_key" />
+    <com.touchtype.materialsettings.custompreferences.TrackedListPreference android:persistent="true" android:title="@string/prefs_editor_license_title" android:key="@string/pref_editor_license_key" />
+</PreferenceScreen>

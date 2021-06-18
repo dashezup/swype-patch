@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/extended_panel_background" android:layout_width="fill_parent" android:layout_height="42.0dip" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="?android:buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:gravity="center_vertical" android:id="@id/web_search_send_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send" android:layout_alignParentEnd="true" app:icon="@drawable/send_icon" style="@style/MaterialBottomBarTextButton" />
+    <com.google.android.material.button.MaterialButton android:gravity="center_vertical" android:id="@id/web_search_screenshot_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/web_search_screenshot_button" android:layout_alignParentStart="true" app:icon="@drawable/crop_icon" style="@style/MaterialBottomBarTextButton" />
+</RelativeLayout>

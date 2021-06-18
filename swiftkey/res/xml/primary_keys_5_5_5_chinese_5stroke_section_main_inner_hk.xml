@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrimaryKeyList
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <PrimaryKey touchtype:primary="一" />
+    <PrimaryKey touchtype:primary="丨" />
+    <PrimaryKey touchtype:primary="丿" />
+    <PrimaryKey touchtype:primary="丶" />
+    <PrimaryKey touchtype:primary="乛" />
+    <PrimaryKey touchtype:primary="通配" />
+    <PrimaryKey touchtype:primary="分詞" />
+    <PrimaryKey touchtype:primary="：" />
+    <PrimaryKey touchtype:primary="；" />
+</PrimaryKeyList>

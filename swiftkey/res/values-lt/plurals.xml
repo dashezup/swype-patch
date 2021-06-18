@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Pridėta %1$d kalbos/kalbų</item>
+        <item quantity="zero">Pridėta kalbų: %1$d</item>
+        <item quantity="one">Pridėta %1$d kalba</item>
+        <item quantity="two">Pridėta %1$d kalbos/kalbų</item>
+        <item quantity="few">Pridėta %1$d kalbos/kalbų</item>
+        <item quantity="many">Pridėta %1$d kalbos/kalbų</item>
+    </plurals>
+</resources>

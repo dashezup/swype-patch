@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <include android:paddingBottom="@dimen/spacing_28" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/microsoft_footer" app:layout_constraintEnd_toEndOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/installer_welcome_text" />
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/installer_text_policy" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/installer_button_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_32" android:paddingEnd="@dimen/spacing_32" />
+    </ScrollView>
+    <TextView android:id="@id/installer_text_policy" android:layout_width="346.0dip" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginStart="@dimen/spacing_32" android:layout_marginEnd="@dimen/spacing_32" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline" style="@style/InstallerPolicy" />
+    <ImageView android:id="@id/microsoft_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/microsoft_footer" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/guideline" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

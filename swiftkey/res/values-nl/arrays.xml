@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Gekopieerde tekst wordt hier automatisch getoond</item>
+        <item>Maak snippets van gekopieerde tekst vast zodat ze niet na 1 uur verlopen zijn</item>
+        <item>U kunt klemborditems verwijderen door ze te verslepen</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Voorspelling verwijderen</item>
+        <item>Feedback geven</item>
+        <item>Fluency Debug Log opslaan</item>
+    </string-array>
+</resources>

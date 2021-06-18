@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Lisati %1$d keeled</item>
+        <item quantity="zero">Lisati %1$d keelt</item>
+        <item quantity="one">Lisati %1$d keel</item>
+        <item quantity="two">Lisati %1$d keeled</item>
+        <item quantity="few">Lisati %1$d keeled</item>
+        <item quantity="many">Lisati %1$d keeled</item>
+    </plurals>
+</resources>

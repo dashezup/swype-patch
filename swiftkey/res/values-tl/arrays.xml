@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Awtomatikong lalabas dito ang text na kinokopya mo</item>
+        <item>I-pin ang mga nakopyang snippet ng text upang pigilang mag-expire ang mga ito pagkatapos ng 1 oras</item>
+        <item>I-slide ang mga item sa clipboard para tanggalin ang mga iyon</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Alisin ang prediksyon?</item>
+        <item>Magbigay ng feedback</item>
+        <item>I-save ang Log ng Fluency Debug</item>
+    </string-array>
+</resources>

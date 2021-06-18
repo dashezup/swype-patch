@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>טקסט שאתה מעתיק יוצג כאן באופן אוטומטי</item>
+        <item>הצמד גזירים של טקסט שהועתק כדי שתוקפם לא יפוג לאחר שעה</item>
+        <item>החלק את האצבע על פריטים שהועתקו ללוח כדי למחוק אותם</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>הסר חיזוי</item>
+        <item>ספק משוב</item>
+        <item>שמור יומן איתור באגים של רהיטות</item>
+    </string-array>
+</resources>

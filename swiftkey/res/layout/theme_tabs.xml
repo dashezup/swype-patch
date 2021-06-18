@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout android:id="@id/sliding_tabs" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nextFocusForward="@id/theme_pager" android:touchscreenBlocksFocus="false" app:tabIndicatorColor="@color/themes_tab_selected_text" app:tabIndicatorHeight="4.0dip" app:tabRippleColor="@color/settings_tabs_ripple" app:tabSelectedTextColor="@color/themes_tab_selected_text" app:tabTextColor="@color/themes_tab_text" style="@style/ContainerThemeTabs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

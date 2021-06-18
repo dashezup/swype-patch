@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">U shtuan %1$d gjuhë</item>
+        <item quantity="zero">U shtuan %1$d gjuhë</item>
+        <item quantity="one">U shtua %1$d gjuhë</item>
+        <item quantity="two">U shtuan %1$d gjuhë</item>
+        <item quantity="few">U shtuan %1$d gjuhë</item>
+        <item quantity="many">U shtuan %1$d gjuhë</item>
+    </plurals>
+</resources>

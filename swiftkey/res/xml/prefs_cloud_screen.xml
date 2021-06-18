@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettingsx.custompreferences.TitlePreference android:persistent="false" android:title="@string/pref_account_account_settings_group_title" android:key="pref_account_account_settings_group_key" />
+    <Preference android:icon="@drawable/ic_cloud_account_signed_in" android:id="@id/pref_sync_account" android:key="@string/pref_cloud_account_key" app:allowDividerBelow="true" />
+    <com.touchtype.materialsettingsx.custompreferences.TitlePreference android:persistent="false" android:title="@string/pref_account_services_settings_group_title" android:key="pref_account_services_settings_group_key" app:allowDividerAbove="true" />
+    <Preference android:id="@id/pref_cloud_sync_settings" android:title="@string/backup_and_sync" android:key="@string/pref_cloud_sync_settings_key" app:iconSpaceReserved="false" />
+    <com.touchtype.materialsettingsx.custompreferences.TitlePreference android:persistent="false" android:title="@string/pref_account_data_settings_group_title" android:key="pref_account_data_settings_group_key" app:allowDividerAbove="true" /> /> <com.touchtype.ui.StringFormatPreference android:id="@id/pref_cloud_view_and_manage_your_data" android:title="@string/pref_account_view_and_manage_data" android:key="@string/pref_cloud_view_and_manage_data_key" app:summaryStringFormat="@string/pref_account_view_and_manage_data_summary" app:summaryStringFormatArg="@string/product_name" />
+    <com.touchtype.ui.StringFormatPreference android:id="@id/pref_cloud_delete_data_only" android:title="@string/pref_account_delete_data_only_title" android:key="@string/pref_cloud_delete_data_only_key" app:summaryStringFormat="@string/pref_account_delete_data_only_summary" app:summaryStringFormatArg="@string/product_name" />
+    <com.touchtype.ui.StringFormatPreference android:id="@id/pref_cloud_delete_data" android:key="@string/pref_cloud_delete_data_key" app:titleStringFormat="@string/pref_account_delete_data_title" app:titleStringFormatArg="@string/product_name" />
+    <com.touchtype.ui.StringFormatPreference android:id="@id/pref_cloud_logout" android:key="@string/pref_cloud_logout_key" app:summaryStringFormat="@string/pref_account_logout_summary" app:summaryStringFormatArg="@string/product_name" app:titleStringFormat="@string/pref_account_logout_title" app:titleStringFormatArg="@string/product_name" />
+</PreferenceScreen>

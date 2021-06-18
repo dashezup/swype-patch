@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>O texto que copies mostrarase automaticamente aquí</item>
+        <item>Fixa os fragmentos de texto copiados para que non caduquen pasada 1 hora</item>
+        <item>Desliza os elementos do portapapeis para eliminalos</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Quitar a predición</item>
+        <item>Deixar a túa opinión</item>
+        <item>Gardar rexistro de depuración de Fluency</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/sound_and_vibration_preferences_navigation" app:startDestination="@id/sound_vibration_preference_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/prefs_sound_and_vibration_title" android:name="com.touchtype.materialsettingsx.SoundVibrationPreferenceFragment" android:id="@id/sound_vibration_preference_fragment" />
+</navigation>

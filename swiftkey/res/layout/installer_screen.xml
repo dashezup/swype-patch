@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/installer_button_area" app:layout_constraintStart_toStartOf="@id/installer_button_area" app:layout_constraintTop_toTopOf="parent" layout="@layout/installer_welcome_text" />
+    <LinearLayout android:orientation="vertical" android:id="@id/installer_button_area" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/installer_text_policy" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/installer_welcome" />
+    <TextView android:gravity="center" android:id="@id/installer_text_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/microsoft_footer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/installer_button_area" style="@style/InstallerPolicy" />
+    <ImageView android:id="@id/microsoft_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/microsoft_footer" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_weight="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

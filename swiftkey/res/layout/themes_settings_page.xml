@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/something_went_wrong_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" android:text="@string/themes_screen_something_went_wrong" />
+        <com.google.android.material.button.MaterialButton android:textColor="@color/container_text" android:id="@id/theme_screen_something_went_wrong_retry_button" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" android:paddingStart="11.0dip" android:paddingEnd="26.0dip" app:icon="@drawable/ic_topnav_refresh" app:iconPadding="6.0dip" app:iconTint="@color/icon_tint" app:rippleColor="@color/retry_button_ripple_color" style="@style/Widget.MaterialComponents.Button.Icon" />
+    </LinearLayout>
+    <com.touchtype.ui.AccessibilityEmptyRecyclerView android:id="@id/themes_settings_recycler_view" android:paddingLeft="@dimen/theme_tiles_margin" android:paddingTop="@dimen/theme_tiles_margin" android:paddingRight="@dimen/theme_tiles_margin" android:paddingBottom="@dimen/fab_page_bottom_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nextFocusForward="@id/keyboard_open_fab" android:paddingStart="@dimen/theme_tiles_margin" android:paddingEnd="@dimen/theme_tiles_margin" />
+</FrameLayout>

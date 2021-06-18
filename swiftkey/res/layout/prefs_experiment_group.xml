@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/prefs_experiment_group_0" style="@style/PreferenceItem.WithDividers"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/experiment_radio_button" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/experiment_text_view" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

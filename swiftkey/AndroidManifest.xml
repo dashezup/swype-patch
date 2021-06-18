@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" coreApp="true" package="com.touchtype.swiftkey" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="com.swiftkey.languageprovider.READLANG"/>
+    <uses-permission android:name="com.swiftkey.swiftkeyconfigurator.READCONFIG"/>
+    <uses-permission-sdk-23 android:name="android.permission.RECORD_AUDIO"/>
+    <queries>
+        <package android:name="com.swiftkey.swiftkeyconfigurator"/>
+        <package android:name="com.swiftkey.swiftkeyconfigurator.debug"/>
+        <package android:name="com.swiftkey.languageprovider"/>
+        <package android:name="com.microsoft.emmx"/>
+        <package android:name="com.microsoft.emmx.selfhost"/>
+        <package android:name="com.microsoft.emmx.daily"/>
+        <package android:name="com.microsoft.emmx.development"/>
+        <package android:name="com.microsoft.translator"/>
+        <package android:name="com.microsoft.todos"/>
+        <package android:name="androidx.test.orchestrator"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:allowBackup="false" android:appCategory="productivity" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="false" android:icon="@mipmap/launcher_icon" android:label="@string/app_name" android:name="com.touchtype.SwiftKeyApplication" android:resizeableActivity="true" android:supportsRtl="true" android:theme="@style/ContainerTheme">
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <meta-data android:name="to.dualscreen" android:value="true"/>
+        <meta-data android:name="duosdk.dualScreenAware" android:value="true"/>
+        <service android:directBootAware="true" android:name="com.touchtype.KeyboardService" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        <service android:exported="false" android:name="com.touchtype.voice.VoiceInputServiceHelper"/>
+        <service android:enabled="true" android:exported="false" android:name="com.touchtype.social.NotificationInteractionService"/>
+        <service android:exported="false" android:name="com.touchtype.installer.core.IMEEnabledDetectorService"/>
+        <service android:exported="false" android:name="com.touchtype_fluency.service.FluencyServiceImpl"/>
+        <service android:exported="false" android:label="AppService" android:name="com.touchtype.telemetry.TelemetryService"/>
+        <service android:exported="false" android:name="com.touchtype.cloudmessaging.SwiftKeyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="net.swiftkey.androidlibs.paperboy.PaperBoyAvroService"/>
+        <service android:exported="false" android:name="com.touchtype.cloud.sync.SyncService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.touchtype.materialsettings.themessettings.service.ThemeDownloadJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="@bool/skjob_alarm_enabled" android:exported="false" android:name="com.touchtype.scheduler.SwiftKeyAlarmManagerJobService"/>
+        <service android:enabled="@bool/skjob_jobservice_enabled" android:exported="false" android:name="com.touchtype.scheduler.SwiftKeyJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.touchtype.telemetry.TelemetryJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:name="com.touchtype.voice.VoiceInputHelperActivity" android:theme="@style/ContainerTheme.DialogActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.touchtype.LauncherActivity" android:theme="@style/ContainerTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="com.touchtype.LauncherActivityIcon" android:targetActivity="com.touchtype.LauncherActivity" android:theme="@style/ContainerTheme.Splash">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/settings" android:name="com.touchtype.materialsettingsx.NavigationActivity" android:theme="@style/ContainerTheme"/>
+        <activity android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"/>
+        <activity android:name="com.touchtype.materialsettingsx.CrowdsourcingLauncherActivity" android:theme="@style/SwiftKeyTranslucentTheme">
+            <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL" android:value="@string/crowdsourcing_base_url"/>
+            <meta-data android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR" android:resource="@color/primary_background_light"/>
+            <meta-data android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK" android:resource="@color/primary_background_dark"/>
+            <meta-data android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR" android:resource="@color/primary_background_light"/>
+            <meta-data android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK" android:resource="@color/primary_background_dark"/>
+        </activity>
+        <activity android:exported="false" android:name="com.touchtype.installer.none.NoInstaller"/>
+        <activity android:exported="false" android:name="com.touchtype.ui.DialogActivity" android:theme="@style/ContainerTheme.DialogActivity"/>
+        <activity android:name="com.touchtype.materialsettingsx.aboutsettings.OssLicencesView"/>
+        <activity android:name="com.touchtype_fluency.service.personalize.auth.AuthenticationActivity" android:process=":WebViewAuthProcess" android:theme="@style/Authentication" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.cloud.authv2.msa.MsaAccessTokenApiActivity" android:theme="@style/SwiftKeyTranslucentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.touchtype.clipboard.cloud.ClaimsActivity" android:process=":WebViewAuthProcess" android:theme="@style/Authentication" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.deeplinking.DeepLinkingHandlerActivity">
+            <intent-filter android:label="@string/app_name">
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="@string/deep_links_scheme" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="swiftkey"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="com.touchtype.swiftkey"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.cloud.uiv2.CloudSetupActivity" android:theme="@style/InstallerTheme.CloudSetupActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.cloud.uiv2.agegate.AgeNotCompliantActivity" android:theme="@style/ContainerTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.cloud.uiv2.agegate.AgeGateInputActivity" android:theme="@style/ContainerTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.touchtype.cloud.authv2.google.GooglePlayServicesAuthActivity" android:theme="@style/SwiftKeyTranslucentTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/container_home_themes_title" android:name="com.touchtype.materialsettings.themessettings.ThemeSettingsActivity" android:parentActivityName="com.touchtype.materialsettingsx.NavigationActivity" android:theme="@style/ContainerTheme.Themes"/>
+        <activity android:exported="false" android:name="com.touchtype.materialsettings.SwiftKeyPreferencesActivity"/>
+        <activity android:exported="false" android:label="@string/container_home_resize_title" android:name="com.touchtype.materialsettings.typingsettings.ResizeContainerActivity" android:parentActivityName="com.touchtype.materialsettingsx.NavigationActivity"/>
+        <activity android:exported="false" android:label="@string/container_home_languages_title" android:name="com.touchtype.materialsettings.languagepreferences.LanguagePreferencesActivity">
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable_languages"/>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/pref_screen_layout_title" android:name="com.touchtype.materialsettings.languagepreferences.LanguageLayoutSelectorActivity"/>
+        <activity android:exported="false" android:label="@string/clipboard" android:name="com.touchtype.materialsettings.clipboard.ClipboardActivity" android:parentActivityName="com.touchtype.materialsettingsx.NavigationActivity" android:theme="@style/ContainerTheme.Clipboard"/>
+        <activity android:exported="false" android:name="com.touchtype.installer.TypingDataConsentActivity" android:theme="@style/InstallerTheme"/>
+        <activity android:name="com.touchtype.installer.core.InstallerActivity" android:theme="@style/InstallerTheme"/>
+        <activity android:name="com.touchtype.social.PRCConsentNotificationProxyActivity" android:theme="@style/SwiftKeyTranslucentTheme"/>
+        <activity android:name="com.touchtype.consent.GetRuntimePermissionActivity" android:theme="@style/SwiftKeyTranslucentTheme"/>
+        <activity android:label="@string/themes_screen_custom_theme_design_label" android:name="com.touchtype.materialsettings.themessettings.customthemes.CustomThemeDesignActivity" android:parentActivityName="com.touchtype.materialsettings.themessettings.ThemeSettingsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".materialsettings.themessettings.ThemeSettingsActivity"/>
+            <meta-data android:name="com.touchtype.OPEN_KEYBOARD_AT_START" android:value="false"/>
+        </activity>
+        <activity android:label="@string/themes_screen_background_image_editor_label" android:name="com.touchtype.materialsettings.themessettings.customthemes.BackgroundImageEditorActivity" android:parentActivityName="com.touchtype.materialsettings.themessettings.ThemeSettingsActivity" android:theme="@style/ContainerTheme" android:windowSoftInputMode="stateHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".materialsettings.themessettings.ThemeSettingsActivity"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/choose_account_label" android:name="com.touchtype.cloud.ui.MsaAccountPickerActivity" android:theme="@style/ContainerTheme.DialogActivity"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.touchtype.extendedpanel.websearch.EdgeCustomTabCommandSenderActivity" android:process=":ExtendedPanelProcess" android:taskAffinity="com.touchtype.extendedpanel" android:theme="@style/EdgeCustomTabCommandSenderTheme"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:label="@string/toolbar_search_caption" android:launchMode="singleTask" android:name="com.touchtype.extendedpanel.websearch.WebSearchExtendedPanelActivity" android:process=":ExtendedPanelProcess" android:taskAffinity="com.touchtype.extendedpanel" android:theme="@style/ExtendedPanelTheme"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:label="@string/web_page_extended_panel_title" android:launchMode="singleTask" android:name="com.touchtype.extendedpanel.websearch.WebPageExtendedPanelActivity" android:process=":ExtendedPanelProcess" android:taskAffinity="com.touchtype.extendedpanel" android:theme="@style/ExtendedPanelTheme"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:hardwareAccelerated="true" android:label="@string/rich_content_editor_label" android:launchMode="singleTask" android:name="com.touchtype.richcontenteditor.RichContentEditorActivity" android:process=":ExtendedPanelProcess" android:taskAffinity="com.touchtype.extendedpanel" android:theme="@style/RichContentEditorTheme"/>
+        <receiver android:exported="false" android:name="com.touchtype.RefreshLanguageConfigurationScheduledJob">
+            <intent-filter>
+                <action android:name="com.touchtype.ACTION_SCHEDULED_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.touchtype.cloud.sync.SyncScheduledJob">
+            <intent-filter>
+                <action android:name="com.touchtype.ACTION_SCHEDULED_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.touchtype.AddKeyboardDeltaToSyncPushQueueJob">
+            <intent-filter>
+                <action android:name="com.touchtype.ACTION_SCHEDULED_JOB"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.touchtype.InstallReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.touchtype_fluency.service.receiver.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.touchtype.PackageReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.touchtype.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.touchtype.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.touchtype.SimStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="com.touchtype.telemetry.TelemetryExposeReceiver">
+            <intent-filter>
+                <action android:name="com.touchtype.action.EXPOSE_TELEMETRY"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="com.touchtype.telemetry.TelemetryExposeReceiver$TelemetryExposeDoneReceiver">
+            <intent-filter>
+                <action android:name="com.touchtype.action.EXPOSE_TELEMETRY_DONE"/>
+                <data android:scheme="@string/telemetry_expose_done_data_scheme"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.microsoft.tokenshare.AccountChangeReceiver">
+            <intent-filter>
+                <data android:scheme="package"/>
+                <action android:name="com.microsoft.tokenshare.SIGNIN_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.touchtype.swiftkey.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sharefilepaths"/>
+        </provider>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.touchtype.swiftkey.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="10901"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.microsoft.tokenshare.TokenSharingService">
+            <intent-filter>
+                <action android:name="com.microsoft.tokenshare.TokenSharingService"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="token_share_sdk_version" android:value="2"/>
+        <meta-data android:name="token_share_build_version" android:value="1.5.11"/>
+        <meta-data android:name="token_share_parcelable_version" android:value="3"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

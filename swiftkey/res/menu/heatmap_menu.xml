@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_save" android:id="@id/heatmap_save" android:title="@string/heatmap_save_content_description" touchtype:iconTint="@color/icon_tint" touchtype:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_share" android:id="@id/heatmap_share" android:title="@string/heatmap_share_content_description" touchtype:iconTint="@color/icon_tint" touchtype:showAsAction="ifRoom" />
+</menu>

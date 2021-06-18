@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Nusxa olingan matn bu yerda avtomatik tarzda ko‘rsatiladi</item>
+        <item>Matnning amal qilish muddati 1 soatdan keyin tugamasligi uchun matn fragmentlarini qo‘shing</item>
+        <item>Vaqtinchalik xotira elementlarini o‘chirib tashlash uchun ularni suring</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Taxminni olib tashlash</item>
+        <item>Fikr-mulohaza yuboring</item>
+        <item>Nosozliklarni bartaraf etish jurnalini saqlash</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.candidates.view.SequentialCandidateBarLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.candidates.view.SequentialCandidatesRecyclerView android:id="@id/sequential_candidate_bar_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.touchtype.keyboard.candidates.view.SequentialCandidateBarLayout>

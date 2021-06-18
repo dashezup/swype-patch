@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="auto_suggestions_divider_alpha">29.999996%</fraction>
+    <fraction name="auto_suggestions_insert_icon_alpha">70.00001%</fraction>
+    <fraction name="auto_suggestions_search_icon_alpha">50.0%</fraction>
+    <fraction name="candidate_shortcut_ratio">60.000004%</fraction>
+    <fraction name="docked_compact_keyboard_aspect_ratio">169.99817%</fraction>
+    <fraction name="docked_keyboard_resize_maximum_top">60.000004%</fraction>
+    <fraction name="docked_keyboard_resize_minimum_top">0.0%</fraction>
+    <fraction name="floating_keyboard_compact_aspect_ratio">191.99829%</fraction>
+    <fraction name="floating_keyboard_resize_maximum_top">100.0%</fraction>
+    <fraction name="floating_keyboard_resize_minimum_top">0.0%</fraction>
+    <fraction name="key_height_numberrow_scale">95.00001%</fraction>
+    <fraction name="keyboard_resize_maximum_width">100.0%</fraction>
+    <fraction name="toolbar_item_actionable_alpha">100.0%</fraction>
+    <fraction name="toolbar_item_nonactionable_alpha">29.999996%</fraction>
+</resources>

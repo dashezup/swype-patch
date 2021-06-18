@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent_black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.touchtype.keyboard.expandedcandidate.ExpandedResultsCloseButton android:layout_gravity="end" android:id="@id/expanded_candidate_close_button" android:focusable="true" android:layout_width="@dimen/expanded_candidate_window_button_width" android:layout_height="wrap_content" android:contentDescription="@string/expanded_candidate_window_close" />
+</FrameLayout>

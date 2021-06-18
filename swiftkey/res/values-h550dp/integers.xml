@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="authentication_activity_orientation">-1</integer>
+    <integer name="auto_suggest_items_to_show">3</integer>
+</resources>

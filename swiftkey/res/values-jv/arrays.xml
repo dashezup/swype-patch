@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teks kang disalin bakal metu ana ing kene kanthi otomatis</item>
+        <item>Cocog cuplikan teks kang disalin kanggo ngendhegake kedaluwarsa sawise 1 jam</item>
+        <item>Geser item papan klip kanggo mbusak</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Ilangi prediksi</item>
+        <item>Wenehi umpan balik</item>
+        <item>Simpen Cathetan Debug Kalanyahan</item>
+    </string-array>
+</resources>

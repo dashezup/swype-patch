@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>ನೀವು ನಕಲಿಸಿದ ಪಠ್ಯವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಇಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ</item>
+        <item>1 ಗಂಟೆಯ ನಂತರ ಅವಧಿ ಮುಗಿಯುವುದನ್ನು ನಿಲ್ಲಿಸಲು ನಕಲಿಸಿದ ಪಠ್ಯ ಸ್ನಿಪೆಟ್‌ಗಳನ್ನು ಪಿನ್ ಮಾಡಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಐಟಂಗಳನ್ನು ಅಳಿಸಲು ಅವುಗಳನ್ನು ಸ್ಲೈಡ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>ಊಹೆ ತೆಗೆಯಿರಿ</item>
+        <item>ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ</item>
+        <item>ಫ್ಲುಯೆನ್ಸಿ ಡೀಬಗ್ ಲಾಗ್ ಅನ್ನು ಉಳಿಸಿ</item>
+    </string-array>
+</resources>

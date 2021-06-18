@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.fancy.LockScreenPanel android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/lock_panel_nav_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/lock_panel_back" android:background="@drawable/fancy_panel_ripple" android:layout_width="@dimen/fancy_panel_back_width" android:layout_height="fill_parent" android:src="@drawable/ic_chevron_left_18dp" android:scaleType="centerInside" android:contentDescription="@string/back" android:paddingStart="@dimen/fancy_panel_back_horizontal_padding" android:paddingEnd="@dimen/fancy_panel_back_horizontal_padding" />
+    </LinearLayout>
+    <include android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lock_panel_nav_bar" layout="@layout/toolbar_lock_screen" />
+</com.touchtype.keyboard.view.fancy.LockScreenPanel>

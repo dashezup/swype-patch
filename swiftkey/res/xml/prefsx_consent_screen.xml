@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:title="@string/privacy_policy" android:key="@string/pref_consent_privacy_policy_key" android:summary="@string/typing_data_consent_privacy_policy_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedPreference android:title="@string/typing_data_consent_learn_more_title" android:key="@string/pref_consent_learn_more_key" android:summary="@string/typing_data_consent_learn_more_summary" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:key="@string/pref_typing_data_consent_key" android:defaultValue="@bool/pref_typing_data_consent_default" />
+</PreferenceScreen>

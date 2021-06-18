@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/backup_and_sync" android:key="pref_sync_settings_key"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:id="@id/pref_sync_enabled" android:title="@string/backup_and_sync" android:key="@string/pref_sync_enabled_key" app:allowDividerBelow="false" />
+    <com.touchtype.materialsettingsx.custompreferences.TipPreference android:persistent="false" android:key="@string/pref_sync_zawgyi_message_key" app:addBottomPadding="true" app:allowDividerBelow="true" app:iconRes="@drawable/ic_info_outline" app:text="@string/pref_sync_zawgyi_warning" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:persistent="true" android:id="@id/pref_sync_wifi_only" android:title="@string/pref_sync_wifi_only_title" android:key="@string/pref_sync_wifi_only_key" android:summary="@string/pref_sync_wifi_only_summary" android:dependency="@string/pref_sync_enabled_key" android:defaultValue="false" app:allowDividerAbove="true" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/container_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:id="@id/preference_tip_layout" android:background="@color/container_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/preference_tip_icon" android:layout_width="@dimen/pref_tip_icon_side_size" android:layout_height="@dimen/pref_tip_icon_side_size" android:src="@drawable/pref_icon_warning" android:layout_marginStart="@dimen/pref_tip_content_horizontal_spacing" />
+        <TextView android:textColor="@color/swiftkey_preference_tip_text" android:id="@id/preference_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pref_tip_content_horizontal_spacing" android:layout_marginTop="@dimen/pref_tip_content_vertical_spacing" android:layout_marginRight="@dimen/pref_tip_content_horizontal_spacing" android:layout_marginBottom="@dimen/pref_tip_content_vertical_spacing" android:layout_marginStart="@dimen/pref_tip_content_horizontal_spacing" android:layout_marginEnd="@dimen/pref_tip_content_horizontal_spacing" />
+    </LinearLayout>
+</FrameLayout>

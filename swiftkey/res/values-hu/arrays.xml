@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>A másolt szöveg automatikusan megjelenik itt</item>
+        <item>Rögzítse a másolt szövegrészleteket, hogy 1 óra utáni ne járjanak le</item>
+        <item>A törléshez húzza oldalra a vágólap elemeit</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Javaslat eltávolítása</item>
+        <item>Visszajelzés küldése</item>
+        <item>Folyamatos hibakeresési napló mentése</item>
+    </string-array>
+</resources>

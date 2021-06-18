@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_vertical" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/custom_theme_add_image_container_padding" android:layout_marginEnd="@dimen/custom_theme_add_image_container_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/background_image_preview" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/custom_background_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/transparency_marker" android:adjustViewBounds="true" android:maxWidth="116.0dip" android:maxHeight="76.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/custom_ico_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ico_image" android:alpha="0.4" android:importantForAccessibility="no" />
+        <ImageButton android:layout_gravity="end|center|top" android:id="@id/custom_theme_edit_button" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="5.0dip" android:contentDescription="@string/custom_themes_pencil_icon_edit_content_description" android:importantForAccessibility="no" style="@style/EditThemeImageButtonStyle" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:ellipsize="end" android:id="@id/add_image_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_themes_add_image" android:layout_centerVertical="true" android:contentDescription="@string/custom_themes_add_image" style="@style/CustomThemeAddImageButton" />
+</RelativeLayout>

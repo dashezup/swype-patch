@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gifs_column_count">3</integer>
+    <integer name="max_clip_display_length">450</integer>
+    <integer name="stickers_column_count">5</integer>
+</resources>

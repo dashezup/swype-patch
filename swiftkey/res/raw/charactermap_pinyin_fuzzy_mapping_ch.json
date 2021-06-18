@@ -1,0 +1,22 @@
+{
+  "charmap":{
+    "c":[
+      ["ch", 1.0,0]
+    ]
+  },
+  "multicharmap":{
+    "ch":[
+      ["c", 1.0,0]
+    ]
+  },
+  "variant":[
+    "zh",
+    "CN-pinyin-languagemap"
+  ],
+  "tags":[
+    "zh",
+    "CN",
+    "pinyin-fuzzy-mapping-ch",
+    "charactermap"
+  ]
+}

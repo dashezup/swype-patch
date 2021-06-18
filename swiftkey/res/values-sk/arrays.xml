@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Tu sa automaticky zobrazí skopírovaný text</item>
+        <item>Skopírované útržky textu pripnite, aby ste zabránili tomu, že po hodine vypršia</item>
+        <item>Položky zo schránky odstráňte posunutím</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Odstrániť predikciu</item>
+        <item>Poslať odozvu</item>
+        <item>Uložiť protokol ladenia plynulej prevádzky</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$keyboard_fab_transition__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="space_path" android:animation="@drawable/$keyboard_fab_transition__1" />
+    <target android:name="space_group" android:animation="@drawable/$keyboard_fab_transition__2" />
+    <target android:name="keys" android:animation="@drawable/$keyboard_fab_transition__3" />
+</animated-vector>

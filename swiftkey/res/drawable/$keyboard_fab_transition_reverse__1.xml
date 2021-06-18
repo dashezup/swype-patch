@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:interpolator/accelerate_decelerate" android:duration="@integer/fab_duration" android:valueFrom="@string/fab_path_data_dismiss" android:valueTo="@string/fab_path_data_spacebar" android:valueType="pathType" android:propertyName="pathData" />
+</set>

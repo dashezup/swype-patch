@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pref_langs_updated_plurals">
+        <item quantity="other">Đã thêm %1$d ngôn ngữ</item>
+        <item quantity="zero">Đã thêm %1$d ngôn ngữ</item>
+        <item quantity="one">Đã thêm %1$d ngôn ngữ</item>
+        <item quantity="two">Đã thêm %1$d ngôn ngữ</item>
+        <item quantity="few">Đã thêm %1$d ngôn ngữ</item>
+        <item quantity="many">Đã thêm %1$d ngôn ngữ</item>
+    </plurals>
+</resources>

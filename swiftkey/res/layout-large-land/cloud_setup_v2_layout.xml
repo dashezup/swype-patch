@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/carousel_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.5" />
+    <FrameLayout android:id="@id/sign_in_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_max="@dimen/cloud_sign_in_container_max_height" app:layout_constraintStart_toEndOf="@id/carousel_container" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/cloud_sign_in_container_max_width" />
+</androidx.constraintlayout.widget.ConstraintLayout>

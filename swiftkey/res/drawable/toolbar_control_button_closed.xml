@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="18.0dip" android:width="18.0dip" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="toolbar_control_button_root" android:pivotX="9.0" android:pivotY="9.0">
+        <group android:name="toolbar_control_button_top_group" android:rotation="180.0" android:translateX="9.0" android:translateY="5.0">
+            <path android:name="toolbar_control_button_top_path" android:fillColor="#ffffffff" android:pathData="@string/toolbar_control_button_top_path" />
+        </group>
+        <group android:name="toolbar_control_button_bottom_group" android:rotation="180.0" android:translateX="9.0" android:translateY="13.0">
+            <path android:name="toolbar_control_button_bottom_path" android:fillColor="#ffffffff" android:pathData="@string/toolbar_control_button_bottom_path" />
+        </group>
+    </group>
+</vector>

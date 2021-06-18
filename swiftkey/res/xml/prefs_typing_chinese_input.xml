@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:id="@id/pref_chinese_input_fuzzy_pinyin" android:title="@string/prefs_chinese_input_fuzzy_pinyin_title" android:key="@string/pref_chinese_input_fuzzy_pinyin_key" android:summary="@string/prefs_chinese_input_fuzzy_pinyin_summary" app:iconSpaceReserved="false" />
+    <com.touchtype.materialsettingsx.custompreferences.SeekBarAndSwitchPreference android:persistent="true" android:layout="@layout/seekbar_switch_preference_layout" android:title="@string/prefs_chinese_input_handwriting_recognition_speed_title" android:key="@string/pref_chinese_input_handwriting_timeout_key" android:summary="@string/prefs_chinese_input_handwriting_recognition_speed_summary" app:seekbar_defaultValue="@integer/pref_handwriting_timeout_default" app:seekbar_key="@string/pref_handwriting_timeout_key" app:seekbar_maxLevel="@integer/pref_handwriting_timeout_max" app:seekbar_minLevel="@integer/pref_handwriting_timeout_min" app:seekbar_unit_text="@string/milliseconds" app:switch_visibility="gone" />
+    <com.touchtype.materialsettingsx.custompreferences.TrackedSwitchCompatPreference android:title="Cloud handwriting recognition" android:key="pref_chinese_input_handwriting_cloud_consent_granted_key" android:summary="Your handwriting data will be sent to Microsoft’s cloud service to convert your handwriting to text" android:defaultValue="false" />
+</PreferenceScreen>

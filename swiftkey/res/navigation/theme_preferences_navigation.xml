@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/theme_preferences_navigation" app:startDestination="@id/theme_preferences_activity"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <activity android:name="com.touchtype.materialsettings.themessettings.ThemeSettingsActivity" android:id="@id/theme_preferences_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+        <deepLink app:uri="@string/deeplink_internal_path_themes" />
+    </activity>
+    <activity android:name="com.touchtype.materialsettings.themessettings.ThemeSettingsActivity" android:id="@id/custom_theme_preferences_activity">
+        <argument android:name="themes_activity_launch_tab" android:defaultValue="2" app:argType="integer" />
+        <deepLink app:uri="@string/deeplink_internal_path_custom_themes" />
+    </activity>
+</navigation>

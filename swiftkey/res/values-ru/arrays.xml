@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Скопированный текст автоматически отобразится здесь</item>
+        <item>Закрепите скопированные фрагменты, чтобы они не исчезли через час</item>
+        <item>Проведите пальцем по элементам буфера, чтобы удалить их</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Удалить подсказку</item>
+        <item>Предоставить отзыв</item>
+        <item>Сохранить журнал отладки качества перевода</item>
+    </string-array>
+</resources>

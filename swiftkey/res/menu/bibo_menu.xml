@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/check_bibo" android:title="@string/pref_bibo_check_now_title" />
+    <item android:id="@id/clear_bibo_overrides" android:title="@string/pref_bibo_clear_overrides_title" />
+</menu>

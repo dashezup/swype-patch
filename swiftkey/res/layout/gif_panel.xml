@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.fancy.richcontent.gifs.GifPanel android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gif_top_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/gif_back" android:background="@drawable/fancy_panel_ripple" android:layout_width="@dimen/fancy_panel_back_width" android:layout_height="fill_parent" android:src="@drawable/ic_chevron_left_18dp" android:scaleType="centerInside" android:contentDescription="@string/back" android:paddingStart="@dimen/fancy_panel_back_horizontal_padding" android:paddingEnd="@dimen/fancy_panel_back_horizontal_padding" />
+        <com.touchtype.ui.SwiftKeyTabLayout android:id="@id/gif_categories" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:tabInlineLabel="true" app:tabMode="scrollable" style="@style/ToolbarPanelTab" />
+        <ImageButton android:layout_gravity="center" android:id="@id/gif_search" android:background="@drawable/fancy_panel_ripple" android:layout_width="@dimen/fancy_panel_back_width" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/gif_search_description" android:paddingStart="@dimen/fancy_panel_back_horizontal_padding" android:paddingEnd="@dimen/fancy_panel_back_horizontal_padding" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/gif_panel_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gif_top_bar">
+        <include layout="@layout/fancy_panel_spinner" />
+        <com.touchtype.ui.AccessibilityEmptyRecyclerView android:id="@id/gif_recyclerview" android:padding="@dimen/fancy_panel_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" />
+    </FrameLayout>
+</com.touchtype.keyboard.view.fancy.richcontent.gifs.GifPanel>

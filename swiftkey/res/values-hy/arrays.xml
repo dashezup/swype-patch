@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Պատճենված գրվածքն ավտոմատ կերպով կցուցադրվի այստեղ</item>
+        <item>Ամրացրեք պատճենված գրվածքը, որպեսզի այն չկորի 1 ժամից</item>
+        <item>Սահեցրեք սեղմատախտակի տարրերը՝ դրանք ջնջելու համար:</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Հեռացնել հուշումը</item>
+        <item>Հայտնել կարծիք</item>
+        <item>Պահել Սահունության վրիպազերծման մատյանը</item>
+    </string-array>
+</resources>

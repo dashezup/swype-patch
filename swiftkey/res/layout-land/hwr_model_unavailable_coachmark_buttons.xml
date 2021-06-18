@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/hwr_unavailable_coachmark_button_change_layout" android:text="@string/hwr_unavailable_button_change_layout" android:contentDescription="@string/hwr_unavailable_button_change_layout_description" android:layout_marginEnd="@dimen/hwr_unavailable_coachmark_button_landscape__margin" style="@style/HandwritingCoachmarkButton" />
+    <Button android:textStyle="bold" android:id="@id/hwr_unavailable_coachmark_button_go_to_app" android:text="@string/hwr_unavailable_button_go_to_download" android:contentDescription="@string/hwr_unavailable_button_go_to_download_description" style="@style/HandwritingCoachmarkButton" />
+</LinearLayout>

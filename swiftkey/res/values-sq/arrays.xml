@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teksti që kopjon do të shfaqet automatikisht këtu</item>
+        <item>Ngulit pjesët e kopjuara të tekstit për të mos i lënë të skadojnë pas 1 ore</item>
+        <item>"Rrëshqit artikujt e kujtesës së fragmenteve për t'i fshirë"</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Hiq parashikimin</item>
+        <item>Jep koment</item>
+        <item>Ruaj raportin e korrigjimit të rrjedhshmërisë</item>
+    </string-array>
+</resources>

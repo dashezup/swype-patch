@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="extended_panel_top_gap">@dimen/custom_tab_portrait_top_gap</item>
+</resources>

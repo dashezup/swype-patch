@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>நீங்கள் நகலெடுக்கும் உரை தானாக இங்கே தோன்றும்</item>
+        <item>நகலெடுத்த உரை ஸ்னிப்பட்கள் 1 மணிநேரம் கழித்து காலாவதியாவதைத் தடுக்க அவற்றைப் பின் செய்யவும்</item>
+        <item>கிளிப்போர்டு குறிப்பு விபரங்களை நீக்க அவற்றை ஸ்லைடு செய்யவும்</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>கணிப்பை அகற்று</item>
+        <item>கருத்து வழங்குக</item>
+        <item>உச்சரிப்பு பிழைநீக்கப் பதிவைச் சேமி</item>
+    </string-array>
+</resources>

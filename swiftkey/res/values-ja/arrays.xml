@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>コピーテキストは自動的にここに表示されます</item>
+        <item>コピーテキストをピン留めすると1時間経っても削除されません</item>
+        <item>クリップボードのアイテムをスライドさせて削除します</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>入力候補の削除</item>
+        <item>フィードバック</item>
+        <item>表現修正ログを保存</item>
+    </string-array>
+</resources>

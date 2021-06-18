@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Nukopijuotas tekstas bus automatiškai rodomas čia</item>
+        <item>Prisekite nukopijuotus teksto fragmentus, kad jie nepradingtų po 1 valandos</item>
+        <item>Slinkite mainų srities elementus, norėdami juos ištrinti</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Pašalinti spėjimą</item>
+        <item>Pateikti atsiliepimą</item>
+        <item>Išsaugoti sklandumo derinimo žurnalą</item>
+    </string-array>
+</resources>

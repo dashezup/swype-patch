@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>আপনার কপি করা পাঠ্য স্বয়ংক্রিয়ভাবে এখানে প্রদর্শিত হবে</item>
+        <item>কপি করা পাঠ্য স্নিপেট-গুলি পিন করুন যাতে সেগুলির মেয়াদ 1 ঘন্টা পরে শেষ না হয়ে যায়</item>
+        <item>ক্লিপবোর্ডের আইটেমগুলি মুছতে সেগুলিকে স্লাইড করুন</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>অনুমান অপসারণ করুন</item>
+        <item>প্রতিক্রিয়া দিন</item>
+        <item>Fluency Debug Log সংরক্ষণ করুন</item>
+    </string-array>
+</resources>

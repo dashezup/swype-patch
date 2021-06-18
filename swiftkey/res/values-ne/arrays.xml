@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>तपाईंले कपी गर्नुभएका टेक्स्टहरू यहाँ स्वतः देखिनेछन्</item>
+        <item>कपी गरिएका टेक्स्ट स्निपेटहरूको म्याद 1 घण्टामा सकिनबाट जोगाउन तिनीहरूलाई पिन गर्नुहोस्</item>
+        <item>तिनीहरू मेटाउन क्लिपबोर्डको वस्तुहरूलाई स्लाइड गर्नुहोस्</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>पूर्वानुमान हटाउनुहोस्</item>
+        <item>प्रतिक्रिया दिनुहोस्</item>
+        <item>फ्लुएन्सी डिबगको लग सुरक्षित गर्नुहोस्</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="data_consent_land_guideline">0.4</item>
+    <item type="dimen" name="data_consent_land_illustration_size">@dimen/custom_wrap_content</item>
+    <dimen name="data_consent_land_text_horizontal_margin">24.0dip</dimen>
+</resources>

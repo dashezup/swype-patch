@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateTint="@color/swiftkey_blue" app:layout_constraintBottom_toTopOf="@id/signing_in_textView" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.5" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="@dimen/msgc_msa_auth_link_card_max_text_size" android:textColor="@color/black" android:id="@id/signing_in_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_16" android:text="@string/messaging_centre_msa_sso_card_signing_in_progress_label" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/loading_spinner" />
+</androidx.constraintlayout.widget.ConstraintLayout>

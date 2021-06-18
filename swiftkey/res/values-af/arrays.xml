@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teks wat jy kopieer, sal outomaties hier wys</item>
+        <item>Steek gekopieerde teksbrokkies vas om te keer dat dit ná 1 uur verval</item>
+        <item>Skuif knipborditems om dit uit te vee</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Verwyder voorspelling</item>
+        <item>Gee terugvoer</item>
+        <item>Berg vloeiendheid-ontfoutloglêer</item>
+    </string-array>
+</resources>

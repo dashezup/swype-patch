@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="docked_compact_keyboard_aspect_ratio">179.99878%</fraction>
+    <fraction name="floating_keyboard_compact_aspect_ratio">205.99976%</fraction>
+</resources>

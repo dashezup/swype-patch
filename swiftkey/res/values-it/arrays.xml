@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Il testo copiato verrà automaticamente visualizzato qui</item>
+        <item>Aggiungi i frammenti di testo copiati in modo che non scadano dopo 1 ora</item>
+        <item>Fai scorrere gli elementi degli appunti per eliminarli</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Rimuovi previsione</item>
+        <item>Fornisci un feedback</item>
+        <item>Salva il log di debug della leggibilità</item>
+    </string-array>
+</resources>

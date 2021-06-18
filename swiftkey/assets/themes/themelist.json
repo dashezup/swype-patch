@@ -1,0 +1,61 @@
+{
+    "version": 7,
+    "themes": [
+        {
+            "id": "82f54162-eb93-4159-92ea-ddba44207b62",
+            "name": "Adaptive",
+            "formatVersion": 5,
+            "minorVersion": 13,
+            "hidden": false
+        },
+        {
+            "id": "c9161612-c6fd-4ac9-b968-cb9a2ade2cbb",
+            "name": "Dark",
+            "formatVersion": 5,
+            "minorVersion": 9,
+            "hidden": false
+        },
+        {
+            "id": "43ffed79-2bc7-48c5-9eeb-5f81df4700f0",
+            "name": "Light",
+            "formatVersion": 5,
+            "minorVersion": 11,
+            "hidden": false
+        },
+        {
+            "id": "high_contrast",
+            "name": "High Contrast Minimal",
+            "formatVersion": 5,
+            "minorVersion": 13,
+            "hidden": false
+        },
+        {
+            "id": "85b5d0c6-1c4d-4099-8e58-1ce94be31ebd",
+            "name": "High Contrast",
+            "formatVersion": 5,
+            "minorVersion": 4,
+            "hidden": false
+        },
+        {
+            "id": "49452771-f69e-465e-a4eb-70edd493e9bc",
+            "name": "Huawei",
+            "formatVersion": 5,
+            "minorVersion": 13,
+            "hidden": true
+        },
+        {
+            "id": "8f73b09e-66a5-4d74-855a-d98aceb7ddb4",
+            "name": "Sony Alt",
+            "formatVersion": 5,
+            "minorVersion": 8,
+            "hidden": true
+        },
+        {
+            "id": "incognito",
+            "name": "New incognito",
+            "formatVersion": 5,
+            "minorVersion": 8,
+            "hidden": true
+        }
+    ]
+}

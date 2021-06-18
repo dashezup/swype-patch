@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_switch_button_container" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/layout_switch_button_img" android:layout_width="@dimen/candidate_bar_side_buttons_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hub_extra_icons_padding" android:layout_marginRight="@dimen/hub_extra_icons_padding" android:src="@drawable/globe" android:adjustViewBounds="true" android:contentDescription="@string/layout_switch_description" android:layout_marginStart="@dimen/hub_extra_icons_padding" android:layout_marginEnd="@dimen/hub_extra_icons_padding" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Сез күчермәләгән текст автоматик рәвештә монда күрсәтеләчәк</item>
+        <item>Күчермәләнгән текст өзекләренең 1 сәгатьтән вакыты чыгуын туктату өчен, аларны беркетегез</item>
+        <item>Алмашу буферындагы элементларны бетерү өчен, аларны шуыштырыгыз</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Фаразлауны бетерү</item>
+        <item>Кире элемтә бирү</item>
+        <item>Осталыкны тикшерү журналын саклау</item>
+    </string-array>
+</resources>

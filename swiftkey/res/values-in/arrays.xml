@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>Teks yang disalin akan otomatis ditampilkan di sini</item>
+        <item>Sematkan snippet teks yang disalin agar tidak kedaluwarsa dalam 1 jam</item>
+        <item>Geser item clipboard untuk menghapusnya</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Hapus prediksi</item>
+        <item>Berikan masukan</item>
+        <item>Simpan Log Debug Kelancaran</item>
+    </string-array>
+</resources>

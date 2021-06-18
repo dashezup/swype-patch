@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/home_screen_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/appbar_title_home_screen" android:name="com.touchtype.materialsettingsx.HomeScreenFragment" android:id="@id/home_screen_fragment">
+        <argument android:name="menu" android:defaultValue="@menu/navigation_home_menu" app:argType="reference" />
+        <action android:id="@id/open_cloud_preferences" app:destination="@id/cloud_preferences_activity" />
+        <action android:id="@id/open_cloud_setup" app:destination="@id/cloud_setup_activity" />
+        <action android:id="@id/open_language_preferences" app:destination="@id/language_preferences_activity" />
+        <action android:id="@id/open_themes_preferences" app:destination="@id/theme_preferences_navigation">
+            <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+            <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+        </action>
+        <action android:id="@id/open_rich_input_preferences" app:destination="@id/rich_input_preferences_navigation" />
+        <action android:id="@id/open_typing_preferences" app:destination="@id/typing_preferences_navigation" />
+        <action android:id="@id/open_layout_and_keys_preferences" app:destination="@id/layout_and_keys_preferences_navigation" />
+        <action android:id="@id/open_help_and_feedback" app:destination="@id/help_and_feedback_fragment" />
+        <action android:id="@id/open_about_swiftkey" app:destination="@id/about_preferences_fragment" />
+        <action android:id="@id/open_sound_and_vibration_preferences" app:destination="@id/sound_and_vibration_preferences_navigation" />
+        <action android:id="@id/open_emoji_preferences" app:destination="@id/emoji_preferences_navigation" />
+        <action android:id="@id/open_consent_preferences" app:destination="@id/consent_preferences_navigation" />
+        <deepLink app:uri="@string/deeplink_internal_path_settings" />
+    </fragment>
+    <activity android:name="com.touchtype.cloud.uiv2.CloudSetupActivity" android:id="@id/cloud_setup_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+    <activity android:name="com.touchtype.materialsettings.SwiftKeyPreferencesActivity" android:id="@id/cloud_preferences_activity">
+        <argument android:name="prefs_fragment" android:defaultValue="CLOUD" app:argType="com.touchtype.materialsettings.SwiftKeyPreferencesActivity$ContainerPreferenceFragment" />
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+    <activity android:name="com.touchtype.materialsettings.languagepreferences.LanguagePreferencesActivity" android:id="@id/language_preferences_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+    <include app:graph="@navigation/theme_preferences_navigation" />
+    <include app:graph="@navigation/typing_preferences_navigation" />
+    <include app:graph="@navigation/layout_and_keys_preferences_navigation" />
+    <include app:graph="@navigation/sound_and_vibration_preferences_navigation" />
+    <include app:graph="@navigation/emoji_preferences_navigation" />
+    <include app:graph="@navigation/consent_preferences_navigation" />
+    <include app:graph="@navigation/rich_input_preferences_navigation" />
+    <fragment android:label="@string/home_pref_help_and_feedback" android:name="com.touchtype.materialsettingsx.HelpAndFeedbackPreferenceFragment" android:id="@id/help_and_feedback_fragment">
+        <action android:id="@id/open_crowdsourcing_launcher" app:destination="@id/crowdsourcing_launcher_activity" />
+    </fragment>
+    <fragment android:name="com.touchtype.materialsettingsx.aboutsettings.AboutNavigationPreferenceFragment" android:id="@id/about_preferences_fragment">
+        <deepLink app:uri="@string/deeplink_internal_path_prefs_about" />
+    </fragment>
+    <activity android:name="com.touchtype.materialsettingsx.CrowdsourcingLauncherActivity" android:id="@id/crowdsourcing_launcher_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+    <activity android:name="com.touchtype.materialsettings.experimentsettings.ExperimentPreferencesActivity" android:id="@id/experiment_preferences_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+    <activity android:name="com.touchtype.bibo.ui.BiboSelectorActivity" android:id="@id/bibo_preferences_activity">
+        <argument android:name="previous_page" app:argType="com.swiftkey.avro.telemetry.sk.android.PageName" />
+        <argument android:name="previous_origin" app:argType="com.swiftkey.avro.telemetry.sk.android.PageOrigin" />
+    </activity>
+</navigation>

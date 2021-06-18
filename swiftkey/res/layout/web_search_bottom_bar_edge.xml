@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/extended_panel_background" android:layout_width="fill_parent" android:layout_height="42.0dip" style="?android:buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center_vertical" android:id="@id/web_search_send_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/send" android:drawableStart="@drawable/send_icon" android:layout_alignParentEnd="true" style="@style/WebSearchBottomBarButtonEdge" />
+    <Button android:gravity="center_vertical" android:id="@id/web_search_screenshot_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/web_search_screenshot_button" android:drawableStart="@drawable/crop_icon" android:layout_alignParentStart="true" style="@style/WebSearchBottomBarButtonEdge" />
+</RelativeLayout>

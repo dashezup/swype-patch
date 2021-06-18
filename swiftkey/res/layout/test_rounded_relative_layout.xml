@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.touchtype.keyboard.view.RoundedRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" touchtype:customCornerRadius="@dimen/floating_candidate_bar_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:touchtype="http://schemas.android.com/apk/res-auto" />

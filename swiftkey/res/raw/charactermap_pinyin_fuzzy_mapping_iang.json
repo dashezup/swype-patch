@@ -1,0 +1,20 @@
+{
+  "multicharmap":{
+    "ian":[
+      ["iang", 1.0,0]
+    ],
+    "iang":[
+      ["ian", 1.0,0]
+    ]
+  },
+  "variant":[
+    "zh",
+    "CN-pinyin-languagemap"
+  ],
+  "tags":[
+    "zh",
+    "CN",
+    "pinyin-fuzzy-mapping-iang",
+    "charactermap"
+  ]
+}

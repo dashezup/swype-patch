@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clipboard_education_strings_array">
+        <item>El text que copiïs es mostrarà automàticament aquí</item>
+        <item>Fixa els fragments de text copiats perquè no caduquin passada una hora</item>
+        <item>Desplaça els elements del porta-retalls per eliminar-los.</item>
+    </string-array>
+    <string-array name="feedback_and_long_press_dialog_options">
+        <item>Elimina la predicció</item>
+        <item>Fer comentaris</item>
+        <item>Desa el registre de depuració de fluïdesa</item>
+    </string-array>
+</resources>

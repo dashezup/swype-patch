@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/custom_theme_design_content" />
+        <include layout="@layout/custom_theme_preview_container" />
+    </LinearLayout>
+</ScrollView>

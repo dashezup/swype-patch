@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/controls_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true" android:paddingStart="@dimen/age_gate_content_padding" android:paddingEnd="@dimen/age_gate_content_padding">
+        <include android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/age_gate_date_picker" />
+        <include android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/age_gate_buttons" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/controls_container">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/age_gate_text" style="@style/AgeGateContainer" />
+    </ScrollView>
+</RelativeLayout>
