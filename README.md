@@ -14,9 +14,7 @@ This repository does not include the modified APKs, you need to either build it 
 
 Use [gboard-swype.sh](scripts/gboard-swype.sh) to generate the modified Gboard apk, [swiftkey.py](scripts/swiftkey.py) for SwiftKey.
 
-**Notes**:
-- the modified gboard apk has the same package name as the official Gboard App, you need to unistall official Gboard App if it's installed (requires root permission if it's a system App)
-- those signed by a debug key, be careful with other poeple's build. Build by yourself and sign with your own key if you don't want to have this security risk
+Be careful with other people's build since the scripts sign APKs with debug key. Build it by yourself with your own key if you want to avoid this security risk.
 
 ### Credit
 
