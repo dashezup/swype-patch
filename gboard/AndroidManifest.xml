@@ -31,8 +31,8 @@
         <package android:name="com.google.android.apps.village.boond"/>
         <package android:name="com.google.android.marvin.talkback"/>
     </queries>
-    <permission android:name="com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX"/>
+    <permission android:name="com.google.android.apps.inputmethod.latin.swype.permission.UPDATE_STICKER_INDEX" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.apps.inputmethod.latin.swype.permission.UPDATE_STICKER_INDEX"/>
     <application android:allowBackup="true" android:crossProfile="true" android:extractNativeLibs="false" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="@string/ime_name" android:name="com.google.android.apps.inputmethod.latin.ImeLatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/AppThemeSelector" android:usesCleartextTraffic="false">
         <meta-data android:name="com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT" android:value="y0,yg"/>
         <service android:directBootAware="true" android:label="@string/ime_name" android:name="com.android.inputmethod.latin.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">

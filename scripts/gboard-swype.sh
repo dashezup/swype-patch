@@ -40,6 +40,7 @@ rename_pkg() {
 	grep -rl 'com.google.android.inputmethod.latin' "${APP}/AndroidManifest.xml" "${APP}/res" "${APP}"/smali* \
 		| grep '\.xml$\|\.smali$' \
 		| xargs sed -i 's/com\.google\.android\.inputmethod\.latin/com\.google\.android\.inputmethod\.latin\.swype/'
+	sed -i 's/com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX/com.google.android.apps.inputmethod.latin.swype.permission.UPDATE_STICKER_INDEX/' "${APP}/AndroidManifest.xml"
 	mkdir "${APP}/smali/com/google/android/apps/inputmethod/latin/swype" 2>/dev/null
 	mv "${APP}"/smali/com/google/android/apps/inputmethod/latin/* "${APP}/smali/com/google/android/apps/inputmethod/latin/swype" 2>/dev/null
 }
